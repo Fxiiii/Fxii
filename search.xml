@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Win7安装iTunes报错“此windows installer软件包有一个问题。完成此安装需要的程序不能运行。”</title>
+    <url>/2018/01/10/2018-1-10%20Win7%E5%AE%89%E8%A3%85iTunes%E6%8A%A5%E9%94%99%E2%80%9C%E6%AD%A4windows%20installer%E8%BD%AF%E4%BB%B6%E5%8C%85%E6%9C%89%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98%E3%80%82%E5%AE%8C%E6%88%90%E6%AD%A4%E5%AE%89%E8%A3%85%E9%9C%80%E8%A6%81%E7%9A%84%E7%A8%8B%E5%BA%8F%E4%B8%8D%E8%83%BD%E8%BF%90%E8%A1%8C%E3%80%82%E2%80%9D/</url>
+    <content><![CDATA[<h3 id="Win7安装iTunes报错“此windows-installer软件包有一个问题。完成此安装需要的程序不能运行。”"><a href="#Win7安装iTunes报错“此windows-installer软件包有一个问题。完成此安装需要的程序不能运行。”" class="headerlink" title="Win7安装iTunes报错“此windows installer软件包有一个问题。完成此安装需要的程序不能运行。”"></a>Win7安装iTunes报错“此windows installer软件包有一个问题。完成此安装需要的程序不能运行。”</h3><h3 id="大部分网上给出的方法甚至Apple官网给出如下："><a href="#大部分网上给出的方法甚至Apple官网给出如下：" class="headerlink" title="大部分网上给出的方法甚至Apple官网给出如下："></a>大部分网上给出的方法甚至Apple官网给出如下：</h3><h4 id="按照以下顺序进行卸载重装："><a href="#按照以下顺序进行卸载重装：" class="headerlink" title="按照以下顺序进行卸载重装："></a>按照以下顺序进行卸载重装：</h4><ul>
+<li>1.iTunes 旧版本</li>
+<li>2.Apple Software Update</li>
+<li>3.Apple Mobile Device Support</li>
+<li>4.Bonjour</li>
+<li>5.Apple Application Support 32 位</li>
+<li>6.Apple Application Support 64 位</li>
+</ul>
+<p><strong>最关键性的问题来了：</strong> “Apple Software Update”卸不掉吧！！搜索发现网上给出方法有修改注册表、360强卸等等，均不奏效且方法复杂，出现问题难以修复。</p>
+<h3 id="下面给出最正确最正确最正确的方式！！"><a href="#下面给出最正确最正确最正确的方式！！" class="headerlink" title="下面给出最正确最正确最正确的方式！！"></a>下面给出最正确最正确最正确的方式！！</h3><a id="more"></a>
+
+<h4 id="step1-下载itunes-安装文件-exe文件-，或者你有保留原来的itunes的exe安装文件也可以，右键使用压缩工具打开；"><a href="#step1-下载itunes-安装文件-exe文件-，或者你有保留原来的itunes的exe安装文件也可以，右键使用压缩工具打开；" class="headerlink" title="step1: 下载itunes 安装文件(exe文件)，或者你有保留原来的itunes的exe安装文件也可以，右键使用压缩工具打开；"></a>step1: 下载itunes 安装文件(exe文件)，或者你有保留原来的itunes的exe安装文件也可以，右键使用压缩工具打开；</h4><div align=center>
+![](http://upload-images.jianshu.io/upload_images/5436217-e616104e44dfe8b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+</div>
+
+<h4 id="step2-直接把AppleSoftwareUpdate-msi提取出来单独安装；"><a href="#step2-直接把AppleSoftwareUpdate-msi提取出来单独安装；" class="headerlink" title="step2: 直接把AppleSoftwareUpdate.msi提取出来单独安装；"></a>step2: 直接把AppleSoftwareUpdate.msi提取出来单独安装；</h4><h4 id="step3-安装完AppleSoftwareUpdate-msi后，再正常安装iTunes64Setup-exe即可。"><a href="#step3-安装完AppleSoftwareUpdate-msi后，再正常安装iTunes64Setup-exe即可。" class="headerlink" title="step3: 安装完AppleSoftwareUpdate.msi后，再正常安装iTunes64Setup.exe即可。"></a>step3: 安装完AppleSoftwareUpdate.msi后，再正常安装iTunes64Setup.exe即可。</h4><h4 id="注：对于AppleSoftwareUpdate无法卸载的问题，也可使用此方法单独安装AppleSoftwareUpdate-msi。安装位置可以不在C盘。"><a href="#注：对于AppleSoftwareUpdate无法卸载的问题，也可使用此方法单独安装AppleSoftwareUpdate-msi。安装位置可以不在C盘。" class="headerlink" title="注：对于AppleSoftwareUpdate无法卸载的问题，也可使用此方法单独安装AppleSoftwareUpdate.msi。安装位置可以不在C盘。"></a>注：对于AppleSoftwareUpdate无法卸载的问题，也可使用此方法单独安装AppleSoftwareUpdate.msi。安装位置可以不在C盘。</h4>]]></content>
+      <categories>
+        <category>OS</category>
+      </categories>
+      <tags>
+        <tag>Win7</tag>
+        <tag>iTunes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git删除所有Commits提交历史记录，变为全新仓库</title>
+    <url>/2018/01/02/2018-1-2%20git%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89Commits%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95%EF%BC%8C%E5%8F%98%E4%B8%BA%E5%85%A8%E6%96%B0%E4%BB%93%E5%BA%93/</url>
+    <content><![CDATA[<p><strong>个人感觉一般两个情况下，会想有这个需要：</strong></p>
+<ul>
+<li><p>一个是：需要把旧项目提交到Git上，但是原来的某版历史记录中可能会有项目密码等敏感信息。这时候需要删除这些历史记录，形成一个全新的仓库，并且希望保持代码不变。</p>
+</li>
+<li><p>另一个是：处女座！隔三差五看到过往的Commits心烦，没有原因。</p>
+</li>
+</ul>
+<p><strong>1. Checkout</strong></p>
+<p>新建一个branch</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git checkout --orphan latest_branch</span><br></pre></td></tr></table></figure>
+<p><strong>2. Add all the files</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git add -A</span><br></pre></td></tr></table></figure>
+
+<p><strong>3. Commit the changes</strong></p>
+<a id="more"></a>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git commit -am &quot;commit message&quot;</span><br></pre></td></tr></table></figure>
+
+<p><strong>4. Delete the branch</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git branch -D master</span><br></pre></td></tr></table></figure>
+
+<p><strong>5. Rename the current branch to master</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git branch -m master</span><br></pre></td></tr></table></figure>
+
+<p><strong>6. 连接远程库</strong></p>
+<p>把下面的Hzfans替换成你自己的GitHub账户名，Hzfans.github.io替换为你自己的项目名称。<br>连接后，远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，但是origin这个名字一看就知道是远程库。这一步非必要，如果你之前已经连接了的话，以防万一。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git remote add origin git@github.com:Hzfans&#x2F;Hzfans.github.io.git</span><br></pre></td></tr></table></figure>
+
+<p><strong>7. Finally, force update your repository</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git push -f origin master</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p><a href="https://yuhongjun.github.io/tech/2017/04/28/git%E4%BB%93%E5%BA%93%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95-%E6%88%90%E4%B8%BA%E4%B8%80%E4%B8%AA%E5%B9%B2%E5%87%80%E7%9A%84%E6%96%B0%E4%BB%93%E5%BA%93.html">YUHONGJUN.GITHUB.IO</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>github</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>为Hexo blog博客创建本地搜索引擎</title>
+    <url>/2018/01/03/2018-1-3%20%E4%B8%BAHexo%20blog%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E6%9C%AC%E5%9C%B0%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/</url>
+    <content><![CDATA[<p>刚开始使用github+hexo建立blog博客。参考了不少文章，发现大部分作者采用的主题为iissan 创建的 NexT。NexT 主题默认提供了两个站内搜索解决方案：swiftype 和 tinysou，所以大都比较好配置。<br>对于不想使用NexT主题，然而喜欢的主题又没有提供站内搜索方案的时候，可能就比较折腾了。有人不想使用swiftype 和 tinysou方法也可能是基于某些其他原因：</p>
+<ul>
+<li>不愿意受限于第三方服务：第三方服务随时可能完蛋，风险大受限多。原本建独立博客目的就是为了不受限，如此这般， swiftype 就是如此原因；</li>
+<li>第三方服务样式单一；</li>
+<li>第三方服务，需要应用第三方JS，存在安全问题；<br>后经过大量搜索查询，发现目前Hexo已经有比较满意的解决方法了。</li>
+</ul>
+<h1 id="1-基本思路"><a href="#1-基本思路" class="headerlink" title="1. 基本思路"></a>1. 基本思路</h1><ul>
+<li>Step1： 生成索引文件；</li>
+<li>Step2： 有效的算法：根据用户输入的检索词，返回包含检索词的文章列表；</li>
+<li>Step3 ：使用 JavaScript 和 jQuery 来实现在浏览器中执行算法；</li>
+<li>Step4 ：在页面的合适位置展示搜索框和输出结果；</li>
+<li>Step5 ：美化。</li>
+</ul>
+<a id="more"></a>
+
+<h1 id="2-使用-hexo-generator-search-生成索引文件"><a href="#2-使用-hexo-generator-search-生成索引文件" class="headerlink" title="2. 使用 hexo-generator-search 生成索引文件"></a>2. 使用 hexo-generator-search 生成索引文件</h1><p>这一步在网上大部分文章中都有提及，安装 hexo-generator-search 的生成器，在执行 hexo generate 的过程中，会按照配置生成一个 XML 文件，用于保存全站的文档数据。这个 XML 文件只是简单地做了数据的结构化存储，而完全没有考虑分词、倒排等问题。<br>安装 hexo-generator-search</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-generator-search</span><br></pre></td></tr></table></figure>
+<p>在站点配置文件 _config.yml 当中写入如下配置，即可为全站的文档生成索引文件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br></pre></td></tr></table></figure>
+<p>hexo-generator-search 会为全站所有 post 类型的页面生成结构化的数据，并保存在本站的 /search.xml 当中。若想让 page 类型的页面也纳入索引，则可以将 field 的值修改为 all。</p>
+<h1 id="3-使用-JavaScript-和-jQuery-实现检索算法"><a href="#3-使用-JavaScript-和-jQuery-实现检索算法" class="headerlink" title="3. 使用 JavaScript 和 jQuery 实现检索算法"></a>3. 使用 JavaScript 和 jQuery 实现检索算法</h1><p>以 jQuery 的文本匹配为基础，在前端界面上运行站内搜索。<strong>文件</strong>在这里<a href="https://github.com/Liam0205/hexo-search-plugin-snippets/blob/master/snippets/search.js">local_search.js</a>。主要的处理流程是：</p>
+<ul>
+<li>载入 search.xml；</li>
+<li>解析 search.xml；</li>
+<li>解析检索词；</li>
+<li>在索引中进行字符串匹配；</li>
+<li>展现结果。<blockquote>
+<p>search.js 依赖 jQuery。因此，你需要在引入 search.js 之前，引入 jQuery 的脚本。比如，你可以在 head 部分这样做：<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>。</p>
+</blockquote>
+</li>
+</ul>
+<h1 id="4-在页面的合适位置展示搜索框和输出结果"><a href="#4-在页面的合适位置展示搜索框和输出结果" class="headerlink" title="4. 在页面的合适位置展示搜索框和输出结果"></a>4. 在页面的合适位置展示搜索框和输出结果</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;form class&#x3D;&quot;site-search-form&quot;&gt;</span><br><span class="line">    &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;local-search-input&quot; class&#x3D;&quot;st-search-input&quot; &#x2F;&gt;</span><br><span class="line">&lt;&#x2F;form&gt;</span><br><span class="line">&lt;div id&#x3D;&quot;local-search-result&quot; class&#x3D;&quot;local-search-result-cls&quot;&gt;&lt;&#x2F;div&gt;</span><br></pre></td></tr></table></figure>
+<p>local-search-input 是一个输入框，用于接收用户输入的检索词；local-search-result 是用于展现搜索结果的 div 标签。这部分代码参考： <a href="https://github.com/Liam0205/hexo-search-plugin-snippets">hexo-search-plugin-snippets</a></p>
+<h1 id="5-调用函数"><a href="#5-调用函数" class="headerlink" title="5. 调用函数"></a>5. 调用函数</h1><p>现在，已经有了<strong>索引文件</strong>、<strong>搜索算法</strong>和<strong>搜索框</strong>。但是，现在而言，搜索框是孤立的：用户在搜索框中输入内容，并不会触发搜索算法。换而言之，搜索函数并没有调用。因此，我们需要调用定义在 search.js 当中定义的 searchFunc。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">var path &#x3D; &quot;&#x2F;search.xml&quot;;</span><br><span class="line">searchFunc(path, &#39;local-search-input&#39;, &#39;local-search-result&#39;);</span><br></pre></td></tr></table></figure>
+<p>在网上找到了两位老师分享这种方法，但是您们没告诉小白要把这个东西写到哪儿才能起到调用的做用。<strong>解答如下：</strong>在你的layout文件中script最多的地方加入这么一句话：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;js&#x2F;local_search.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
+<p><strong>/js/local_search.js</strong>是你项目文件的地址。</p>
+<h1 id="6-美化"><a href="#6-美化" class="headerlink" title="6. 美化"></a>6. 美化</h1><p>Liam0205 提供 <a href="https://github.com/Liam0205/hexo-search-plugin-snippets/blob/master/snippets/search.stylus">search.stylus</a> 的样式。样式美化，每个人想法不一样，开心就好。</p>
+<blockquote>
+<p>参考资料</p>
+<ul>
+<li><a href="https://liam0205.me/2017/09/21/local-search-engine-in-Hexo-site/">https://liam0205.me/2017/09/21/local-search-engine-in-Hexo-site/</a></li>
+<li><a href="http://hahack.com/codes/local-search-engine-for-hexo/">http://hahack.com/codes/local-search-engine-for-hexo/</a></li>
+</ul>
+</blockquote>
+]]></content>
+      <categories>
+        <category>github</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>运筹学(最优化理论)主要概念区分</title>
+    <url>/2018/01/06/2018-1-6%20%E8%BF%90%E7%AD%B9%E5%AD%A6(%E6%9C%80%E4%BC%98%E5%8C%96%E7%90%86%E8%AE%BA)%E4%B8%BB%E8%A6%81%E6%A6%82%E5%BF%B5%E5%8C%BA%E5%88%86/</url>
+    <content><![CDATA[<p><strong>运筹学(最优化理论)：</strong>主要运用数学方法研究各种系统的优化途径及方案，为决策者提供科学决策的依据。最优化方法的主要研究对象是各种有组织系统的管理问题及其生产经营活动。最优化方法的目的在于针对所研究的系统，求得一个合理运用人力、物力和财力的最佳方案，发挥和提高系统的效能及效益，最终达到系统的最优目标。</p>
+<p>运筹学的具体内容包括：规划论（包括线性规划、非线性规划、整数规划和动态规划）、库存论、图论、决策论、对策论、排队论、可靠性理论等。</p>
+<p><strong>规划主要分支类别包括：</strong>（以下内容非数学定义，用于理解的笔记而已）</p>
+<ul>
+<li><p><strong>线性规划</strong><br>当目标函数f是线性函数而且集合A是由线性等式函数和线性不等式函数来确定的， 这一类问题为线性规划。</p>
+</li>
+<li><p><strong>整数规划</strong><br>当线性规划问题的部分或所有的变量局限于整数值时， 这一类问题为整数规划问题。</p>
+</li>
+<li><p><strong>二次规划</strong><br>目标函数是二次函数，而且集合A必须是由线性等式函数和线性不等式函数来确定的。</p>
+</li>
+</ul>
+<a id="more"></a>
+
+<ul>
+<li><p><strong>非线性规划</strong><br>研究的是目标函数或是限制函数中含有非线性函数的问题。</p>
+</li>
+<li><p><strong>随机规划</strong><br>研究的是某些变量是随机变量的问题。</p>
+</li>
+<li><p><strong>目标规划</strong><br>线性规划只讨论一个线性目标函数在一组线性约束条件下的极值问题；而目标规划是多个目标决策，可求得更切合实际的解。线性规划求最优解；目标规划是找到一个满意解。线性规划中的约束条件是同等重要的，是硬约束；而目标规划中有轻重缓急和主次之分，即有优先权。线性规划的最优解是绝对意义下的最优，但需花去大量的人力、物力、财力才能得到；实际过程中，只要求得满意解，就能满足需要（或更能满足需要）。</p>
+</li>
+<li><p><strong>动态规划</strong><br>研究的是最优策略基于将问题分解成若干个较小的子问题的优化问题。20世纪50年代初美国数学家R.E.Bellman等人在研究多阶段决策过程(multistep decision process)的优化问题时，提出了著名的最优化原理(principle of optimality)，把多阶段过程转化为一系列单阶段问题，利用各阶段之间的关系，逐个求解，创立了解决这类过程优化问题的新方法 — — 动态规划。 1957年出版了他的名著Dynamic Programming，这是该领域的第一本著作。<br>虽然动态规划主要用于求解以时间划分阶段的动态过程的优化问题，但是一些与时间无关的静态规划(如线性规划、非线性规划)，只要人为地引进时间因素，把它视为多阶段决策过程，也可以用动态规划方法方便地求解。</p>
+</li>
+<li><p><strong>组合最优化</strong><br>研究的是可行解是离散或是可转化为离散的问题。</p>
+</li>
+<li><p><strong>无限维最优化</strong><br>研究的是可行解的集合是无限维空间的子集的问题，一个无限维空间的例子是函数空间。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数学规划</category>
+      </categories>
+      <tags>
+        <tag>运筹学</tag>
+        <tag>最优化理论</tag>
+        <tag>Mathematical Programming</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>批量导出excel中大量图片</title>
+    <url>/2018/01/07/2018-1-7%20%E6%89%B9%E9%87%8F%E5%AF%BC%E5%87%BAexcel%E4%B8%AD%E5%A4%A7%E9%87%8F%E5%9B%BE%E7%89%87/</url>
+    <content><![CDATA[<h3 id="step1-复制Excel工作簿，并粘贴形成一个副本。"><a href="#step1-复制Excel工作簿，并粘贴形成一个副本。" class="headerlink" title="step1: 复制Excel工作簿，并粘贴形成一个副本。"></a>step1: 复制Excel工作簿，并粘贴形成一个副本。</h3><h3 id="step2-对Excel工作簿单击鼠标右键，“重命名”，将后缀“-xlsx”修改为“-rar”，并在“重命名”提示对话框中，选择“是”。（看不到后缀的自行百度显示格式名称）"><a href="#step2-对Excel工作簿单击鼠标右键，“重命名”，将后缀“-xlsx”修改为“-rar”，并在“重命名”提示对话框中，选择“是”。（看不到后缀的自行百度显示格式名称）" class="headerlink" title="step2: 对Excel工作簿单击鼠标右键，“重命名”，将后缀“.xlsx”修改为“.rar”，并在“重命名”提示对话框中，选择“是”。（看不到后缀的自行百度显示格式名称）"></a>step2: 对Excel工作簿单击鼠标右键，“重命名”，将后缀“.xlsx”修改为“.rar”，并在“重命名”提示对话框中，选择“是”。（看不到后缀的自行百度显示格式名称）</h3><div align=center>
+![](http://upload-images.jianshu.io/upload_images/5436217-a05098e2eca3c2a2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+</div>
+
+<h3 id="step3-打开修改后缀后的压缩文件，在文件夹里点击“xl”文件夹。"><a href="#step3-打开修改后缀后的压缩文件，在文件夹里点击“xl”文件夹。" class="headerlink" title="step3: 打开修改后缀后的压缩文件，在文件夹里点击“xl”文件夹。"></a>step3: 打开修改后缀后的压缩文件，在文件夹里点击“xl”文件夹。</h3><h3 id="step4-将“xl”文件夹下的“media”文件夹拖曳出来，即可。其中media”文件夹中即为工作簿中的所有图片。"><a href="#step4-将“xl”文件夹下的“media”文件夹拖曳出来，即可。其中media”文件夹中即为工作簿中的所有图片。" class="headerlink" title="step4: 将“xl”文件夹下的“media”文件夹拖曳出来，即可。其中media”文件夹中即为工作簿中的所有图片。"></a>step4: 将“xl”文件夹下的“media”文件夹拖曳出来，即可。其中media”文件夹中即为工作簿中的所有图片。</h3><div align=center>
+![](http://upload-images.jianshu.io/upload_images/5436217-95ca3e928a4dbb11.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+</div>]]></content>
+      <categories>
+        <category>Office</category>
+      </categories>
+      <tags>
+        <tag>excel</tag>
+        <tag>office</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>msvcr71.dll, msvcp71.dll丢失的解决方法</title>
+    <url>/2018/01/08/2018-1-8%20msvcr71.dll,%20msvcp71.dll%E4%B8%A2%E5%A4%B1%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h3 id="msvcp71-dll、msvcr71-dll均为VC运行库中的文件。它随着windows一起装入您的电脑，所以一般情况下是不会丢失的。只有可能是木马、垃圾软件或其他应用程序的篡改才有可能出现这种情况，会造成一些应用程序无法正常运行。"><a href="#msvcp71-dll、msvcr71-dll均为VC运行库中的文件。它随着windows一起装入您的电脑，所以一般情况下是不会丢失的。只有可能是木马、垃圾软件或其他应用程序的篡改才有可能出现这种情况，会造成一些应用程序无法正常运行。" class="headerlink" title="msvcp71.dll、msvcr71.dll均为VC运行库中的文件。它随着windows一起装入您的电脑，所以一般情况下是不会丢失的。只有可能是木马、垃圾软件或其他应用程序的篡改才有可能出现这种情况，会造成一些应用程序无法正常运行。"></a>msvcp71.dll、msvcr71.dll均为VC运行库中的文件。它随着windows一起装入您的电脑，所以一般情况下是不会丢失的。只有可能是木马、垃圾软件或其他应用程序的篡改才有可能出现这种情况，会造成一些应用程序无法正常运行。</h3><div align=center>
+![](http://upload-images.jianshu.io/upload_images/5436217-20615045c2a3c045.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+</div>
+
+<h3 id="下面是解决办法："><a href="#下面是解决办法：" class="headerlink" title="下面是解决办法："></a>下面是解决办法：</h3><a id="more"></a>
+
+<h4 id="step1-查下电脑是32位的还是64的位的，右击“计算机”查看“属性”；"><a href="#step1-查下电脑是32位的还是64的位的，右击“计算机”查看“属性”；" class="headerlink" title="step1: 查下电脑是32位的还是64的位的，右击“计算机”查看“属性”；"></a>step1: 查下电脑是32位的还是64的位的，右击“计算机”查看“属性”；</h4><h4 id="step2-在互联网上下载msvcp71-dll和msvcr71-dll，并放到自己电脑对应文件夹下。"><a href="#step2-在互联网上下载msvcp71-dll和msvcr71-dll，并放到自己电脑对应文件夹下。" class="headerlink" title="step2: 在互联网上下载msvcp71.dll和msvcr71.dll，并放到自己电脑对应文件夹下。"></a>step2: 在互联网上下载msvcp71.dll和msvcr71.dll，并放到自己电脑对应文件夹下。</h4><p>链接：<a href="http://pan.baidu.com/s/1pLwefgB">http://pan.baidu.com/s/1pLwefgB</a>   密码：v0xv</p>
+<h4 id="或者从谁的电脑里找到对应文件拷贝一下，各操作系统的文件位置如下："><a href="#或者从谁的电脑里找到对应文件拷贝一下，各操作系统的文件位置如下：" class="headerlink" title="或者从谁的电脑里找到对应文件拷贝一下，各操作系统的文件位置如下："></a>或者从谁的电脑里找到对应文件拷贝一下，各操作系统的文件位置如下：</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Windows 95&#x2F;98&#x2F;ME：X:\Windows\system</span><br><span class="line"></span><br><span class="line">Windows NT&#x2F;2000：X:\WINNT\system32</span><br><span class="line"></span><br><span class="line">Windows 2000 LimitedEdition:X:\WINNT\sysWOW64</span><br><span class="line"></span><br><span class="line">Windows</span><br><span class="line"></span><br><span class="line">XP&#x2F;2003&#x2F;vista&#x2F;2008&#x2F;7&#x2F;8&#x2F;2012：</span><br><span class="line"></span><br><span class="line">X:\Windows\system32（32位）</span><br><span class="line">或</span><br><span class="line">X:\Windows\sysWOW64（64位）</span><br></pre></td></tr></table></figure>
+
+<div align=center>
+![](http://upload-images.jianshu.io/upload_images/5436217-3450791722a4d217.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+</div>
+
+<h4 id="注：同理其他的系统dll缺失也可以采用同样的办法。"><a href="#注：同理其他的系统dll缺失也可以采用同样的办法。" class="headerlink" title="注：同理其他的系统dll缺失也可以采用同样的办法。"></a>注：同理其他的系统dll缺失也可以采用同样的办法。</h4><h4 id="注：由于网盘整理等原因，下载链接很有可能因路径变化而无效，若发现请留言提醒更新！"><a href="#注：由于网盘整理等原因，下载链接很有可能因路径变化而无效，若发现请留言提醒更新！" class="headerlink" title="注：由于网盘整理等原因，下载链接很有可能因路径变化而无效，若发现请留言提醒更新！"></a>注：由于网盘整理等原因，下载链接很有可能因路径变化而无效，若发现请留言提醒更新！</h4>]]></content>
+      <categories>
+        <category>OS</category>
+      </categories>
+      <tags>
+        <tag>msvcr</tag>
+        <tag>operating system</tag>
+        <tag>OS</tag>
+        <tag>操作系统</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/11/07/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
