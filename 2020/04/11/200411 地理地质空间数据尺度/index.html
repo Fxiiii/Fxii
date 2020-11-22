@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.jpg">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"fxiiii.github.io","root":"/","images":"/images","scheme":"Mist","version":"8.0.2","exturl":false,"sidebar":{"position":"right","display":"post","padding":48,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+  </script>
+
+  <meta name="description" content="地理&#x2F;地质&#x2F;空间数据尺度">
+<meta property="og:type" content="article">
+<meta property="og:title" content="地理&#x2F;地质&#x2F;空间数据尺度">
+<meta property="og:url" content="https://fxiiii.github.io/2020/04/11/200411%20%E5%9C%B0%E7%90%86%E5%9C%B0%E8%B4%A8%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE%E5%B0%BA%E5%BA%A6/index.html">
+<meta property="og:site_name" content="风希 | Fxiiii">
+<meta property="og:description" content="地理&#x2F;地质&#x2F;空间数据尺度">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-04-11T02:00:00.000Z">
+<meta property="article:modified_time" content="2020-11-22T16:17:55.583Z">
+<meta property="article:author" content="风希 | Fxiiii">
+<meta property="article:tag" content="数据尺度">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://fxiiii.github.io/2020/04/11/200411%20%E5%9C%B0%E7%90%86%E5%9C%B0%E8%B4%A8%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE%E5%B0%BA%E5%BA%A6/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>地理/地质/空间数据尺度 | 风希 | Fxiiii</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">风希 | Fxiiii</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E7%A9%BA%E9%97%B4%E5%B0%BA%E5%BA%A6"><span class="nav-number">1.</span> <span class="nav-text">1. 空间尺度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E6%97%B6%E9%97%B4%E5%B0%BA%E5%BA%A6"><span class="nav-number">2.</span> <span class="nav-text">2. 时间尺度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E8%AF%AD%E4%B9%89%E5%B0%BA%E5%BA%A6"><span class="nav-number">3.</span> <span class="nav-text">3. 语义尺度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E7%8E%B0%E8%B1%A1%E5%B0%BA%E5%BA%A6"><span class="nav-number">4.</span> <span class="nav-text">4. 现象尺度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E6%95%B0%E6%8D%AE%E5%B0%BA%E5%BA%A6"><span class="nav-number">5.</span> <span class="nav-text">5. 数据尺度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-%E5%88%86%E6%9E%90%E5%B0%BA%E5%BA%A6"><span class="nav-number">6.</span> <span class="nav-text">6. 分析尺度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-%E5%B9%85%E5%BA%A6"><span class="nav-number">7.</span> <span class="nav-text">7. 幅度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-%E7%B2%92%E5%BA%A6"><span class="nav-number">8.</span> <span class="nav-text">8. 粒度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#9-%E5%88%86%E8%BE%A8%E7%8E%87"><span class="nav-number">9.</span> <span class="nav-text">9. 分辨率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#10-%E6%97%B6%E9%97%B4%E5%88%86%E8%BE%A8%E7%8E%87"><span class="nav-number">10.</span> <span class="nav-text">10. 时间分辨率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#11-%E5%85%89%E8%B0%B1%E5%88%86%E8%BE%A8%E7%8E%87"><span class="nav-number">11.</span> <span class="nav-text">11. 光谱分辨率</span></a></li></ol></div>
+        </section>
+        <!--/noindex-->
+
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="风希 | Fxiiii"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">风希 | Fxiiii</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">11</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Fxiiii" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Fxiiii" rel="noopener" target="_blank"><i class="fab fa-github-alt fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.jianshu.com/u/8ab93013d761" title="简书 → https:&#x2F;&#x2F;www.jianshu.com&#x2F;u&#x2F;8ab93013d761" rel="noopener" target="_blank"><i class="fa fa-book fa-fw"></i>简书</a>
+      </span>
+  </div>
+
+
+
+        </section>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+      
+
+      
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://fxiiii.github.io/2020/04/11/200411%20%E5%9C%B0%E7%90%86%E5%9C%B0%E8%B4%A8%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE%E5%B0%BA%E5%BA%A6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="风希 | Fxiiii">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="风希 | Fxiiii">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          地理/地质/空间数据尺度
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2020-04-11 10:00:00" itemprop="dateCreated datePublished" datetime="2020-04-11T10:00:00+08:00">2020-04-11</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2020-11-23 00:17:55" itemprop="dateModified" datetime="2020-11-23T00:17:55+08:00">2020-11-23</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%99%BA%E8%83%BD%E6%99%BA%E6%85%A7/" itemprop="url" rel="index"><span itemprop="name">智能智慧</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p><strong>地理/地质/空间数据尺度</strong></p>
+<a id="more"></a>
+
+<h2 id="1-空间尺度"><a href="#1-空间尺度" class="headerlink" title="1. 空间尺度"></a>1. 空间尺度</h2><p>空间尺度是指在观察或研究某一地理现象时所采用的空间尺度限定，通常指地理现象在空间上所涉及的范围，同时也包括空间的间隔、频率、分辨率。空间尺度与观测的地理现象或地理目标无关，由于多种地理现象和过程的尺度行为并非按比例线性或均匀变化，因此，研究地理实体的空间形态和过程随尺度变化的规律，是地理信息尺度变换研究的重点。</p>
+<h2 id="2-时间尺度"><a href="#2-时间尺度" class="headerlink" title="2. 时间尺度"></a>2. 时间尺度</h2><p>时间尺度是指在观察或研究某一地理现象时所采用的时间尺度限定，通常指地理现象在时间上所涉及的范围，同时也包括与时间的间隔、频率、分辨率。时间尺度主要刻画地理现象的时间长度和变化的粗略与详细程度。</p>
+<h2 id="3-语义尺度"><a href="#3-语义尺度" class="headerlink" title="3. 语义尺度"></a>3. 语义尺度</h2><p>语义尺度是指地理信息所表达的地理实体、地理现象组织层次大小及区分组织层次的分类体系在地理信息语义上的界定，体现了对于地理实体类的概括程度。<br>语义尺度用于描绘事务过程或属性。</p>
+<h2 id="4-现象尺度"><a href="#4-现象尺度" class="headerlink" title="4. 现象尺度"></a>4. 现象尺度</h2><p>现象尺度是指地理目标、空间结构和地理现象自身存在的尺度，它是对地理现象理解的本质尺度，是空间目标和现象的“真”的尺度，是不以人们的分析和表达为转移的。</p>
+<h2 id="5-数据尺度"><a href="#5-数据尺度" class="headerlink" title="5. 数据尺度"></a>5. 数据尺度</h2><p>数据尺度是指根据用户需要对空间现象的抽象描述，数据尺度的大小与区域大小和数据使用要求有关，与介质无关。对于空间数据本身而言，尺度则表现为分辨率或精度，大尺度数据意味着空间和时间分辨率和属性精度较低。</p>
+<h2 id="6-分析尺度"><a href="#6-分析尺度" class="headerlink" title="6. 分析尺度"></a>6. 分析尺度</h2><p>分析尺度是指对地理现象和地理目标进行度量和数据采集时的尺寸大小，主要包括空间广度、空间粒度、空间精确度以及研究尺度。其中空间粒度可以看作空间数据采样的像素多少、地理目标的分辨率、空间数据的认知层次等。</p>
+<h2 id="7-幅度"><a href="#7-幅度" class="headerlink" title="7. 幅度"></a>7. 幅度</h2><p>幅度是指地理信息所表征的地理现象的广度和范围，所以也称广度或区域大小。空间幅度就是指空间的范围和面积，时间幅度指时间所持续的长度。</p>
+<h2 id="8-粒度"><a href="#8-粒度" class="headerlink" title="8. 粒度"></a>8. 粒度</h2><p>粒度也称颗粒度在物理学中指微粒或颗粒大小的平均度量，即构成物质或图案的微粒的相对尺寸。对空间尺度来就，粒度是指地理信息中最小的可辨识单元所代表的特征长度、面积或体积。对语义尺度来说，粒度是指地理信息中最小单元所表示的意义以及层次，粒度越小，所能表达的语义层次越多，分辨率越高。对时间尺度而言，粒度是指在获得地理信息时采样计量的时间精度或者单位，即单位时间采样点的数量。</p>
+<h2 id="9-分辨率"><a href="#9-分辨率" class="headerlink" title="9. 分辨率"></a>9. 分辨率</h2><p>分辨率是和图像相关的一个重要概念，它是用于度量位图图像内数据量多少，衡量图像细节表现力的一个参数。例如影像数据通常用分辨率来度量图像内数据量；数字高程模型通常用栅格数据格网的大小来衡量数据细节表现力。</p>
+<ul>
+<li><p>图像分辨率<br>图像分辨率指图像中存储的信息量。这种分辨率通常表示成每英寸像素（Pixel per inch, PPI）和每英寸点（dot per inch, PDI）。包含的数据越多，图形文件的长度就越大，也能表现更丰富的细节。</p>
+</li>
+<li><p>网屏分辨率<br>网屏分辨率指的是印刷图像所用的网屏的每英寸的网线数（lines per inch,LPI）来表示。</p>
+</li>
+<li><p>扫描分辨率<br>扫描分辨率是指在扫描一幅图像之前所设定的分辨率，它将影响所生成的图像文件的质量和使用性能。</p>
+</li>
+<li><p>图像位分辨率<br>图像位分辨率又称位深，是用来衡量每个像素储存信息的位数。这种分辨率决定可以标记为多少种色彩等级的可能性。</p>
+</li>
+<li><p>打印机分辨率</p>
+</li>
+<li><p>显示器分辨率</p>
+</li>
+<li><p>鼠标分辨率<br>鼠标分辨率是指每移动一英寸能检测出的点数，分辨率越高，质量也就越高。</p>
+</li>
+<li><p>触摸屏分辨率<br>触摸屏分辨率是指将屏幕分割成可识别的触点数目。</p>
+</li>
+</ul>
+<h2 id="10-时间分辨率"><a href="#10-时间分辨率" class="headerlink" title="10. 时间分辨率"></a>10. 时间分辨率</h2><p>时间分辨率是指在同一区域进行的相邻两次遥感观测的最小时间间隔。对轨道卫星，亦称覆盖周期。时间间隔大，时间分辨率低，反之时间分辨率高。时间分辨率是评价遥感系统动态监测能力和“多日摄影”系列遥感资料在多时相分析中应用能力的重要指标。<br>根据地球资源与环境动态信息变化的快慢，可选择适当的时间分辨率范围。按研究对象的自然历史演变和社会生产过程的周期划分为5种类型：①超短期的。如台风、寒潮、海况、鱼情、城市热岛等，需以小时计；②短期的。如洪水、冰凌、旱涝、森林火灾或虫害、作物长势、绿被指数等，要求有以日数计；③中期的。如土地利用、作物估产、生物量统计等，一般需要以月或季度计；④长期的。如水土保持、自然保护、冰川进退、湖泊消长、海岸变迁、沙化与绿化等，则以年计；⑤超长期的。如新构造运动、火山喷发等地质现象，可长达数十年以上。 </p>
+<h2 id="11-光谱分辨率"><a href="#11-光谱分辨率" class="headerlink" title="11. 光谱分辨率"></a>11. 光谱分辨率</h2><p>光谱分辨率指成像的波段范围，分得愈细，波段愈多，光谱分辨率就愈高，现在的技术可以达到5~6nm（纳米）量级，400多个波段。细分光谱可以提高自动区分和识别目标性质和组成成分的能力。 </p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>老铁们，小礼物走一波！！</div>
+  <button onclick="document.querySelector('.post-reward').classList.toggle('active');">
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechat.jpg" alt="风希 | Fxiiii 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/wechatpay.jpg" alt="风希 | Fxiiii 微信支付">
+        <span>微信支付</span>
+      </div>
+      <div>
+        <img src="/images/alipay.jpg" alt="风希 | Fxiiii 支付宝支付">
+        <span>支付宝支付</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>风希 | Fxiiii
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://fxiiii.github.io/2020/04/11/200411%20%E5%9C%B0%E7%90%86%E5%9C%B0%E8%B4%A8%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE%E5%B0%BA%E5%BA%A6/" title="地理&#x2F;地质&#x2F;空间数据尺度">https://fxiiii.github.io/2020/04/11/200411 地理地质空间数据尺度/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E6%95%B0%E6%8D%AE%E5%B0%BA%E5%BA%A6/" rel="tag"># 数据尺度</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2020/04/10/200410%20%E6%95%B0%E6%8D%AE%E8%B4%A8%E9%87%8F%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/" rel="prev" title="数据质量基本概念">
+                  <i class="fa fa-chevron-left"></i> 数据质量基本概念
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2020/05/01/200501%20%E7%81%AB%E7%BB%92%E5%AE%89%E5%85%A8/" rel="next" title="火绒安全 | 史上最乖巧的安全软件">
+                  火绒安全 | 史上最乖巧的安全软件 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+      
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      
+
+      
+
+<div class="copyright">
+  
+  &copy; Thu Nov 05 2020 08:00:00 GMT+0800 (中国标准时间) – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heartbeat"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">风希 | Fxiiii</span>
+</div>
+
+
+    </div>
+  </footer>
+ 
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 页面点击小红心 -->
+  <script type="text/javascript" src="/js/src/clicklove.js"></script>  
+</body>
+</html>

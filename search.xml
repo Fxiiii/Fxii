@@ -1,219 +1,510 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Win7安装iTunes报错“此windows installer软件包有一个问题。完成此安装需要的程序不能运行。”</title>
-    <url>/2018/01/10/2018-1-10%20Win7%E5%AE%89%E8%A3%85iTunes%E6%8A%A5%E9%94%99%E2%80%9C%E6%AD%A4windows%20installer%E8%BD%AF%E4%BB%B6%E5%8C%85%E6%9C%89%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98%E3%80%82%E5%AE%8C%E6%88%90%E6%AD%A4%E5%AE%89%E8%A3%85%E9%9C%80%E8%A6%81%E7%9A%84%E7%A8%8B%E5%BA%8F%E4%B8%8D%E8%83%BD%E8%BF%90%E8%A1%8C%E3%80%82%E2%80%9D/</url>
-    <content><![CDATA[<h3 id="Win7安装iTunes报错“此windows-installer软件包有一个问题。完成此安装需要的程序不能运行。”"><a href="#Win7安装iTunes报错“此windows-installer软件包有一个问题。完成此安装需要的程序不能运行。”" class="headerlink" title="Win7安装iTunes报错“此windows installer软件包有一个问题。完成此安装需要的程序不能运行。”"></a>Win7安装iTunes报错“此windows installer软件包有一个问题。完成此安装需要的程序不能运行。”</h3><h3 id="大部分网上给出的方法甚至Apple官网给出如下："><a href="#大部分网上给出的方法甚至Apple官网给出如下：" class="headerlink" title="大部分网上给出的方法甚至Apple官网给出如下："></a>大部分网上给出的方法甚至Apple官网给出如下：</h3><h4 id="按照以下顺序进行卸载重装："><a href="#按照以下顺序进行卸载重装：" class="headerlink" title="按照以下顺序进行卸载重装："></a>按照以下顺序进行卸载重装：</h4><ul>
-<li>1.iTunes 旧版本</li>
-<li>2.Apple Software Update</li>
-<li>3.Apple Mobile Device Support</li>
-<li>4.Bonjour</li>
-<li>5.Apple Application Support 32 位</li>
-<li>6.Apple Application Support 64 位</li>
-</ul>
-<p><strong>最关键性的问题来了：</strong> “Apple Software Update”卸不掉吧！！搜索发现网上给出方法有修改注册表、360强卸等等，均不奏效且方法复杂，出现问题难以修复。</p>
-<h3 id="下面给出最正确最正确最正确的方式！！"><a href="#下面给出最正确最正确最正确的方式！！" class="headerlink" title="下面给出最正确最正确最正确的方式！！"></a>下面给出最正确最正确最正确的方式！！</h3><a id="more"></a>
-
-<h4 id="step1-下载itunes-安装文件-exe文件-，或者你有保留原来的itunes的exe安装文件也可以，右键使用压缩工具打开；"><a href="#step1-下载itunes-安装文件-exe文件-，或者你有保留原来的itunes的exe安装文件也可以，右键使用压缩工具打开；" class="headerlink" title="step1: 下载itunes 安装文件(exe文件)，或者你有保留原来的itunes的exe安装文件也可以，右键使用压缩工具打开；"></a>step1: 下载itunes 安装文件(exe文件)，或者你有保留原来的itunes的exe安装文件也可以，右键使用压缩工具打开；</h4><div align=center>
-![](http://upload-images.jianshu.io/upload_images/5436217-e616104e44dfe8b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    <title>Cent Browser | 绝对最强主力浏览器</title>
+    <url>/2020/04/01/200401%20Cent%20Browser/</url>
+    <content><![CDATA[<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-85be06e199f94000.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "100%" height = "100%" alt=" "/>
 </div>
 
-<h4 id="step2-直接把AppleSoftwareUpdate-msi提取出来单独安装；"><a href="#step2-直接把AppleSoftwareUpdate-msi提取出来单独安装；" class="headerlink" title="step2: 直接把AppleSoftwareUpdate.msi提取出来单独安装；"></a>step2: 直接把AppleSoftwareUpdate.msi提取出来单独安装；</h4><h4 id="step3-安装完AppleSoftwareUpdate-msi后，再正常安装iTunes64Setup-exe即可。"><a href="#step3-安装完AppleSoftwareUpdate-msi后，再正常安装iTunes64Setup-exe即可。" class="headerlink" title="step3: 安装完AppleSoftwareUpdate.msi后，再正常安装iTunes64Setup.exe即可。"></a>step3: 安装完AppleSoftwareUpdate.msi后，再正常安装iTunes64Setup.exe即可。</h4><h4 id="注：对于AppleSoftwareUpdate无法卸载的问题，也可使用此方法单独安装AppleSoftwareUpdate-msi。安装位置可以不在C盘。"><a href="#注：对于AppleSoftwareUpdate无法卸载的问题，也可使用此方法单独安装AppleSoftwareUpdate-msi。安装位置可以不在C盘。" class="headerlink" title="注：对于AppleSoftwareUpdate无法卸载的问题，也可使用此方法单独安装AppleSoftwareUpdate.msi。安装位置可以不在C盘。"></a>注：对于AppleSoftwareUpdate无法卸载的问题，也可使用此方法单独安装AppleSoftwareUpdate.msi。安装位置可以不在C盘。</h4>]]></content>
-      <categories>
-        <category>OS</category>
-      </categories>
-      <tags>
-        <tag>Win7</tag>
-        <tag>iTunes</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>git删除所有Commits提交历史记录，变为全新仓库</title>
-    <url>/2018/01/02/2018-1-2%20git%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89Commits%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95%EF%BC%8C%E5%8F%98%E4%B8%BA%E5%85%A8%E6%96%B0%E4%BB%93%E5%BA%93/</url>
-    <content><![CDATA[<p><strong>个人感觉一般两个情况下，会想有这个需要：</strong></p>
-<ul>
-<li><p>一个是：需要把旧项目提交到Git上，但是原来的某版历史记录中可能会有项目密码等敏感信息。这时候需要删除这些历史记录，形成一个全新的仓库，并且希望保持代码不变。</p>
-</li>
-<li><p>另一个是：处女座！隔三差五看到过往的Commits心烦，没有原因。</p>
-</li>
-</ul>
-<p><strong>1. Checkout</strong></p>
-<p>新建一个branch</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git checkout --orphan latest_branch</span><br></pre></td></tr></table></figure>
-<p><strong>2. Add all the files</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git add -A</span><br></pre></td></tr></table></figure>
-
-<p><strong>3. Commit the changes</strong></p>
-<a id="more"></a>
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git commit -am &quot;commit message&quot;</span><br></pre></td></tr></table></figure>
-
-<p><strong>4. Delete the branch</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git branch -D master</span><br></pre></td></tr></table></figure>
-
-<p><strong>5. Rename the current branch to master</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git branch -m master</span><br></pre></td></tr></table></figure>
-
-<p><strong>6. 连接远程库</strong></p>
-<p>把下面的Hzfans替换成你自己的GitHub账户名，Hzfans.github.io替换为你自己的项目名称。<br>连接后，远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，但是origin这个名字一看就知道是远程库。这一步非必要，如果你之前已经连接了的话，以防万一。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git remote add origin git@github.com:Hzfans&#x2F;Hzfans.github.io.git</span><br></pre></td></tr></table></figure>
-
-<p><strong>7. Finally, force update your repository</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git push -f origin master</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p><a href="https://yuhongjun.github.io/tech/2017/04/28/git%E4%BB%93%E5%BA%93%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95-%E6%88%90%E4%B8%BA%E4%B8%80%E4%B8%AA%E5%B9%B2%E5%87%80%E7%9A%84%E6%96%B0%E4%BB%93%E5%BA%93.html">YUHONGJUN.GITHUB.IO</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>github</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>为Hexo blog博客创建本地搜索引擎</title>
-    <url>/2018/01/03/2018-1-3%20%E4%B8%BAHexo%20blog%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E6%9C%AC%E5%9C%B0%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/</url>
-    <content><![CDATA[<p>刚开始使用github+hexo建立blog博客。参考了不少文章，发现大部分作者采用的主题为iissan 创建的 NexT。NexT 主题默认提供了两个站内搜索解决方案：swiftype 和 tinysou，所以大都比较好配置。<br>对于不想使用NexT主题，然而喜欢的主题又没有提供站内搜索方案的时候，可能就比较折腾了。有人不想使用swiftype 和 tinysou方法也可能是基于某些其他原因：</p>
-<ul>
-<li>不愿意受限于第三方服务：第三方服务随时可能完蛋，风险大受限多。原本建独立博客目的就是为了不受限，如此这般， swiftype 就是如此原因；</li>
-<li>第三方服务样式单一；</li>
-<li>第三方服务，需要应用第三方JS，存在安全问题；<br>后经过大量搜索查询，发现目前Hexo已经有比较满意的解决方法了。</li>
-</ul>
-<h1 id="1-基本思路"><a href="#1-基本思路" class="headerlink" title="1. 基本思路"></a>1. 基本思路</h1><ul>
-<li>Step1： 生成索引文件；</li>
-<li>Step2： 有效的算法：根据用户输入的检索词，返回包含检索词的文章列表；</li>
-<li>Step3 ：使用 JavaScript 和 jQuery 来实现在浏览器中执行算法；</li>
-<li>Step4 ：在页面的合适位置展示搜索框和输出结果；</li>
-<li>Step5 ：美化。</li>
+<h3 id="百分浏览器-Cent-Browser"><a href="#百分浏览器-Cent-Browser" class="headerlink" title="百分浏览器 Cent Browser"></a>百分浏览器 Cent Browser</h3><h3 id="吖燊推荐"><a href="#吖燊推荐" class="headerlink" title="吖燊推荐"></a>吖燊推荐</h3><ul>
+<li><strong>Chrome有的它都有，Chrome没有的它还有！！</strong></li>
+<li><strong>简约！！干净！！杜绝一切花里胡哨！！</strong></li>
 </ul>
 <a id="more"></a>
 
-<h1 id="2-使用-hexo-generator-search-生成索引文件"><a href="#2-使用-hexo-generator-search-生成索引文件" class="headerlink" title="2. 使用 hexo-generator-search 生成索引文件"></a>2. 使用 hexo-generator-search 生成索引文件</h1><p>这一步在网上大部分文章中都有提及，安装 hexo-generator-search 的生成器，在执行 hexo generate 的过程中，会按照配置生成一个 XML 文件，用于保存全站的文档数据。这个 XML 文件只是简单地做了数据的结构化存储，而完全没有考虑分词、倒排等问题。<br>安装 hexo-generator-search</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-generator-search</span><br></pre></td></tr></table></figure>
-<p>在站点配置文件 _config.yml 当中写入如下配置，即可为全站的文档生成索引文件</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br></pre></td></tr></table></figure>
-<p>hexo-generator-search 会为全站所有 post 类型的页面生成结构化的数据，并保存在本站的 /search.xml 当中。若想让 page 类型的页面也纳入索引，则可以将 field 的值修改为 all。</p>
-<h1 id="3-使用-JavaScript-和-jQuery-实现检索算法"><a href="#3-使用-JavaScript-和-jQuery-实现检索算法" class="headerlink" title="3. 使用 JavaScript 和 jQuery 实现检索算法"></a>3. 使用 JavaScript 和 jQuery 实现检索算法</h1><p>以 jQuery 的文本匹配为基础，在前端界面上运行站内搜索。<strong>文件</strong>在这里<a href="https://github.com/Liam0205/hexo-search-plugin-snippets/blob/master/snippets/search.js">local_search.js</a>。主要的处理流程是：</p>
-<ul>
-<li>载入 search.xml；</li>
-<li>解析 search.xml；</li>
-<li>解析检索词；</li>
-<li>在索引中进行字符串匹配；</li>
-<li>展现结果。<blockquote>
-<p>search.js 依赖 jQuery。因此，你需要在引入 search.js 之前，引入 jQuery 的脚本。比如，你可以在 head 部分这样做：<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>。</p>
-</blockquote>
-</li>
+<h3 id="官网介绍"><a href="#官网介绍" class="headerlink" title="官网介绍"></a>官网介绍</h3><ul>
+<li>极速内核：基于最新的Chromium开源内核进行优化开发，充分继承其高速安全的特性。<strong>——小白们不用管这个，你就知道它跟Google chrome一样就好</strong></li>
+<li>鼠标手势：无所不能的鼠标手势让您的操作更加高效<strong>——说实话，这个用到的真不多，主要是需要按住“右键”来操作，看个人习惯吧！</strong></li>
+<li>超级拖拽：轻轻一拖，就可以实现复制搜索下载等高级功能——<strong>这个是真方便！！</strong></li>
+<li>内存优化：延迟加载后台标签+强制释放内核缓存，可以大幅度减少内存占用<strong>——小白们依然不用管这个</strong></li>
+<li>小号标签：想登陆多个账号不串号，Ctrl+M来试试<strong>——其他浏览器都需要外开无痕，Cent Browser同一窗口下小号标签想开多少开多少！！</strong></li>
+<li>高度定制：大量实用的可定制特性<strong>——牛逼克拉斯的地方！！</strong></li>
 </ul>
-<h1 id="4-在页面的合适位置展示搜索框和输出结果"><a href="#4-在页面的合适位置展示搜索框和输出结果" class="headerlink" title="4. 在页面的合适位置展示搜索框和输出结果"></a>4. 在页面的合适位置展示搜索框和输出结果</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;form class&#x3D;&quot;site-search-form&quot;&gt;</span><br><span class="line">    &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;local-search-input&quot; class&#x3D;&quot;st-search-input&quot; &#x2F;&gt;</span><br><span class="line">&lt;&#x2F;form&gt;</span><br><span class="line">&lt;div id&#x3D;&quot;local-search-result&quot; class&#x3D;&quot;local-search-result-cls&quot;&gt;&lt;&#x2F;div&gt;</span><br></pre></td></tr></table></figure>
-<p>local-search-input 是一个输入框，用于接收用户输入的检索词；local-search-result 是用于展现搜索结果的 div 标签。这部分代码参考： <a href="https://github.com/Liam0205/hexo-search-plugin-snippets">hexo-search-plugin-snippets</a></p>
-<h1 id="5-调用函数"><a href="#5-调用函数" class="headerlink" title="5. 调用函数"></a>5. 调用函数</h1><p>现在，已经有了<strong>索引文件</strong>、<strong>搜索算法</strong>和<strong>搜索框</strong>。但是，现在而言，搜索框是孤立的：用户在搜索框中输入内容，并不会触发搜索算法。换而言之，搜索函数并没有调用。因此，我们需要调用定义在 search.js 当中定义的 searchFunc。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">var path &#x3D; &quot;&#x2F;search.xml&quot;;</span><br><span class="line">searchFunc(path, &#39;local-search-input&#39;, &#39;local-search-result&#39;);</span><br></pre></td></tr></table></figure>
-<p>在网上找到了两位老师分享这种方法，但是您们没告诉小白要把这个东西写到哪儿才能起到调用的做用。<strong>解答如下：</strong>在你的layout文件中script最多的地方加入这么一句话：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;js&#x2F;local_search.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
-<p><strong>/js/local_search.js</strong>是你项目文件的地址。</p>
-<h1 id="6-美化"><a href="#6-美化" class="headerlink" title="6. 美化"></a>6. 美化</h1><p>Liam0205 提供 <a href="https://github.com/Liam0205/hexo-search-plugin-snippets/blob/master/snippets/search.stylus">search.stylus</a> 的样式。样式美化，每个人想法不一样，开心就好。</p>
-<blockquote>
-<p>参考资料</p>
-<ul>
-<li><a href="https://liam0205.me/2017/09/21/local-search-engine-in-Hexo-site/">https://liam0205.me/2017/09/21/local-search-engine-in-Hexo-site/</a></li>
-<li><a href="http://hahack.com/codes/local-search-engine-for-hexo/">http://hahack.com/codes/local-search-engine-for-hexo/</a></li>
-</ul>
-</blockquote>
-]]></content>
-      <categories>
-        <category>github</category>
-      </categories>
-      <tags>
-        <tag>github</tag>
-        <tag>hexo</tag>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>运筹学(最优化理论)主要概念区分</title>
-    <url>/2018/01/06/2018-1-6%20%E8%BF%90%E7%AD%B9%E5%AD%A6(%E6%9C%80%E4%BC%98%E5%8C%96%E7%90%86%E8%AE%BA)%E4%B8%BB%E8%A6%81%E6%A6%82%E5%BF%B5%E5%8C%BA%E5%88%86/</url>
-    <content><![CDATA[<p><strong>运筹学(最优化理论)：</strong>主要运用数学方法研究各种系统的优化途径及方案，为决策者提供科学决策的依据。最优化方法的主要研究对象是各种有组织系统的管理问题及其生产经营活动。最优化方法的目的在于针对所研究的系统，求得一个合理运用人力、物力和财力的最佳方案，发挥和提高系统的效能及效益，最终达到系统的最优目标。</p>
-<p>运筹学的具体内容包括：规划论（包括线性规划、非线性规划、整数规划和动态规划）、库存论、图论、决策论、对策论、排队论、可靠性理论等。</p>
-<p><strong>规划主要分支类别包括：</strong>（以下内容非数学定义，用于理解的笔记而已）</p>
-<ul>
-<li><p><strong>线性规划</strong><br>当目标函数f是线性函数而且集合A是由线性等式函数和线性不等式函数来确定的， 这一类问题为线性规划。</p>
-</li>
-<li><p><strong>整数规划</strong><br>当线性规划问题的部分或所有的变量局限于整数值时， 这一类问题为整数规划问题。</p>
-</li>
-<li><p><strong>二次规划</strong><br>目标函数是二次函数，而且集合A必须是由线性等式函数和线性不等式函数来确定的。</p>
-</li>
-</ul>
-<a id="more"></a>
-
-<ul>
-<li><p><strong>非线性规划</strong><br>研究的是目标函数或是限制函数中含有非线性函数的问题。</p>
-</li>
-<li><p><strong>随机规划</strong><br>研究的是某些变量是随机变量的问题。</p>
-</li>
-<li><p><strong>目标规划</strong><br>线性规划只讨论一个线性目标函数在一组线性约束条件下的极值问题；而目标规划是多个目标决策，可求得更切合实际的解。线性规划求最优解；目标规划是找到一个满意解。线性规划中的约束条件是同等重要的，是硬约束；而目标规划中有轻重缓急和主次之分，即有优先权。线性规划的最优解是绝对意义下的最优，但需花去大量的人力、物力、财力才能得到；实际过程中，只要求得满意解，就能满足需要（或更能满足需要）。</p>
-</li>
-<li><p><strong>动态规划</strong><br>研究的是最优策略基于将问题分解成若干个较小的子问题的优化问题。20世纪50年代初美国数学家R.E.Bellman等人在研究多阶段决策过程(multistep decision process)的优化问题时，提出了著名的最优化原理(principle of optimality)，把多阶段过程转化为一系列单阶段问题，利用各阶段之间的关系，逐个求解，创立了解决这类过程优化问题的新方法 — — 动态规划。 1957年出版了他的名著Dynamic Programming，这是该领域的第一本著作。<br>虽然动态规划主要用于求解以时间划分阶段的动态过程的优化问题，但是一些与时间无关的静态规划(如线性规划、非线性规划)，只要人为地引进时间因素，把它视为多阶段决策过程，也可以用动态规划方法方便地求解。</p>
-</li>
-<li><p><strong>组合最优化</strong><br>研究的是可行解是离散或是可转化为离散的问题。</p>
-</li>
-<li><p><strong>无限维最优化</strong><br>研究的是可行解的集合是无限维空间的子集的问题，一个无限维空间的例子是函数空间。</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>数学规划</category>
-      </categories>
-      <tags>
-        <tag>运筹学</tag>
-        <tag>最优化理论</tag>
-        <tag>Mathematical Programming</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>批量导出excel中大量图片</title>
-    <url>/2018/01/07/2018-1-7%20%E6%89%B9%E9%87%8F%E5%AF%BC%E5%87%BAexcel%E4%B8%AD%E5%A4%A7%E9%87%8F%E5%9B%BE%E7%89%87/</url>
-    <content><![CDATA[<h3 id="step1-复制Excel工作簿，并粘贴形成一个副本。"><a href="#step1-复制Excel工作簿，并粘贴形成一个副本。" class="headerlink" title="step1: 复制Excel工作簿，并粘贴形成一个副本。"></a>step1: 复制Excel工作簿，并粘贴形成一个副本。</h3><h3 id="step2-对Excel工作簿单击鼠标右键，“重命名”，将后缀“-xlsx”修改为“-rar”，并在“重命名”提示对话框中，选择“是”。（看不到后缀的自行百度显示格式名称）"><a href="#step2-对Excel工作簿单击鼠标右键，“重命名”，将后缀“-xlsx”修改为“-rar”，并在“重命名”提示对话框中，选择“是”。（看不到后缀的自行百度显示格式名称）" class="headerlink" title="step2: 对Excel工作簿单击鼠标右键，“重命名”，将后缀“.xlsx”修改为“.rar”，并在“重命名”提示对话框中，选择“是”。（看不到后缀的自行百度显示格式名称）"></a>step2: 对Excel工作簿单击鼠标右键，“重命名”，将后缀“.xlsx”修改为“.rar”，并在“重命名”提示对话框中，选择“是”。（看不到后缀的自行百度显示格式名称）</h3><div align=center>
-![](http://upload-images.jianshu.io/upload_images/5436217-a05098e2eca3c2a2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-d74aa43ee910595e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "70%" height = "70%" alt="官网介绍"/>
 </div>
 
-<h3 id="step3-打开修改后缀后的压缩文件，在文件夹里点击“xl”文件夹。"><a href="#step3-打开修改后缀后的压缩文件，在文件夹里点击“xl”文件夹。" class="headerlink" title="step3: 打开修改后缀后的压缩文件，在文件夹里点击“xl”文件夹。"></a>step3: 打开修改后缀后的压缩文件，在文件夹里点击“xl”文件夹。</h3><h3 id="step4-将“xl”文件夹下的“media”文件夹拖曳出来，即可。其中media”文件夹中即为工作簿中的所有图片。"><a href="#step4-将“xl”文件夹下的“media”文件夹拖曳出来，即可。其中media”文件夹中即为工作簿中的所有图片。" class="headerlink" title="step4: 将“xl”文件夹下的“media”文件夹拖曳出来，即可。其中media”文件夹中即为工作簿中的所有图片。"></a>step4: 将“xl”文件夹下的“media”文件夹拖曳出来，即可。其中media”文件夹中即为工作簿中的所有图片。</h3><div align=center>
-![](http://upload-images.jianshu.io/upload_images/5436217-95ca3e928a4dbb11.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-</div>]]></content>
-      <categories>
-        <category>Office</category>
-      </categories>
-      <tags>
-        <tag>excel</tag>
-        <tag>office</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>msvcr71.dll, msvcp71.dll丢失的解决方法</title>
-    <url>/2018/01/08/2018-1-8%20msvcr71.dll,%20msvcp71.dll%E4%B8%A2%E5%A4%B1%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<h3 id="msvcp71-dll、msvcr71-dll均为VC运行库中的文件。它随着windows一起装入您的电脑，所以一般情况下是不会丢失的。只有可能是木马、垃圾软件或其他应用程序的篡改才有可能出现这种情况，会造成一些应用程序无法正常运行。"><a href="#msvcp71-dll、msvcr71-dll均为VC运行库中的文件。它随着windows一起装入您的电脑，所以一般情况下是不会丢失的。只有可能是木马、垃圾软件或其他应用程序的篡改才有可能出现这种情况，会造成一些应用程序无法正常运行。" class="headerlink" title="msvcp71.dll、msvcr71.dll均为VC运行库中的文件。它随着windows一起装入您的电脑，所以一般情况下是不会丢失的。只有可能是木马、垃圾软件或其他应用程序的篡改才有可能出现这种情况，会造成一些应用程序无法正常运行。"></a>msvcp71.dll、msvcr71.dll均为VC运行库中的文件。它随着windows一起装入您的电脑，所以一般情况下是不会丢失的。只有可能是木马、垃圾软件或其他应用程序的篡改才有可能出现这种情况，会造成一些应用程序无法正常运行。</h3><div align=center>
-![](http://upload-images.jianshu.io/upload_images/5436217-20615045c2a3c045.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<h3 id="个人体会"><a href="#个人体会" class="headerlink" title="个人体会"></a>个人体会</h3><ul>
+<li>超级拖拽是真方便！！几乎是用到最多的功能，浏览网页时候，这个图片不错，根本不用什么右击→另存为，<strong>鼠标按住直接向下一拖</strong>自动下载。网页有链接，<strong>鼠标按住直接向右一拖</strong>后台打开，既不影响当前网页浏览，又能在下一标签页自动打开新链接。</li>
+<li><strong>双击关闭标签页</strong>，标签上没有<strong>×</strong>，没有任何多余按钮，杜绝一切误触！！</li>
+<li>Google账户服务，完美支持，根本不存在同步不了的问题。</li>
+<li>Chrome所有插件，完美支持。</li>
+<li>更多优雅细节难以言表！！</li>
+</ul>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-ad2ffa2051ba74b4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "70%" height = "70%" alt="谷歌服务同步"/>
 </div>
-
-<h3 id="下面是解决办法："><a href="#下面是解决办法：" class="headerlink" title="下面是解决办法："></a>下面是解决办法：</h3><a id="more"></a>
-
-<h4 id="step1-查下电脑是32位的还是64的位的，右击“计算机”查看“属性”；"><a href="#step1-查下电脑是32位的还是64的位的，右击“计算机”查看“属性”；" class="headerlink" title="step1: 查下电脑是32位的还是64的位的，右击“计算机”查看“属性”；"></a>step1: 查下电脑是32位的还是64的位的，右击“计算机”查看“属性”；</h4><h4 id="step2-在互联网上下载msvcp71-dll和msvcr71-dll，并放到自己电脑对应文件夹下。"><a href="#step2-在互联网上下载msvcp71-dll和msvcr71-dll，并放到自己电脑对应文件夹下。" class="headerlink" title="step2: 在互联网上下载msvcp71.dll和msvcr71.dll，并放到自己电脑对应文件夹下。"></a>step2: 在互联网上下载msvcp71.dll和msvcr71.dll，并放到自己电脑对应文件夹下。</h4><p>链接：<a href="http://pan.baidu.com/s/1pLwefgB">http://pan.baidu.com/s/1pLwefgB</a>   密码：v0xv</p>
-<h4 id="或者从谁的电脑里找到对应文件拷贝一下，各操作系统的文件位置如下："><a href="#或者从谁的电脑里找到对应文件拷贝一下，各操作系统的文件位置如下：" class="headerlink" title="或者从谁的电脑里找到对应文件拷贝一下，各操作系统的文件位置如下："></a>或者从谁的电脑里找到对应文件拷贝一下，各操作系统的文件位置如下：</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Windows 95&#x2F;98&#x2F;ME：X:\Windows\system</span><br><span class="line"></span><br><span class="line">Windows NT&#x2F;2000：X:\WINNT\system32</span><br><span class="line"></span><br><span class="line">Windows 2000 LimitedEdition:X:\WINNT\sysWOW64</span><br><span class="line"></span><br><span class="line">Windows</span><br><span class="line"></span><br><span class="line">XP&#x2F;2003&#x2F;vista&#x2F;2008&#x2F;7&#x2F;8&#x2F;2012：</span><br><span class="line"></span><br><span class="line">X:\Windows\system32（32位）</span><br><span class="line">或</span><br><span class="line">X:\Windows\sysWOW64（64位）</span><br></pre></td></tr></table></figure>
 
 <div align=center>
-![](http://upload-images.jianshu.io/upload_images/5436217-3450791722a4d217.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-a268229f8adaaeb5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "70%" height = "70%" alt="超级拖拽"/>
 </div>
 
-<h4 id="注：同理其他的系统dll缺失也可以采用同样的办法。"><a href="#注：同理其他的系统dll缺失也可以采用同样的办法。" class="headerlink" title="注：同理其他的系统dll缺失也可以采用同样的办法。"></a>注：同理其他的系统dll缺失也可以采用同样的办法。</h4><h4 id="注：由于网盘整理等原因，下载链接很有可能因路径变化而无效，若发现请留言提醒更新！"><a href="#注：由于网盘整理等原因，下载链接很有可能因路径变化而无效，若发现请留言提醒更新！" class="headerlink" title="注：由于网盘整理等原因，下载链接很有可能因路径变化而无效，若发现请留言提醒更新！"></a>注：由于网盘整理等原因，下载链接很有可能因路径变化而无效，若发现请留言提醒更新！</h4>]]></content>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-786a398c6c4465e7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "70%" height = "70%" alt="双击关闭标签页"/>
+</div>
+
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-fa6b9a9d9e959906.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "70%" height = "70%" alt="小号标签想开多少开多少"/>
+</div>
+
+<hr>
+<h3 id="吖燊指路"><a href="#吖燊指路" class="headerlink" title="吖燊指路"></a>吖燊指路</h3><p>官网下载：<a href="https://www.centbrowser.cn/">百分浏览器 Cent Browser</a><br>应用平台：Windows<br>吖燊推荐：Chrome有的它都有，Chrome没有的它还有！！</p>
+<hr>
+]]></content>
       <categories>
-        <category>OS</category>
+        <category>必备软件</category>
       </categories>
       <tags>
-        <tag>msvcr</tag>
-        <tag>operating system</tag>
-        <tag>OS</tag>
-        <tag>操作系统</tag>
+        <tag>Cent Browser</tag>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>简单数字时钟</title>
+    <url>/2020/04/03/200403%20%E7%AE%80%E5%8D%95%E6%95%B0%E5%AD%97%E6%97%B6%E9%92%9F/</url>
+    <content><![CDATA[<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-da1a354ce4ad200f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "100%" height = "100%" alt=" "/>
+</div>
+
+<h2 id="简单数字时钟"><a href="#简单数字时钟" class="headerlink" title="简单数字时钟"></a>简单数字时钟</h2><a id="more"></a>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span> <span class="meta-keyword">PUBLIC</span> <span class="meta-string">&quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;</span> <span class="meta-string">&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">xmlns</span>=<span class="string">&quot;http://www.w3.org/1999/xhtml&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>exam time<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css"><span class="selector-class">.time</span> &#123; <span class="attribute">font-size</span>: <span class="number">300pt</span>; <span class="attribute">line-height</span>: <span class="number">200%</span>; <span class="attribute">color</span>:b;&#125;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> getObj = <span class="function"><span class="keyword">function</span>(<span class="params">id</span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">	<span class="function"><span class="title">if</span>(<span class="params">!id</span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">		<span class="keyword">return</span> <span class="literal">false</span>;</span></span><br><span class="line">	&#125;</span><br><span class="line"><span class="javascript">	<span class="keyword">return</span> <span class="built_in">document</span>.getElementById(id);</span></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">&lt;!-- Hiding</span><br><span class="line"><span class="javascript"><span class="keyword">var</span> ctimer;</span></span><br><span class="line"><span class="javascript"><span class="function"><span class="keyword">function</span> <span class="title">settimes</span>(<span class="params"></span>)</span>&#123;</span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> time= <span class="keyword">new</span> <span class="built_in">Date</span>();</span></span><br><span class="line">hours= time.getHours();</span><br><span class="line">mins= time.getMinutes();</span><br><span class="line">secs= time.getSeconds();</span><br><span class="line">if (hours&lt;10)</span><br><span class="line"><span class="javascript">hours=<span class="string">&quot;0&quot;</span>+hours;</span></span><br><span class="line">if(mins&lt;10)</span><br><span class="line"><span class="javascript">mins=<span class="string">&quot;0&quot;</span>+mins;</span></span><br><span class="line">if (secs&lt;10)</span><br><span class="line"><span class="javascript">secs=<span class="string">&quot;0&quot;</span>+secs;</span></span><br><span class="line"><span class="javascript">getObj(<span class="string">&#x27;tim1&#x27;</span>).innerHTML=hours+<span class="string">&quot;:&quot;</span>+mins+<span class="string">&quot;:&quot;</span>+secs</span></span><br><span class="line"><span class="javascript">ctimer=<span class="built_in">setTimeout</span>(<span class="string">&#x27;settimes()&#x27;</span>,<span class="number">960</span>);</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="javascript"><span class="comment">// Done hiding --&gt;</span></span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>js data clock<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span> <span class="attr">onload</span>=<span class="string">&quot;settimes()&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!----&gt;</span></span><br><span class="line"><span class="comment">&lt;!--&lt;div class=time id=tim1 style=&quot;height: 500px; left: 300px; position: absolute; top: 100px; width: 500px&quot;&gt;&lt;/div&gt;--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">time</span> <span class="attr">id</span>=<span class="string">tim1</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><a href="http://www.itswebtime.com/">itswebtime</a></p>
+]]></content>
+      <categories>
+        <category>必备软件</category>
+      </categories>
+      <tags>
+        <tag>数字时钟</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>OneNote | 绝对高效的知识管理笔记应用</title>
+    <url>/2020/04/05/200405%20OneNote/</url>
+    <content><![CDATA[<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-a2b986f48c1a5d56.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "100%" height = "100%" alt=" "/>
+</div>
+
+<h3 id="OneNote-绝对高效的知识管理笔记应用"><a href="#OneNote-绝对高效的知识管理笔记应用" class="headerlink" title="OneNote | 绝对高效的知识管理笔记应用"></a>OneNote | 绝对高效的知识管理笔记应用</h3><p><strong><a href="https://www.onenote.com/Download">OneNote</a></strong> 是微软推出一款强大高效的数字笔记软件，之前含在MS Office办公套件中，现在几乎已经成为所有新机的预装软件。市面上云笔记软件很多，有道云笔记、印象笔记、为知笔记等，为什么要选择OneNote呢？！<br>在这个地方，OneNote功能使用上的方法，不再过多介绍。只想夸一下它在一键剪藏和信息收集方面的强！大！功！能！</p>
+<h3 id="吖燊推荐"><a href="#吖燊推荐" class="headerlink" title="吖燊推荐"></a>吖燊推荐</h3><ul>
+<li><strong>Windows、Mac、IOS、Android 全平台无限制同步共享！！</strong></li>
+<li><strong>微信公众号、网页、All一键转发剪藏！！</strong></li>
+<li><strong>简约！！干净！！杜绝一切花里胡哨！！</strong></li>
+</ul>
+<a id="more"></a>
+
+<h3 id="为什么是OneNote？"><a href="#为什么是OneNote？" class="headerlink" title="为什么是OneNote？"></a>为什么是OneNote？</h3><ul>
+<li><strong>不要钱</strong>：无功能限制、无流量限制、全线免费！！</li>
+<li><strong>编辑功能强大</strong>：与其它MS Office套件一脉相承，非常容易上手，几乎不需要学习成本。相关OneNote的各种<strong>优雅使用方法</strong>，这里不再赘述，自行搜索。</li>
+<li><strong>搜索功能</strong>：其他云笔记软件免费版的搜索功能，往往在功能和搜索范围上有所限制。对OneNote来说，限制不存在的！一键回车帮你找到所有你需要的一切，不但可以搜索到所有你用键盘输入的文字，而且还可以搜索手写文，最牛逼的是它还可以在图像中检测到相关文本！</li>
+<li><strong>一键剪藏所有：我们阅读微信公众号文章和浏览网页的时候，遇到喜欢的内容总希望可以一键转发到我们的笔记软件中，进行稍后阅读，或者是进行统一的收藏管理。印象笔记等软件对这些特点宣传的如此到位，吸引眼球，让我曾经一度对OneNote持不友好的态度。直到有一天实在受不了市面上这些软件的笨重！冗余！阉割！限制！决定深入研究一下OneNote，总觉得MS是有它牛逼的地方的，不然不可能经久不衰，霸屏那么多年依旧活着。</strong></li>
+</ul>
+<h3 id="如何一键剪藏所有！"><a href="#如何一键剪藏所有！" class="headerlink" title="如何一键剪藏所有！"></a>如何一键剪藏所有！</h3><h4 id="一、-微信-To-OneNote"><a href="#一、-微信-To-OneNote" class="headerlink" title="一、 微信 To OneNote"></a>一、 微信 To OneNote</h4><ol start="0">
+<li>如何安装以及链接你的微软账户，这里不再赘述，请自行搜索；</li>
+<li>微信关注<strong>微软云笔记</strong>，左下角<strong>绑定与使用</strong>，关联你的Microsoft账户；</li>
+<li>随便打开一个公众号文章，右上角**…<strong>，选择分享至</strong>微软云笔记**，完事儿~！</li>
+<li>打开你的OneNote查看一下效果；</li>
+</ol>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-fc499c71fd4a7e5a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800" width = "70%" height = "70%" alt="安装并链接笔记本" align=center />
+</div>
+
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-5ded161454cc5a0c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800" width = "70%" height = "70%" alt="微信绑定OneNote" align=center />
+</div>
+
+<div align=center>
+<img data-src=https://upload-images.jianshu.io/upload_images/5436217-6204d81bf22d67c5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800" width = "70%" height = "70%" alt="微信 To OneNote" align=center />
+</div>
+
+<h4 id="二、-网页-To-OneNote"><a href="#二、-网页-To-OneNote" class="headerlink" title="二、 网页 To OneNote"></a>二、 网页 To OneNote</h4><p>网页如何转发到OneNote呢？！</p>
+<h5 id="方法一：-复制网页链接直接发送给微信微软云笔记！是不是不能再简单了！"><a href="#方法一：-复制网页链接直接发送给微信微软云笔记！是不是不能再简单了！" class="headerlink" title="方法一： 复制网页链接直接发送给微信微软云笔记！是不是不能再简单了！"></a>方法一： 复制网页链接直接发送给微信<strong>微软云笔记</strong>！是不是不能再简单了！</h5><ol>
+<li>复制本文章网址，然后微信发送给微信<strong>微软云笔记</strong>；</li>
+<li>打开你的OneNote查看一下效果；</li>
+</ol>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-8852b8c19ab2c3d9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800" width = "70%" height = "70%" alt="复制文章网址并发送" align=center />
+</div>
+
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-ec4ab72e89d742b3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800" width = "70%" height = "70%" alt="网页 To OneNote效果" align=center />
+</div>
+
+<h5 id="方法二-不推荐-：浏览器插件方法"><a href="#方法二-不推荐-：浏览器插件方法" class="headerlink" title="方法二(不推荐)：浏览器插件方法"></a>方法二(不推荐)：浏览器插件方法</h5><p>不同浏览器下均有相关插件，可以一键剪藏网页至OneNote，例如谷歌浏览器下Clip to OneNote。不过不是很推荐这个方法，因为博主喜欢<strong>简约！！干净！！杜绝一切花里胡哨！！</strong>任何给电脑增加额外负担的东西，都会引起博主的抵触，哈哈哈哈~~</p>
+<h4 id="三、万能RSS订阅"><a href="#三、万能RSS订阅" class="headerlink" title="三、万能RSS订阅"></a>三、万能RSS订阅</h4><ol>
+<li>首先推荐一个叫 <a href="https://ifttt.com/">IFTTT</a> 的东西；</li>
+</ol>
+<p>IFTTT 一个被称为 “网络自动化神器” 的创新型互联网服务，实用而且免费。它的全称是 If this then that，意思是“如果这样，那么就那样”。简单地讲，如果「这个」网络服务满足条件，那么就自动触发「那个」网络服务去执行一个动作。条件和动作都是可以由用户根据自身需求设置。再简单地讲就是，<strong>万物皆可盘！</strong>看一个借用来的图就知道，几乎可以把任意两个东西连接起来，只要你设置的好。</p>
+<ol start="2">
+<li>设置IFTTT，把你想实时关注更新的网页连接到你的OneNote。这里先只提供<strong>思路和方法</strong>，大家先自行动手解决。至于详细设置IFTTT完成RSS订阅，昂…时间有限…稍后再更哈哈哈哈。以博主关注的大佬 <a href="https://www.williamlong.info/">月光博客</a> 为例，设置IFTTT，翻译一下就是<strong>如果这个链接有更新，则创建一个Page到我的OneNote里</strong>。</li>
+<li>打开你的OneNote查看一下效果，每当大佬有更新，文章就会自动保存到我的OneNote里。</li>
+</ol>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-9e916f1f9f5ab109.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800" width = "70%" height = "70%" alt="IFTTT" align=center />
+</div>
+
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-795c810f7941ea19.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800" width = "70%" height = "70%" alt="IFTTT万物皆可盘" align=center />
+</div>
+
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-497aa153fd9c3c6d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "70%" height = "70%" alt="如果博客更新则创建Page至OneNote" align=center />
+</div>
+
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-f6b089742354b27a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800" width = "70%" height = "70%" alt="文章自动保存到OneNote 实现RSS订阅" align=center />
+</div>
+]]></content>
+      <categories>
+        <category>必备软件</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+        <tag>OneNote</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据质量基本概念</title>
+    <url>/2020/04/10/200410%20%E6%95%B0%E6%8D%AE%E8%B4%A8%E9%87%8F%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</url>
+    <content><![CDATA[<p><strong>数据质量基本概念</strong></p>
+<a id="more"></a>
+
+<h2 id="1-误差"><a href="#1-误差" class="headerlink" title="1. 误差"></a>1. 误差</h2><p>误差反映了数据与真实值或者公认的真值之间的差异，它是一种常用的衡量数据准确性的表达公式。</p>
+<h2 id="2-数据的准确度"><a href="#2-数据的准确度" class="headerlink" title="2. 数据的准确度"></a>2. 数据的准确度</h2><p>数据的准确度被定义为结果、计算值或估计值与真实值或者公认的真值的接近程度。<br>如果两地间的距离为110，从地图上量测的举例为98，那么地图距离的误差为2；若用GPS测量并计算两点间的距离得99.9，则GPS的测距误差为0.1，因而GPS比地图量测距离更准确。</p>
+<h2 id="3-数据的精密度"><a href="#3-数据的精密度" class="headerlink" title="3. 数据的精密度"></a>3. 数据的精密度</h2><p>数据的精密度指数据表示的精密程度，亦即数据表示的有效位数。它表现了测量值本身的离散程度。由于精密度的实质在于它对数据准确度的影响。同时在很多情况下，它可以通过准确度而得到体现，故常把两者结合在一起称为精确度，简称精度。<br>如对同样两点，用GPS测量可得9.903，而用工程制图尺在1:10万地形图上量算仅可得小数点后两位，即9.85。9.85比9.903精度低。但精度低的数据并不一定准确度低。</p>
+<h2 id="4-不确定性"><a href="#4-不确定性" class="headerlink" title="4. 不确定性"></a>4. 不确定性</h2><p>不确定性是关于空间过程和特征不能被准确确定的程度，是自然界各种空间现象自身固有的属性。在内容上，它是以真值为中心的一个范围，这个范围越大，数据的不确定性也就越大。<br>当真值不可测或无法知道时，我们就无法确定误差，因而用不确定性取代误差。统计上，用多次测量的平均值来计算真值，因而标准差来反映可能的误差大小。因此可以用标准差来表示测量值不确定性。然而欲知标准差，就需要对同一现象做多次测量。所以要知道某测量值的不确定程度，需要多次测量，而称一次测量的结果为不确定的。 </p>
+<h2 id="5-相容性"><a href="#5-相容性" class="headerlink" title="5. 相容性"></a>5. 相容性</h2><p>相容性是指两个来源的数据在同一个应用中使用的难易程度。<br>例如两个相邻地区的土地利用图，当要将它们拼接到一起时，两图边缘处不仅边界线可良好地衔接，而且类型也一致，称两图相容性好。反之，若图上的土地利用边界无法接边，可见两个城市的统计指标不一致也可造成数据无法比较致使数据不相容。这种不相容可以通过同一分类和统计标准来减轻。<br>另一类不相容性，可从使用不同比例尺的地图数据看到，一般土壤图比例尺小于1:10万，而植被图则在1:15000至1:50000之间，当使用这两种数据进行生态分类时，可能出现两种情况：一是当某一土壤图的图斑大得使它代表的土壤类型在生态分类时可以被忽略；二是当土地界线与某植被图斑相交时，它实际应该与植被图斑的部分界线一致。 </p>
+<h2 id="6-一致性"><a href="#6-一致性" class="headerlink" title="6. 一致性"></a>6. 一致性</h2><p>一致性是指对同一现象或同类现象的表达的一致程度。如果同一条河流，在地形图上和在土壤图上形状不同，又如同一行政边界在人口图和土地利用图上不能重合，这些均表示数据的一致性差。 </p>
+<h2 id="7-完整性"><a href="#7-完整性" class="headerlink" title="7. 完整性"></a>7. 完整性</h2><p>完整性是指具有同一准确度和精度的数据在类型上和特定范围内是否完整的程度。完整性主要是针对空间属性数据的，且随着时代的发展而完整性不断在完善。针对不同的应用部门对完整性的内容不一样，如：交通部门和房地产部门对房子的认识就不一样，交通部门只要知道房子的位置就行了，而房地产部门对房子就要知道其大小，结构，房主，房价等。可见实体的完整性是地图最难确定的，也是最需要更新的。</p>
+<h2 id="8-可得性"><a href="#8-可得性" class="headerlink" title="8. 可得性"></a>8. 可得性</h2><p>可得性是指获取或使用数据的容易程度。保密的数据按其等级限制使用者的多少，有些单位或个人无权使用；公开的数据则按价决定可得性。由于我国经济水平还比较低，数据的可得性已人为制约地图在我国的发展和造成地图基础设施的重复建设。</p>
+<h2 id="9-现势性"><a href="#9-现势性" class="headerlink" title="9. 现势性"></a>9. 现势性</h2><p>现势性是指数据反映客观目前状况的程度。不同现象的变化频率是不同的，如地形、地质状况的变化一般来说比人类建设要缓慢，地形可能由于山崩、雪崩、滑坡、泥石流、人工挖掘及填海等原因而在局部区域改变。</p>
+]]></content>
+      <categories>
+        <category>智能智慧</category>
+      </categories>
+      <tags>
+        <tag>数据质量</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>地理/地质/空间数据尺度</title>
+    <url>/2020/04/11/200411%20%E5%9C%B0%E7%90%86%E5%9C%B0%E8%B4%A8%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE%E5%B0%BA%E5%BA%A6/</url>
+    <content><![CDATA[<p><strong>地理/地质/空间数据尺度</strong></p>
+<a id="more"></a>
+
+<h2 id="1-空间尺度"><a href="#1-空间尺度" class="headerlink" title="1. 空间尺度"></a>1. 空间尺度</h2><p>空间尺度是指在观察或研究某一地理现象时所采用的空间尺度限定，通常指地理现象在空间上所涉及的范围，同时也包括空间的间隔、频率、分辨率。空间尺度与观测的地理现象或地理目标无关，由于多种地理现象和过程的尺度行为并非按比例线性或均匀变化，因此，研究地理实体的空间形态和过程随尺度变化的规律，是地理信息尺度变换研究的重点。</p>
+<h2 id="2-时间尺度"><a href="#2-时间尺度" class="headerlink" title="2. 时间尺度"></a>2. 时间尺度</h2><p>时间尺度是指在观察或研究某一地理现象时所采用的时间尺度限定，通常指地理现象在时间上所涉及的范围，同时也包括与时间的间隔、频率、分辨率。时间尺度主要刻画地理现象的时间长度和变化的粗略与详细程度。</p>
+<h2 id="3-语义尺度"><a href="#3-语义尺度" class="headerlink" title="3. 语义尺度"></a>3. 语义尺度</h2><p>语义尺度是指地理信息所表达的地理实体、地理现象组织层次大小及区分组织层次的分类体系在地理信息语义上的界定，体现了对于地理实体类的概括程度。<br>语义尺度用于描绘事务过程或属性。</p>
+<h2 id="4-现象尺度"><a href="#4-现象尺度" class="headerlink" title="4. 现象尺度"></a>4. 现象尺度</h2><p>现象尺度是指地理目标、空间结构和地理现象自身存在的尺度，它是对地理现象理解的本质尺度，是空间目标和现象的“真”的尺度，是不以人们的分析和表达为转移的。</p>
+<h2 id="5-数据尺度"><a href="#5-数据尺度" class="headerlink" title="5. 数据尺度"></a>5. 数据尺度</h2><p>数据尺度是指根据用户需要对空间现象的抽象描述，数据尺度的大小与区域大小和数据使用要求有关，与介质无关。对于空间数据本身而言，尺度则表现为分辨率或精度，大尺度数据意味着空间和时间分辨率和属性精度较低。</p>
+<h2 id="6-分析尺度"><a href="#6-分析尺度" class="headerlink" title="6. 分析尺度"></a>6. 分析尺度</h2><p>分析尺度是指对地理现象和地理目标进行度量和数据采集时的尺寸大小，主要包括空间广度、空间粒度、空间精确度以及研究尺度。其中空间粒度可以看作空间数据采样的像素多少、地理目标的分辨率、空间数据的认知层次等。</p>
+<h2 id="7-幅度"><a href="#7-幅度" class="headerlink" title="7. 幅度"></a>7. 幅度</h2><p>幅度是指地理信息所表征的地理现象的广度和范围，所以也称广度或区域大小。空间幅度就是指空间的范围和面积，时间幅度指时间所持续的长度。</p>
+<h2 id="8-粒度"><a href="#8-粒度" class="headerlink" title="8. 粒度"></a>8. 粒度</h2><p>粒度也称颗粒度在物理学中指微粒或颗粒大小的平均度量，即构成物质或图案的微粒的相对尺寸。对空间尺度来就，粒度是指地理信息中最小的可辨识单元所代表的特征长度、面积或体积。对语义尺度来说，粒度是指地理信息中最小单元所表示的意义以及层次，粒度越小，所能表达的语义层次越多，分辨率越高。对时间尺度而言，粒度是指在获得地理信息时采样计量的时间精度或者单位，即单位时间采样点的数量。</p>
+<h2 id="9-分辨率"><a href="#9-分辨率" class="headerlink" title="9. 分辨率"></a>9. 分辨率</h2><p>分辨率是和图像相关的一个重要概念，它是用于度量位图图像内数据量多少，衡量图像细节表现力的一个参数。例如影像数据通常用分辨率来度量图像内数据量；数字高程模型通常用栅格数据格网的大小来衡量数据细节表现力。</p>
+<ul>
+<li><p>图像分辨率<br>图像分辨率指图像中存储的信息量。这种分辨率通常表示成每英寸像素（Pixel per inch, PPI）和每英寸点（dot per inch, PDI）。包含的数据越多，图形文件的长度就越大，也能表现更丰富的细节。</p>
+</li>
+<li><p>网屏分辨率<br>网屏分辨率指的是印刷图像所用的网屏的每英寸的网线数（lines per inch,LPI）来表示。</p>
+</li>
+<li><p>扫描分辨率<br>扫描分辨率是指在扫描一幅图像之前所设定的分辨率，它将影响所生成的图像文件的质量和使用性能。</p>
+</li>
+<li><p>图像位分辨率<br>图像位分辨率又称位深，是用来衡量每个像素储存信息的位数。这种分辨率决定可以标记为多少种色彩等级的可能性。</p>
+</li>
+<li><p>打印机分辨率</p>
+</li>
+<li><p>显示器分辨率</p>
+</li>
+<li><p>鼠标分辨率<br>鼠标分辨率是指每移动一英寸能检测出的点数，分辨率越高，质量也就越高。</p>
+</li>
+<li><p>触摸屏分辨率<br>触摸屏分辨率是指将屏幕分割成可识别的触点数目。</p>
+</li>
+</ul>
+<h2 id="10-时间分辨率"><a href="#10-时间分辨率" class="headerlink" title="10. 时间分辨率"></a>10. 时间分辨率</h2><p>时间分辨率是指在同一区域进行的相邻两次遥感观测的最小时间间隔。对轨道卫星，亦称覆盖周期。时间间隔大，时间分辨率低，反之时间分辨率高。时间分辨率是评价遥感系统动态监测能力和“多日摄影”系列遥感资料在多时相分析中应用能力的重要指标。<br>根据地球资源与环境动态信息变化的快慢，可选择适当的时间分辨率范围。按研究对象的自然历史演变和社会生产过程的周期划分为5种类型：①超短期的。如台风、寒潮、海况、鱼情、城市热岛等，需以小时计；②短期的。如洪水、冰凌、旱涝、森林火灾或虫害、作物长势、绿被指数等，要求有以日数计；③中期的。如土地利用、作物估产、生物量统计等，一般需要以月或季度计；④长期的。如水土保持、自然保护、冰川进退、湖泊消长、海岸变迁、沙化与绿化等，则以年计；⑤超长期的。如新构造运动、火山喷发等地质现象，可长达数十年以上。 </p>
+<h2 id="11-光谱分辨率"><a href="#11-光谱分辨率" class="headerlink" title="11. 光谱分辨率"></a>11. 光谱分辨率</h2><p>光谱分辨率指成像的波段范围，分得愈细，波段愈多，光谱分辨率就愈高，现在的技术可以达到5~6nm（纳米）量级，400多个波段。细分光谱可以提高自动区分和识别目标性质和组成成分的能力。 </p>
+]]></content>
+      <categories>
+        <category>智能智慧</category>
+      </categories>
+      <tags>
+        <tag>数据尺度</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>火绒安全 | 史上最乖巧的安全软件</title>
+    <url>/2020/05/01/200501%20%E7%81%AB%E7%BB%92%E5%AE%89%E5%85%A8/</url>
+    <content><![CDATA[<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-e5c3301c766c7185.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "100%" height = "100%" alt=" " align=center />
+</div>
+
+<h3 id="火绒安全软件"><a href="#火绒安全软件" class="headerlink" title="火绒安全软件"></a>火绒安全软件</h3><h3 id="吖燊推荐"><a href="#吖燊推荐" class="headerlink" title="吖燊推荐"></a>吖燊推荐</h3><ul>
+<li><strong>乖巧到让你忘记电脑还安装了安全软件！！</strong></li>
+<li><strong>简约！！干净！！杜绝一切花里胡哨！！</strong></li>
+</ul>
+<a id="more"></a>
+
+<h3 id="敲黑板！划重点！"><a href="#敲黑板！划重点！" class="headerlink" title="敲黑板！划重点！"></a>敲黑板！划重点！</h3><p>请问你电脑上次中病毒是什么时候？！多少人对病毒的概念还停留在<strong>熊猫烧香</strong>和<strong>WannaCry勒索病毒(永恒之蓝)**？！发现了吗，其实你的电脑并不是很容易中毒，除非发生这种大规模、世界级病毒事件！！<br>**那为什么所有人买了新电脑都在想一件事，那就是安装什么杀毒软件？？</strong>只能说是360们出现之前落下的病根。曾经在那个久远的年代里，电脑确实经常发生问题。于是各种什么江民、诺盾、瑞星、赛门铁克、趋势、卡巴斯基，在这片市场上干了起来，软件收费还是当时最大的问题。直到2011年，突然出现了三个愣头，金山毒霸、腾讯管家和360不收费了！！尤其360，不得不说周鸿祎的这个免费杀毒的决策，确实造福了整个行业和用户。直接导致的结果就是，病毒开发者需要花很大精力，来突破安全软件防守，成本升高而且还不太能干的过安全公司技术团队的“正规军”。做病毒不赚钱，自然渐渐就没人做了。<br>发展到现在，可以说中国已经是杀毒软件最普及、安全水平也最高的国家，即使电脑不安装任何杀毒软件，都不会有啥太大问题。<strong>都这么安全了，那你问为啥还要安装？？其实不就是为了图个心理安慰！！心里安慰！！安慰！！慰！！</strong><br>市面上某某某些杀毒软件做大后，就开始变得体系庞杂，各种功能臃肿，无时无刻不在用各种弹窗、小工具、小提示，<strong>刷存在感！！严重惹人厌恶！！</strong>对于大部分用户来说，其实你遇到的就是打印店或者公共电脑上的那点小破病毒，何必为了踩个蚂蚁，弄只大象天天养着。<strong>在这种情况下，一款安静、精致、低调、奢华、有内涵的软件必将成为你的首选！！</strong>记住我们的口号：<strong>简约！！干净！！杜绝一切花里胡哨！！</strong></p>
+<h3 id="官网介绍"><a href="#官网介绍" class="headerlink" title="官网介绍"></a>官网介绍</h3><p>产品特点——干净、轻巧、简单、易用</p>
+<ul>
+<li>干净：无任何具有广告推广性质的弹窗和捆绑等打扰用户行为；</li>
+<li>简单：一键下载，安装后使用默认配置即可获得安全防护；</li>
+<li>轻巧：占用资源少，不影响日常办公、游戏；</li>
+<li>易用：产品性能历经数次优化，兼容性好，运行流畅；</li>
+</ul>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-d9962a179cc6f700.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "70%" height = "70%" alt="产品特点" align=center />
+</div>
+
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-7cdd2afa90b741ab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "70%" height = "70%" alt="功能介绍" align=center />
+</div>
+
+<h3 id="个人体会"><a href="#个人体会" class="headerlink" title="个人体会"></a>个人体会</h3><ul>
+<li>90%的人安装安全软件只会用到：垃圾清理、启动项管理，最多再加个漏洞修复、弹窗拦截。功能选择性下载，简单精致，但不代表没有上乘功法，有兴趣的可自行研究<strong>火绒剑</strong>。不过大部分人并用不到这些，劳力伤神，小白们用默认功能就行。</li>
+<li>市面上的小喽啰病毒给你一网打尽，悄咪地保护你的安全。那你问有牛逼病毒时候怎么办？只能说<strong>那个时候火绒不行，其他的软件也不行！！</strong>既然是<strong>图个心理安慰</strong>，干嘛不找个<strong>最乖巧的</strong>。</li>
+<li><strong>无弹窗！！无广告！！无提示！！啥都没有！！啥也不是！！</strong>安静到让你忘记电脑还安装了安全软件。每天早上打开电脑没有人提示你开机耗时、几点了、天气咋样、啥PUA、啥多人运动，多多少少有点落寞呢。</li>
+<li><strong>记住我们的口号：简约！！干净！！杜绝一切花里胡哨！！</strong></li>
+</ul>
+<hr>
+<h3 id="吖燊指路"><a href="#吖燊指路" class="headerlink" title="吖燊指路"></a>吖燊指路</h3><p>官网下载：<a href="https://www.huorong.cn/person5.html">火绒安全</a><br>应用平台：Windows<br>吖燊推荐：乖巧到让你忘记电脑还安装了安全软件！！</p>
+<hr>
+]]></content>
+      <categories>
+        <category>必备软件</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+        <tag>火绒安全</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Bandizip | 最后一个官方无广告免费版压缩软件</title>
+    <url>/2020/05/03/200503%20Bandizip/</url>
+    <content><![CDATA[<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-10e76119622e23b2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "100%" height = "100%" alt=" " align=center />
+</div>
+
+<h3 id="Bandizip-绝对装机必备压缩软件"><a href="#Bandizip-绝对装机必备压缩软件" class="headerlink" title="Bandizip 绝对装机必备压缩软件"></a>Bandizip 绝对装机必备压缩软件</h3><p>一款来自韩国的免费优秀文件压缩/解压缩软件，口碑极佳！功能强大，界面简洁，无广告+完全免费，完美替代 WinRAR 和 7-Zip。</p>
+<h3 id="吖燊推荐"><a href="#吖燊推荐" class="headerlink" title="吖燊推荐"></a>吖燊推荐</h3><ul>
+<li><strong>最后一个官方无广告免费版压缩软件！！</strong></li>
+<li><strong>简约！！干净！！杜绝一切花里胡哨！！</strong></li>
+</ul>
+<a id="more"></a>
+
+<h3 id="官网介绍"><a href="#官网介绍" class="headerlink" title="官网介绍"></a>官网介绍</h3><h4 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h4><ul>
+<li>  支持的操作系统: Windows Vista/7/8/8.1/10</li>
+<li>  许可类型: 含有广告的版本（免费使用） / 商业版</li>
+<li>  集压缩/解压缩/浏览/编辑为一体的压缩包管理器</li>
+<li>  可以提取包括 RAR/RAR5/7Z/ZIP 在内的 30 多种格式</li>
+<li>  可以创建带密码和分卷的压缩包</li>
+<li>  支持多核快速压缩</li>
+</ul>
+<h4 id="压缩"><a href="#压缩" class="headerlink" title="压缩"></a>压缩</h4><ul>
+<li>支持的格式: ZIP, 7Z(lzma2), ZIPX(xz), EXE(sfx), TAR, TGZ, LZH(lh7), ISO(joliet), GZ, + XZ</li>
+<li>ZIP 文件修改 (添加/删除/重命名)</li>
+<li>支持高达 6 倍速的多核压缩</li>
+<li>支持创建加密的压缩包</li>
+<li>支持 AES256 加密算法</li>
+<li>支持对 4 GB 以上大小的文件进行压缩</li>
+<li>ZIP 格式的文件名支持 Unicode 或 MBCS 编码</li>
+<li>支持创建 ZIP/7z 格式的多卷压缩包</li>
+</ul>
+<h4 id="解压缩"><a href="#解压缩" class="headerlink" title="解压缩"></a>解压缩</h4><ul>
+<li>支持的格式: 7Z, ACE, AES, ALZ, ARJ, BH, BIN, BZ, BZ2, CAB, Compound(MSI), EGG, GZ, IMG, ISO, ISZ, LHA, LZ, LZH, LZMA, PMA, RAR, RAR5, SFX(EXE), TAR, TBZ, TBZ2, TGZ, TLZ, TXZ, UDF, WIM, XPI, XZ, Z, ZIP, ZIPX, ZPAQ, ZSTD, BR, NSIS</li>
+<li>可以轻松地查看压缩包的文件列表</li>
+<li>可以只提取选定的文件，同时还支持拖放操作</li>
+<li>支持 ZIP 和 RAR 格式压缩包的注释</li>
+<li>支持对 TGZ/TBZ 格式的一步提取</li>
+</ul>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-b752923b4715849a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "70%" height = "70%" alt="Bandizip界面"/>
+</div>
+
+<h3 id="敲黑板！划重点！"><a href="#敲黑板！划重点！" class="headerlink" title="敲黑板！划重点！"></a>敲黑板！划重点！</h3><ul>
+<li>界面纯净，无任何流氓行为！</li>
+<li>功能稳定！完整！无删减！</li>
+<li>V6 是最后一个官方无广告免费版！！等同付费专业版！！</li>
+<li>V7 以后分标准版、专业版和企业版，出现广告！！</li>
+<li>V6 用户务必取消自动更新！！</li>
+</ul>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-e9318685e4a8576c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "70%" height = "70%" alt="取消自动更新"/>
+</div>
+
+
+<hr>
+<h3 id="吖燊指路"><a href="#吖燊指路" class="headerlink" title="吖燊指路"></a>吖燊指路</h3><p>官网下载：<a href="http://www.bandisoft.com/bandizip/old/6/">Bandizip v6.27</a><br>云盘备用：链接：<a href="https://pan.baidu.com/s/1CHucl21rUYR4Sepz4fSwJw">https://pan.baidu.com/s/1CHucl21rUYR4Sepz4fSwJw</a>  提取码：suel<br>应用平台：Windows<br>吖燊推荐：最后一个官方无广告免费版压缩软件！！</p>
+<hr>
+]]></content>
+      <categories>
+        <category>必备软件</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+        <tag>Bandizip</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据标准概述</title>
+    <url>/2020/05/16/200516%20%E6%95%B0%E6%8D%AE%E6%A0%87%E5%87%86%E6%A6%82%E8%BF%B0/</url>
+    <content><![CDATA[<h1 id="数据标准概述"><a href="#数据标准概述" class="headerlink" title="数据标准概述"></a>数据标准概述</h1><p>数据标准是进行数据标准化的主要依据，构建一套完整的数据标准体系是开展数据标准管理工作的良好基础，有利于打通数据底层的互通性，提升数据的可用性。本章从数据标准的概念入手，多角度探讨数据标准的内涵，构建数据标准分类体系，并阐述了数据标准作为数据资产管理核心要素的重要性。</p>
+<a id="more"></a>
+
+<h2 id="一-数据标准的内涵"><a href="#一-数据标准的内涵" class="headerlink" title="(一) 数据标准的内涵"></a>(一) 数据标准的内涵</h2><p><strong>数据标准（Data Standards）</strong>是指保障数据的内外部使用和交换的一致性和准确性的规范性约束。在数字化过程中，数据是业务活动在信息系统中的真实反映。由于业务对象在信息系统中以数据的形式存在，数据标准相关管理活动均需以业务为基础，并以标准的形式规范业务对象在各信息系统中的统一定义和应用，以提升企业在业务协同、监管合规、数据共享开放、数据分析应用等各方面的能力。 </p>
+<p>“数据标准”并非是一个专有名词，而是一系列“规范性约束”的抽象。但是，数据标准的具体形态通常是一个或多个数据元的集合，即数据元是数据标准的基本单元。每一个数据元应由数据元中文名称、数据元英文名称、数据元标识符、说明、数据类型、取值、IMIX 域名七个属性组成，每一个数据元属性的描述包括该属性的注释以及相关标准规则。 </p>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-bbcc7bab36001e0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="数据元示例-银行间市场基础数据元属性及其描述"/>
+</div>
+
+<h2 id="二-数据标准分类"><a href="#二-数据标准分类" class="headerlink" title="(二) 数据标准分类"></a>(二) 数据标准分类</h2><p>数据标准是进行数据标准化、消除数据业务歧义的主要参考和依据。对数据标准进行分类，将有利于数据标准的编制、查询、落地和维护。<br>数据标准有多种分类方式，对于不同的分类方式，均可采用以数据元为数据标准制定的基本单元构建数据标准体系。<br>数据可以分为基础类数据和指标类数据。</p>
+<ul>
+<li><strong>基础类数据</strong>：指业务流程中直接产生的，未经过加工和处理的基础业务信息。</li>
+<li><strong>指标类数据</strong>：是指具备统计意义的基础类数据，通常由一个或以上的基础数据根据一定的统计规则计算而得到。</li>
+</ul>
+<p>相应地，数据标准也可以分为基础类数据标准或指标类数据标准。</p>
+<ul>
+<li><strong>基础类数据标准</strong>：是为了统一企业所有业务活动相关数据的一致性和准确性，解决业务间数据一致性和数据整合，按照数据标准管理过程制定的数据标准。</li>
+<li><strong>指标类数据标准</strong>：一般分为基础指标标准和计算指标（又称组合指标）标准。基础指标具有特定业务和经济含义，且仅能通过基础类数据加工获得，计算指标通常由两个以上基础指标计算得出。</li>
+</ul>
+<p>并非所有基础类数据和指标类数据都应纳入数据标准的管辖范围。数据标准管辖的数据，通常只是需要在各业务条线、各信息系统之间实现共享和交换的数据，以及为满足监控机构、上级主管部门、各级政府部门的数据报送要求而需要的数据。 </p>
+<p>在基础类数据标准和指标类数据标准这个框架下，可以根据各自的业务主题进行细分。细分时应尽可能做到涵盖企业的主要业务活动，且涵盖企业生产系统中产生的所有业务数据。</p>
+<p>基础类数据标准和指标类数据标准通过分别建立基础类数据元和指标类数据元，并将基础类数据元和指标类数据元与数据映射，实现基础类数据标准和指标类数据标准的落地。具体来说，对于结构化数据中的任意一个字段，当其不具备指标特征时，可直接将其与某一业务类别下的基础类数据元（如包含命名规则、数据类型和值域等属性）映射，实现该字段的标准化（符合命名规则、数据类型和值域的规定）；当其具备指标特征时，可直接将其与某一业务类别下的指标类数据元（如命名规则、约束规则、数据类型和值域等）映射，实现该字段的标准化（符合命名规则、约束规则、数据类型和值域的规定）。 </p>
+<h2 id="三-数据标准在数据资产管理中的作用"><a href="#三-数据标准在数据资产管理中的作用" class="headerlink" title="(三) 数据标准在数据资产管理中的作用"></a>(三) 数据标准在数据资产管理中的作用</h2><p>数据标准从多个方面支撑企业的数字化转型。在业务方面，数据标准能够明确很多业务含义，使得业务部门之间、业务和技术之间、统计指标之间统一认识与口径。在技术方面，数据标准能够帮助构建规范的物理数据模型，实现数据在跨系统间敏捷交互，减少数据清洗的工作量，便于数据融合分析。<br>数据标准是数据资产管理多个活动职能的核心要素，主要体现在数据质量管理、主数据管理、元数据管理、数据模型管理和数据安全管理几个方面。 </p>
+<ul>
+<li><strong>在数据质量管理方面</strong>，数据标准是数据质量稽核规则的主要参考依据，通过将数据质量稽核规则与数据标准关联，一方面可以实现字段级的数据质量校验，另一方面也可以直接构建较为通用的数据质量稽核规则体系，确保规则的全面性和可用性； </li>
+<li><strong>在主数据管理方面</strong>，需明确的是主数据是数据在特定应用场景下的一种展现方式，主要活动是提取核心数据并明确核心数据的唯一来源，因此，对于涵盖企业全部数据的数据标准而言，其可以作为主数据管理的数据标准；</li>
+<li><strong>在元数据管理方面</strong>，当将元数据管理的对象定义为结构化数据时，元数据管理主要指对结构化数据及其相关信息的管理，数据标准作为结构化数据相关信息的一部分，也是元数据管理的内容，具体包括数据标准与结构化数据的关系映射（即落标的过程）。当将元数据管理的对象定义为数据标准体系时，元数据管理主要指对数据标准分类、数据项及其属性、数据项属性规则等的管理； </li>
+<li><strong>在数据模型管理方面</strong>，当数据标准的对象包含实体、属性和关系及其相关规则时，数据标准可作为数据模型管理的标准，用于数据库、数据仓库等系统的数据模型构建依据。就本白皮书所讨论的数据标准而言，数据标准体系可作为构建概念数据模型和逻辑数据模型的业务参考； </li>
+<li><strong>在数据安全管理方面</strong>，数据标准可包含业务敏感数据对象和属性，从而实现对数据安全管理相关规则的定义。 </li>
+</ul>
+<blockquote>
+<p>《数据标准管理实践白皮书》</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>智能智慧</category>
+      </categories>
+      <tags>
+        <tag>数据标准</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>什么是物联网、工业物联网、工业互联网、工业云平台？</title>
+    <url>/2020/05/28/200528%20%E4%BB%80%E4%B9%88%E6%98%AF%E7%89%A9%E8%81%94%E7%BD%91%E3%80%81%E5%B7%A5%E4%B8%9A%E7%89%A9%E8%81%94%E7%BD%91%E3%80%81%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E3%80%81%E5%B7%A5%E4%B8%9A%E4%BA%91%E5%B9%B3%E5%8F%B0/</url>
+    <content><![CDATA[<h2 id="物联网"><a href="#物联网" class="headerlink" title="物联网"></a>物联网</h2><p>物联网（The Internet of Things，简称IOT）是指通过 各种信息传感器、射频识别技术、全球定位系统、红外感应器、激光扫描器等各种装置与技术，实时采集任何需要监控、 连接、互动的物体或过程，采集其声、光、热、电、力学、化 学、生物、位置等各种需要的信息，通过各类可能的网络接入，实现物与物、物与人的泛在连接，实现对物品和过程的智能化感知、识别和管理。物联网是一个基于互联网、传统电信网等的信息承载体，它让所有能够被独立寻址的普通物理对象形成互联互通的网络。</p>
+<a id="more"></a>
+
+<h2 id="工业互联网"><a href="#工业互联网" class="headerlink" title="工业互联网"></a>工业互联网</h2><p>工业互联网是指工业互联的网，而不是工业的互联网。</p>
+<ul>
+<li>在企业内部，要实现工业设备（生产设备、物流装备、能源计量、质量检验、车辆等）、信息系统、业务流程、企业的产品与服务、人员之间的互联，实现企业IT网络与工控网络的互联，实现从车间到决策层的纵向互联；</li>
+<li>在企业间，要实现上下游企业（供应商、经销商、客户、合作伙伴）之间的横向互联；</li>
+<li>从产品生命周期的维度，要实现产品从设计、制造到服役，再到报废回收再利用整个生命周期的互联。这实际上与工业4。0提出的三个集成的内涵是相通的。</li>
+</ul>
+<h2 id="工业物联网"><a href="#工业物联网" class="headerlink" title="工业物联网"></a>工业物联网</h2><p>工业物联网指的是物联网在工业的应用。工业互联网涵盖了工业物联网，但进一步延伸到企业的信息系统、业务流程和人员。<br>工业互联网的概念实际上与国外提出的万物互联（Internet of Everything，将人、流程、数据和事物结合一起，使得网络连接变得更加相关，更有价值）理念有相似之处，相当于是工业企业的万物互联。</p>
+<h2 id="工业云平台"><a href="#工业云平台" class="headerlink" title="工业云平台"></a>工业云平台</h2><p>工业云平台指的是工业领域的云平台，包括了IAAS（基础设施服务化）、PAAS（平台服务化）、SAAS（软件服务化）三个层面，工业云平台的目的是将工业软件演化为一种云服务（SAAS），并为客户提供可以对软件功能进行配置或二次开发的平台（PAAS），将数据和信息系统存储到云端，从而使工业企业应用信息系统更加便捷、更有利于管理（例如，实现服务器和桌面虚拟化），因此，工业云平台本质上属于IT平台。</p>
+<p>工业互联网平台是工业云平台的扩展与延伸，不仅能够支持工业云平台的所有功能，而且要支撑工业物联网应用，实现IT与OT融合。</p>
+<ul>
+<li>在IAAS和边缘（设备端）层，工业互联网平台需要实现从设备的控制系统、传感器、可穿戴设备、摄像头和仪表进行数据采集、传输和存储。</li>
+<li>在PAAS层，工业互联网平台需要能够支撑更加复杂的算法，例如利用深度学习技术进行图像分析，利用SPC方法分析质量数据，利用仿真技术对设备的数字化模型（Digital twin）进行性能仿真，利用GIS数据对车辆进行定位，从而对物流运输过程进行追溯等。</li>
+<li>在SAAS层，则应当提供丰富的APP，将原来工业软件固化的功能拆分成很多功能相对独立的插件，可以在PAAS平台即插即用。因此，工业互联网平台比工业云平台要复杂得多。</li>
+</ul>
+<blockquote>
+<p><a href="http://www.ciotimes.com/manufacturing/176534.html">工业互联网和工业物联网</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>智能智慧</category>
+      </categories>
+      <tags>
+        <tag>工业互联网</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>工业物联网与工业互联网的典型架构</title>
+    <url>/2020/05/29/200529%20%E5%B7%A5%E4%B8%9A%E7%89%A9%E8%81%94%E7%BD%91%E4%B8%8E%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E5%85%B8%E5%9E%8B%E6%9E%B6%E6%9E%84/</url>
+    <content><![CDATA[<h2 id="工业互联网"><a href="#工业互联网" class="headerlink" title="工业互联网"></a>工业互联网</h2><p>工业互联网不是工业的互联网，而是工业互联的网。它是把工业生产过程中的人、数据和机器连接起来，使工业生产流程数字化、自动化、智能化和网络化，实现数据的流通，提升生产效率、降低生产成本。</p>
+<a id="more"></a>
+
+<p>从技术架构层面看，工业互联网包含设备层、网络层、平台层、软件层、应用层以及整体的工业安全体系。与传统互联网相比，多了一个设备层。</p>
+<p><img data-src="https://upload-images.jianshu.io/upload_images/5436217-d5f57641a684e90d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="工业互联网架构"></p>
+<ul>
+<li>设备层负责采集数据和初步计算，执行生产动作；</li>
+<li>网络层负责信息的传输与转发；</li>
+<li>平台层负责网络、存储、计算等基础设施的编排；</li>
+<li>软件层负责工业生产过程的研发设计、生产控制和信息管理等软件的实施；</li>
+<li>应用层负责工业互联网的价值体现，在不同的垂直领域、行业内形成解决方案和应用；</li>
+<li>工业安全体系对各个工业生产的安全负责，范围涵盖设备的运维更换、网络层面的安全认证、平台软件层面的安全漏洞等。</li>
+</ul>
+<p>工业物联网是工业互联网中的「基建」，它连接了设备层和网络层，为平台层、软件层和应用层奠定了坚实的基础。设备层又包含边缘层，总体上，工业物联网涵盖了云计算、网络、边缘计算和终端，自下而上打通工业互联网中的关键数据流。</p>
+<h2 id="工业物联网"><a href="#工业物联网" class="headerlink" title="工业物联网"></a>工业物联网</h2><p>工业物联网从架构上分为感知层、通信层、平台层和应用层。</p>
+<p><img data-src="https://upload-images.jianshu.io/upload_images/5436217-f4a547a0ed791e7d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="物联网平台基础架构"></p>
+<ul>
+<li>感知层主要由传感器、视觉感知和可编程逻辑控制器（PLC）等器件组成，一方面收集振波、温度、湿度、红外、紫外、磁场、图像、声波流、视频流等数据，传送给网络层，到达上层管理系统，帮助其记录、分析和决策，另一方面收集从上层管理系统下发或已经编程好的指令，执行设备动作。</li>
+<li>通信层主要由各种网络设备和线路组成，包括具备网络固线的光纤、xDSL，也包括通过无线电波通信的GPRS、3G、4G、5G、WiFi、超声波、ZigBee、蓝牙等通信方式，主要满足不同场景的通信需求。</li>
+<li>平台层主要是将底层传输的数据关联和结构化解析之后，沉淀为平台数据，向下连接感知，向上提供统一的可编程接口和服务协议，降低了上层软件的设计复杂度，提高了整体架构的协调效率，特别是在平台层面，可以将沉淀的数据通过大数据分析和挖掘，对生产效率、设备检测等方面提供数据决策。</li>
+<li>应用层主要根据不同行业、领域的需求，落地为垂直化的应用软件，通过整合平台层沉淀的数据和用户配置的控制指令，实现对终端设备的高效应用，最终提升生产效率。</li>
+<li>感知层与通信层中间有一个网关，网关隔离了终端传感器和控制器与上层网络端口，一方面减少传感器与控制器的业务逻辑复杂度，另一方面减少上层应用对数据协议的解析成本。网关层是兼容目前多种传感层网络协议的关键层次，能够屏蔽传感层差异，并实现边缘计算能力。随着传感器发展，部分传感器也可能跳过网关层直接与平台对接，相关的功能将分别移到平台层或传感层实现。<br>总的来说，工业互联网涵盖了工业物联网。工业互联网是要实现「人、机、物」的全面互联，追求的是数字化；而工业物联网强调的是「物与物」的连接，追求的是自动化。工业物联网是物联网和互联网的交叉网络系统，同时也是自动化与信息化深度融合的突破口。</li>
+</ul>
+<blockquote>
+<p><a href="https://iot.ofweek.com/2020-04/ART-132216-8120-30438121.html">一文看懂工业互联网与工业物联网</a><br><a href="http://www.h3c.com/cn/d_201609/955536_233453_0.htm">物联网平台助力工业互联网</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>智能智慧</category>
+      </categories>
+      <tags>
+        <tag>工业互联网</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>工业互联网</title>
+    <url>/2020/06/16/200616%20%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91/</url>
+    <content><![CDATA[<h2 id="工业互联网是什么？"><a href="#工业互联网是什么？" class="headerlink" title="工业互联网是什么？"></a>工业互联网是什么？</h2><p>工业互联网是新一代信息技术与制造业深度融合的产物，是实现工业经济数字化、网络化、智能化发展的重要基础设施，通过对人、机、物的全面互联，构建起全要素、全产业链、全价值链全面连接的新型工业生产制造服务体系。是工业经济转型升级的关键依托、重要途径、全新生态。</p>
+<a id="more"></a>
+
+<h2 id="工业互联网和通常所说的互联网有什么区别？"><a href="#工业互联网和通常所说的互联网有什么区别？" class="headerlink" title="工业互联网和通常所说的互联网有什么区别？"></a>工业互联网和通常所说的互联网有什么区别？</h2><p>工业互联网是互联网发展的新领域，是在互联网基础之上、面向实体经济应用的演进升级。通常所说的互联网一般是指消费互联网，与之相比，工业互联网有三个明显特点。</p>
+<ul>
+<li><strong>一是连接对象不同。</strong> 传统的消费互联网主要通过设备连接人，在一个虚拟世界进行各种活动。工业互联网则实现人、机、物等工业经济生产要素和上下游业务流程的泛在连接，每一次活动都与现实世界密切相关。</li>
+<li><strong>二是技术要求不同。</strong> 传统的消费互联网网络技术特点突出体现为“尽力而为”的服务方式，对网络时延、可靠性等要求虽然也很高，但业务短时中断带来的影响有限。但工业互联网在网络性能上则要求时延更低、可靠性更强、安全性更高，业务中断带来的影响将更大更深远。</li>
+<li><strong>三是发展模式不同。</strong> 传统的消费互联网应用门槛较低，标准已经很成熟，发展模式可复制性强。工业互联网涉及应用行业标准杂、专业化要求高，目前标准化程度低，发展模式可复制性低，以创新化、个性化的发展模式为主。此外，传统的消费互联网产业多属于轻资产，投资回收期短，对社会资本吸引大。而工业互联网相对重资产，资产专用性强，投资回报周期长，且还存在一些认知壁垒。</li>
+</ul>
+<h2 id="工业互联网具有怎样的功能架构？"><a href="#工业互联网具有怎样的功能架构？" class="headerlink" title="工业互联网具有怎样的功能架构？"></a>工业互联网具有怎样的功能架构？</h2><p>工业互联网由网络、平台、安全三个部分构成。其中，网络是基础、平台是核心、安全是保障。</p>
+<ul>
+<li> “网络”是实现工业全系统、全产业链、全价值链泛在深度互联的基础，包括网络互联体系、标识解析体系和信息互通体系。通过打造低延时、高可靠性、广覆盖的网络基础设施，实现信息数据在生产各环节和全要素的无缝传递，从而支撑形成实时感知、协同交互、智能反馈的生产模式。</li>
+<li>“平台”是工业全要素链接的枢纽，也是工业资源配置的核心。平台下连设备、上连应用，通过海量数据汇聚、建模分析与应用开发，推动制造能力和工业知识的标准化、软件化、模块化与服务化，支撑工业生产方式、商业模式创新和资源高效配置，是构建制造业新生态体系的核心。</li>
+<li> “安全”是工业互联网健康有序发展的保障，涉及设备安全、控制安全、网络安全、应用安全和数据安全等五个方面。通过建立工业互联网安全保障体系，实现对工厂内外网络设施的保护，避免工业智能装备、工业控制系统受到内部和外部攻击，保障工业互联网平台及其应用的可靠运行，降低工业数据被泄露、篡改的风险，实现对工业互联网的全方位保护。</li>
+</ul>
+<h2 id="工业互联网的网络体系建设主要包括哪些工作？"><a href="#工业互联网的网络体系建设主要包括哪些工作？" class="headerlink" title="工业互联网的网络体系建设主要包括哪些工作？"></a>工业互联网的网络体系建设主要包括哪些工作？</h2><p>工业互联网的网络体系是工业系统互联和工业数据传输交换的支撑基础，是在现有互联网的基础上，通过技术演进升级和叠加新型专网而形成的，包括企业内网络和企业外网络。构建网络体系，主要包括四方面重点工作：</p>
+<ul>
+<li>一是工业企业内网改造升级。推进IP化、扁平化、柔性化技术改造和建设部署，打通信息孤岛、数据烟囱，为更广泛的互联互通打下良好基础。</li>
+<li>二是加快工业企业外网建设。重点加快推进宽带网络基础设施与改造，扩大网络覆盖范围，优化升级国家骨干网络，为实现产业链各环节的泛在互联与数据顺畅流通提供保障。同时，进一步推进连接中小企业的专线提速降费，降低中小企业的信息网络服务成本，支持大中小企业融通发展。</li>
+<li>三是推进标识解析体系建设。赋予工业互联网每一个生产要素一个“身份证”，推动实现供应链系统和企业生产系统精准对接，以及人、机、物全面互联，进而实现跨企业、跨地区、跨行业的产品全生命周期管理，促进信息资源集成共享。</li>
+<li>四是加快探索、运用5G、MEC、TSN等新型网络技术，推出更多紧密贴合制造企业转型升级需求的网络解决方案。</li>
+</ul>
+<h2 id="工业互联网平台的核心作用表现在哪些方面？"><a href="#工业互联网平台的核心作用表现在哪些方面？" class="headerlink" title="工业互联网平台的核心作用表现在哪些方面？"></a>工业互联网平台的核心作用表现在哪些方面？</h2><p>工业互联网平台是面向制造业数字化、网络化、智能化需求，构建基于海量数据采集、汇聚、分析的服务体系，支撑制造资源泛在连接、弹性供给、高效配置的载体。<br>工业互联网平台是在云计算平台的基础上叠加物联网、大数据、人工智能等新兴技术，实现海量异构数据汇聚与建模分析、工业经验知识软件化与模块化、新型工业软件开发与运行，从而支撑生产智能决策、业务模式创新、资源优化配置、产业生态培育。<br>其核心作用体现在三个方面：一是能够帮助企业实现智能化生产和管理；二是能够帮助企业实现生产方式和商业模式创新；三是能够促进形成大众创业、万众创新的多层次产业体系。<br>其核心要素包括数据采集体系、工业PaaS平台、应用服务体系。其核心作用主要表现在三个方面：</p>
+<ul>
+<li>一是能够发挥平台的集聚效应。工业互联网平台承载了数以亿计的设备、系统、工艺参数、软件工具、企业业务需求和制造能力，是工业资源汇聚共享的载体，是网络化协同优化的关键，催生了制造业众包众创、协同制造、智能服务等一系列互联网新模式新业态。</li>
+<li>二是能够承担工业资源配置的核心关键角色。工业互联网平台向下连接海量设备，自身承载工业经验与知识模型，向上对接工业优化应用，是工业全要素连接的枢纽，是工业资源配置的核心，驱动着先进制造体系的智能运转。</li>
+<li> 三是能够释放云计算平台的巨大能量。工业互联网平台凭借先进的计算架构和高性能的云计算基础设施，能够实现对海量异构数据的集成、存储与计算，解决工业数据处理爆炸式增长与现有工业系统计算能力不相匹配的问题，加快以数据为驱动的网络化、智能化进程。</li>
+</ul>
+<h2 id="工业互联网的安全保障能力应该如何强化提升？"><a href="#工业互联网的安全保障能力应该如何强化提升？" class="headerlink" title="工业互联网的安全保障能力应该如何强化提升？"></a>工业互联网的安全保障能力应该如何强化提升？</h2><p>建立涵盖设备安全、控制安全、网络安全、平台安全和数据安全的工业互联网多层次安全保障体系，重点突破标识解析系统安全、工业互联网平台安全、工业控制系统安全、工业大数据安全等相关核心技术，推动攻击防护、漏洞挖掘、入侵发现、态势感知、安全审计、可信芯片等关键安全产品研发。重点针对基础较好的行业和安全需求迫切的领域，开展安全技术、产品和解决方案的试点示范和推广应用。<br>构建工业互联网设备、网络和平台的安全评估认证体系，依托第三方机构开展安全防护能力不断提升。<br>建立工业互联网全产业链数据安全管理体系，明确相关主题的数据安全保护责任和具体要求，加强数据收集、存储、处理、转移、删除等环节的安全防护能力。<br>建立工业数据分级分类管理制度，形成工业互联网数据流动管理机制，明确数据留存、数据泄露通报要求，加强工业互联网相关企业落实网络安全主体责任，引导企业加大安全投入，加强安全防护和监测处置技术手段建设，开展工业互联网安全试点示范，提升安全防护能力。<br>充分发挥国家研究机构和社会力量作用，增强国家级工业互联网安全技术支撑能力，着力提升隐患排查、攻击发现、应急处置和攻击溯源能力。</p>
+<h2 id="我国推动工业互联网创新发展面临哪些问题？"><a href="#我国推动工业互联网创新发展面临哪些问题？" class="headerlink" title="我国推动工业互联网创新发展面临哪些问题？"></a>我国推动工业互联网创新发展面临哪些问题？</h2><p>尽管我国工业互联网开局良好，但产业基础并不牢固，核心技术能力和生态掌控能力与发达国家相比还有相当差距，工业互联网的规模化应用仍面临较高壁垒，在一些领域探索出的融合应用新模式、新业态还只是星星之火，建立并巩固优势的任务十分艰巨，要实现支撑建设制造强国、网络强国的战略目标和全面支撑经济社会发展的长期愿景，仍然面临着艰巨的挑战：</p>
+<ul>
+<li>一是关键基础能力不足。我国制造企业数字化发展不平衡不充分问题依然突出，多数企业数字化水平较低，网络化、智能化演进基础薄弱；工业网络标准、技术、产业基本被外商掌控，且标准众多、互通性差；工厂外网络主要依托公共互联网，难以满足工业生产高安全、高实时和高可靠的要求。</li>
+<li>二是全球引领能力不足。我国缺乏类似GE、西门子等具备综合解决方案和全领域覆盖能力的龙头企业，企业长远布局能力薄弱，前瞻性、系统性和技术含量亟需提升，自主可控、并引领国际发展的能力不足。</li>
+<li>三是资金人才保障能力不足。我国工业互联网创新发展资源要素投入力度不够。龙头企业的投入相比国外领先企业差距很大。此外，工业互联网发展涉及工业、IT、通信等领域的纵向和横向整合，复合型人才以及大量新型技术工人缺口很大。</li>
+</ul>
+<!-- 
+[https://www.china-aii.com/index.php?m=content&c=index&a=show&catid=26&id=5](https://www.china-aii.com/index.php?m=content&c=index&a=show&catid=26&id=5)
+-->
+
+]]></content>
+      <categories>
+        <category>智能智慧</category>
+      </categories>
+      <tags>
+        <tag>工业互联网</tag>
       </tags>
   </entry>
 </search>

@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.jpg">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"fxiiii.github.io","root":"/","images":"/images","scheme":"Mist","version":"8.0.2","exturl":false,"sidebar":{"position":"right","display":"post","padding":48,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+  </script>
+
+  <meta name="description" content="工业互联网工业互联网不是工业的互联网，而是工业互联的网。它是把工业生产过程中的人、数据和机器连接起来，使工业生产流程数字化、自动化、智能化和网络化，实现数据的流通，提升生产效率、降低生产成本。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="工业物联网与工业互联网的典型架构">
+<meta property="og:url" content="https://fxiiii.github.io/2020/05/29/200529%20%E5%B7%A5%E4%B8%9A%E7%89%A9%E8%81%94%E7%BD%91%E4%B8%8E%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E5%85%B8%E5%9E%8B%E6%9E%B6%E6%9E%84/index.html">
+<meta property="og:site_name" content="风希 | Fxiiii">
+<meta property="og:description" content="工业互联网工业互联网不是工业的互联网，而是工业互联的网。它是把工业生产过程中的人、数据和机器连接起来，使工业生产流程数字化、自动化、智能化和网络化，实现数据的流通，提升生产效率、降低生产成本。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5436217-d5f57641a684e90d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5436217-f4a547a0ed791e7d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="article:published_time" content="2020-05-29T02:00:00.000Z">
+<meta property="article:modified_time" content="2020-11-22T16:03:12.945Z">
+<meta property="article:author" content="风希 | Fxiiii">
+<meta property="article:tag" content="工业互联网">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/5436217-d5f57641a684e90d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+
+
+<link rel="canonical" href="https://fxiiii.github.io/2020/05/29/200529%20%E5%B7%A5%E4%B8%9A%E7%89%A9%E8%81%94%E7%BD%91%E4%B8%8E%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E5%85%B8%E5%9E%8B%E6%9E%B6%E6%9E%84/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>工业物联网与工业互联网的典型架构 | 风希 | Fxiiii</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">风希 | Fxiiii</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91"><span class="nav-number">1.</span> <span class="nav-text">工业互联网</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B7%A5%E4%B8%9A%E7%89%A9%E8%81%94%E7%BD%91"><span class="nav-number">2.</span> <span class="nav-text">工业物联网</span></a></li></ol></div>
+        </section>
+        <!--/noindex-->
+
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="风希 | Fxiiii"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">风希 | Fxiiii</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">11</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Fxiiii" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Fxiiii" rel="noopener" target="_blank"><i class="fab fa-github-alt fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.jianshu.com/u/8ab93013d761" title="简书 → https:&#x2F;&#x2F;www.jianshu.com&#x2F;u&#x2F;8ab93013d761" rel="noopener" target="_blank"><i class="fa fa-book fa-fw"></i>简书</a>
+      </span>
+  </div>
+
+
+
+        </section>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+      
+
+      
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://fxiiii.github.io/2020/05/29/200529%20%E5%B7%A5%E4%B8%9A%E7%89%A9%E8%81%94%E7%BD%91%E4%B8%8E%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E5%85%B8%E5%9E%8B%E6%9E%B6%E6%9E%84/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="风希 | Fxiiii">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="风希 | Fxiiii">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          工业物联网与工业互联网的典型架构
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2020-05-29 10:00:00" itemprop="dateCreated datePublished" datetime="2020-05-29T10:00:00+08:00">2020-05-29</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2020-11-23 00:03:12" itemprop="dateModified" datetime="2020-11-23T00:03:12+08:00">2020-11-23</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%99%BA%E8%83%BD%E6%99%BA%E6%85%A7/" itemprop="url" rel="index"><span itemprop="name">智能智慧</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h2 id="工业互联网"><a href="#工业互联网" class="headerlink" title="工业互联网"></a>工业互联网</h2><p>工业互联网不是工业的互联网，而是工业互联的网。它是把工业生产过程中的人、数据和机器连接起来，使工业生产流程数字化、自动化、智能化和网络化，实现数据的流通，提升生产效率、降低生产成本。</p>
+<a id="more"></a>
+
+<p>从技术架构层面看，工业互联网包含设备层、网络层、平台层、软件层、应用层以及整体的工业安全体系。与传统互联网相比，多了一个设备层。</p>
+<p><img data-src="https://upload-images.jianshu.io/upload_images/5436217-d5f57641a684e90d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="工业互联网架构"></p>
+<ul>
+<li>设备层负责采集数据和初步计算，执行生产动作；</li>
+<li>网络层负责信息的传输与转发；</li>
+<li>平台层负责网络、存储、计算等基础设施的编排；</li>
+<li>软件层负责工业生产过程的研发设计、生产控制和信息管理等软件的实施；</li>
+<li>应用层负责工业互联网的价值体现，在不同的垂直领域、行业内形成解决方案和应用；</li>
+<li>工业安全体系对各个工业生产的安全负责，范围涵盖设备的运维更换、网络层面的安全认证、平台软件层面的安全漏洞等。</li>
+</ul>
+<p>工业物联网是工业互联网中的「基建」，它连接了设备层和网络层，为平台层、软件层和应用层奠定了坚实的基础。设备层又包含边缘层，总体上，工业物联网涵盖了云计算、网络、边缘计算和终端，自下而上打通工业互联网中的关键数据流。</p>
+<h2 id="工业物联网"><a href="#工业物联网" class="headerlink" title="工业物联网"></a>工业物联网</h2><p>工业物联网从架构上分为感知层、通信层、平台层和应用层。</p>
+<p><img data-src="https://upload-images.jianshu.io/upload_images/5436217-f4a547a0ed791e7d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="物联网平台基础架构"></p>
+<ul>
+<li>感知层主要由传感器、视觉感知和可编程逻辑控制器（PLC）等器件组成，一方面收集振波、温度、湿度、红外、紫外、磁场、图像、声波流、视频流等数据，传送给网络层，到达上层管理系统，帮助其记录、分析和决策，另一方面收集从上层管理系统下发或已经编程好的指令，执行设备动作。</li>
+<li>通信层主要由各种网络设备和线路组成，包括具备网络固线的光纤、xDSL，也包括通过无线电波通信的GPRS、3G、4G、5G、WiFi、超声波、ZigBee、蓝牙等通信方式，主要满足不同场景的通信需求。</li>
+<li>平台层主要是将底层传输的数据关联和结构化解析之后，沉淀为平台数据，向下连接感知，向上提供统一的可编程接口和服务协议，降低了上层软件的设计复杂度，提高了整体架构的协调效率，特别是在平台层面，可以将沉淀的数据通过大数据分析和挖掘，对生产效率、设备检测等方面提供数据决策。</li>
+<li>应用层主要根据不同行业、领域的需求，落地为垂直化的应用软件，通过整合平台层沉淀的数据和用户配置的控制指令，实现对终端设备的高效应用，最终提升生产效率。</li>
+<li>感知层与通信层中间有一个网关，网关隔离了终端传感器和控制器与上层网络端口，一方面减少传感器与控制器的业务逻辑复杂度，另一方面减少上层应用对数据协议的解析成本。网关层是兼容目前多种传感层网络协议的关键层次，能够屏蔽传感层差异，并实现边缘计算能力。随着传感器发展，部分传感器也可能跳过网关层直接与平台对接，相关的功能将分别移到平台层或传感层实现。<br>总的来说，工业互联网涵盖了工业物联网。工业互联网是要实现「人、机、物」的全面互联，追求的是数字化；而工业物联网强调的是「物与物」的连接，追求的是自动化。工业物联网是物联网和互联网的交叉网络系统，同时也是自动化与信息化深度融合的突破口。</li>
+</ul>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://iot.ofweek.com/2020-04/ART-132216-8120-30438121.html">一文看懂工业互联网与工业物联网</a><br><a target="_blank" rel="noopener" href="http://www.h3c.com/cn/d_201609/955536_233453_0.htm">物联网平台助力工业互联网</a></p>
+</blockquote>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>老铁们，小礼物走一波！！</div>
+  <button onclick="document.querySelector('.post-reward').classList.toggle('active');">
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechat.jpg" alt="风希 | Fxiiii 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/wechatpay.jpg" alt="风希 | Fxiiii 微信支付">
+        <span>微信支付</span>
+      </div>
+      <div>
+        <img src="/images/alipay.jpg" alt="风希 | Fxiiii 支付宝支付">
+        <span>支付宝支付</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>风希 | Fxiiii
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://fxiiii.github.io/2020/05/29/200529%20%E5%B7%A5%E4%B8%9A%E7%89%A9%E8%81%94%E7%BD%91%E4%B8%8E%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E5%85%B8%E5%9E%8B%E6%9E%B6%E6%9E%84/" title="工业物联网与工业互联网的典型架构">https://fxiiii.github.io/2020/05/29/200529 工业物联网与工业互联网的典型架构/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91/" rel="tag"># 工业互联网</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2020/05/28/200528%20%E4%BB%80%E4%B9%88%E6%98%AF%E7%89%A9%E8%81%94%E7%BD%91%E3%80%81%E5%B7%A5%E4%B8%9A%E7%89%A9%E8%81%94%E7%BD%91%E3%80%81%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E3%80%81%E5%B7%A5%E4%B8%9A%E4%BA%91%E5%B9%B3%E5%8F%B0/" rel="prev" title="什么是物联网、工业物联网、工业互联网、工业云平台？">
+                  <i class="fa fa-chevron-left"></i> 什么是物联网、工业物联网、工业互联网、工业云平台？
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2020/06/16/200616%20%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91/" rel="next" title="工业互联网">
+                  工业互联网 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+      
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      
+
+      
+
+<div class="copyright">
+  
+  &copy; Thu Nov 05 2020 08:00:00 GMT+0800 (中国标准时间) – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heartbeat"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">风希 | Fxiiii</span>
+</div>
+
+
+    </div>
+  </footer>
+ 
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 页面点击小红心 -->
+  <script type="text/javascript" src="/js/src/clicklove.js"></script>  
+</body>
+</html>

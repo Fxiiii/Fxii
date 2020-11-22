@@ -1345,6 +1345,7 @@ pre code {
 .site-author-name {
   color: #f5f5f5;
   font-weight: normal;
+  font-size: 20px;
   margin: 5px 0 0;
 }
 .site-description {
@@ -1448,12 +1449,12 @@ pre code {
 }
 .sidebar-toc-active .sidebar-nav-toc,
 .sidebar-overview-active .sidebar-nav-overview {
-  border-bottom-color: #87daff;
-  color: #87daff;
+  border-bottom-color: #fc6423;
+  color: #fc6423;
 }
 .sidebar-toc-active .sidebar-nav-toc:hover,
 .sidebar-overview-active .sidebar-nav-overview:hover {
-  color: #87daff;
+  color: #fc6423;
 }
 .sidebar-panel-container {
   max-height: var(--sidebar-wrapper-height);
@@ -1497,7 +1498,7 @@ pre code {
   }
 }
 .sidebar-toggle:hover .toggle-line {
-  background: #87daff;
+  background: #fc6423;
 }
 @media (any-hover: hover) {
   body:not(.sidebar-active) .sidebar-toggle:hover .toggle-line:first-child {
@@ -1556,14 +1557,14 @@ pre code {
   display: block;
 }
 .post-toc .nav .active > a {
-  border-bottom-color: #87daff;
-  color: #87daff;
+  border-bottom-color: #fc6423;
+  color: #fc6423;
 }
 .post-toc .nav .active-current > a {
-  color: #87daff;
+  color: #fc6423;
 }
 .post-toc .nav .active-current > a:hover {
-  color: #87daff;
+  color: #fc6423;
 }
 .site-state {
   display: flex;
@@ -1728,7 +1729,7 @@ pre code {
   }
 }
 .back-to-top:hover {
-  color: #87daff;
+  color: #fc6423;
 }
 .back-to-top.back-to-top-on {
   bottom: 19px;
@@ -1988,11 +1989,11 @@ pre code {
 }
 .post-body .image-caption,
 .post-body .figure .caption {
-  color: #999;
-  font-size: 0.875em;
-  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
   line-height: 1;
-  margin: -20px auto 15px;
+  margin: -10px auto 15px;
   text-align: center;
 }
 .post-body iframe,
@@ -2867,7 +2868,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #f91725;
+  background: #afffff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
