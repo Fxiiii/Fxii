@@ -1787,7 +1787,7 @@ pre code {
 }
 .use-motion .pagination,
 .use-motion .comments {
-  opacity: 0;
+  opacity: 1;
 }
 .use-motion .post-header {
   visibility: hidden;
@@ -2877,7 +2877,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #4d8633;
+  background: #e461ff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
