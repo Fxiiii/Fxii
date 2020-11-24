@@ -1747,6 +1747,15 @@ pre code {
   width: 100%;
   z-index: 1500;
 }
+.reading-progress-bar {
+  background: #8968CD;
+  height: 3px;
+  left: 0;
+  position: fixed;
+  width: 0;
+  z-index: 1500;
+  top: 0;
+}
 .rtl.post-body p,
 .rtl.post-body a,
 .rtl.post-body h1,
@@ -2753,7 +2762,7 @@ hr {
   display: none;
 }
 .posts-expand .post-block:not(:first-child) {
-  margin-top: 120px;
+  margin-top: 60px;
 }
 .posts-expand .post-header {
   margin-bottom: 20px;
@@ -2868,7 +2877,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #afffff;
+  background: #4d8633;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
