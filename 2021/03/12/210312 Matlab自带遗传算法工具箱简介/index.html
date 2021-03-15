@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta name="referrer" content="no-referrer"/> <!-- 防外链图片 */ -->
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.jpg">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"fxiiii.github.io","root":"/","images":"/images","scheme":"Mist","version":"8.0.2","exturl":false,"sidebar":{"position":"right","display":"post","padding":48,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+  </script>
+
+  <meta name="description" content="Matlab提供遗传算法工具箱（Matlab2010版本之后），方便解决简单的优化问题，官方提示后续可能取消该功能。个人不建议使用工具箱求解数学规划问题，参数设置零散复杂，容易错漏，但可学习作为Demo问题的演示工具。 打开GA工具箱 方式一：命令行输入 &gt;&gt; optimtool 方式二：菜单栏APP→Optimization工具箱→Solver中选择ga">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Matlab自带遗传算法工具箱简介">
+<meta property="og:url" content="https://fxiiii.github.io/2021/03/12/210312%20Matlab%E8%87%AA%E5%B8%A6%E9%81%97%E4%BC%A0%E7%AE%97%E6%B3%95%E5%B7%A5%E5%85%B7%E7%AE%B1%E7%AE%80%E4%BB%8B/index.html">
+<meta property="og:site_name" content="风希 | Fxiiii">
+<meta property="og:description" content="Matlab提供遗传算法工具箱（Matlab2010版本之后），方便解决简单的优化问题，官方提示后续可能取消该功能。个人不建议使用工具箱求解数学规划问题，参数设置零散复杂，容易错漏，但可学习作为Demo问题的演示工具。 打开GA工具箱 方式一：命令行输入 &gt;&gt; optimtool 方式二：菜单栏APP→Optimization工具箱→Solver中选择ga">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5436217-b3b2c18c59d8628a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5436217-e6087815538e5446.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5436217-b43b619bd1fdf2fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5436217-537edad72ddb9082.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5436217-1408a33ba8f1caed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5436217-d1569e0e023cb7a3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5436217-9eac6268eda2c4a4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5436217-2fec506f648a0063.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5436217-494602368d94ef95.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5436217-be15f3ae3affc776.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="article:published_time" content="2021-03-12T15:21:00.000Z">
+<meta property="article:modified_time" content="2021-03-15T08:58:59.833Z">
+<meta property="article:author" content="风希 | Fxiiii">
+<meta property="article:tag" content="Matlab">
+<meta property="article:tag" content="遗传算法">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/5436217-b3b2c18c59d8628a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+
+
+<link rel="canonical" href="https://fxiiii.github.io/2021/03/12/210312%20Matlab%E8%87%AA%E5%B8%A6%E9%81%97%E4%BC%A0%E7%AE%97%E6%B3%95%E5%B7%A5%E5%85%B7%E7%AE%B1%E7%AE%80%E4%BB%8B/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Matlab自带遗传算法工具箱简介 | 风希 | Fxiiii</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">风希 | Fxiiii</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%89%93%E5%BC%80GA%E5%B7%A5%E5%85%B7%E7%AE%B1"><span class="nav-number">1.</span> <span class="nav-text">打开GA工具箱</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#GUI%E7%95%8C%E9%9D%A2%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E"><span class="nav-number">2.</span> <span class="nav-text">GUI界面使用说明</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-Setup-and-Results-%E8%AE%BE%E7%BD%AE%E4%B8%8E%E7%BB%93%E6%9E%9C"><span class="nav-number">2.1.</span> <span class="nav-text">Problem Setup and Results 设置与结果</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A4%BA%E4%BE%8B%E7%94%A8%E6%B3%95"><span class="nav-number">2.1.1.</span> <span class="nav-text">示例用法</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Options-%E9%80%89%E9%A1%B9"><span class="nav-number">2.2.</span> <span class="nav-text">Options 选项</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#population-%E7%A7%8D%E7%BE%A4"><span class="nav-number">2.2.1.</span> <span class="nav-text">population 种群</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Fitness-scaling-%E9%80%82%E5%BA%94%E5%BA%A6%E5%B0%BA%E5%BA%A6"><span class="nav-number">2.2.2.</span> <span class="nav-text">Fitness scaling 适应度尺度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Selection-%E4%BE%9D%E6%8D%AE%E9%80%82%E5%BA%94%E5%80%BC%E9%80%89%E6%8B%A9"><span class="nav-number">2.2.3.</span> <span class="nav-text">Selection 依据适应值选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Reproduction-%E5%A4%8D%E5%88%B6%EF%BC%8C%E5%86%B3%E5%AE%9A%E5%A6%82%E4%BD%95%E4%BA%A7%E7%94%9F%E5%AD%90%E4%BB%A3"><span class="nav-number">2.2.4.</span> <span class="nav-text">Reproduction 复制，决定如何产生子代</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mutation-Mutation-function-%E7%AA%81%E5%8F%98"><span class="nav-number">2.2.5.</span> <span class="nav-text">Mutation (Mutation function) 突变</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Crossover-%E6%9D%82%E4%BA%A4"><span class="nav-number">2.2.6.</span> <span class="nav-text">Crossover 杂交</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Migration-%E8%BF%81%E7%A7%BB"><span class="nav-number">2.2.7.</span> <span class="nav-text">Migration 迁移</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Constraint-parameters-%E7%BA%A6%E6%9D%9F%E5%8F%82%E6%95%B0"><span class="nav-number">2.2.8.</span> <span class="nav-text">Constraint parameters 约束参数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hybrid-function-%E6%B7%B7%E5%90%88%E5%87%BD%E6%95%B0"><span class="nav-number">2.2.9.</span> <span class="nav-text">Hybrid function 混合函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Stopping-criteria-%E5%81%9C%E6%AD%A2%E6%A0%87%E5%87%86"><span class="nav-number">2.2.10.</span> <span class="nav-text">Stopping criteria 停止标准</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Plot-function-%E7%BB%98%E5%9B%BE%E5%87%BD%E6%95%B0"><span class="nav-number">2.2.11.</span> <span class="nav-text">Plot function 绘图函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Output-function-%E8%BE%93%E5%87%BA%E5%87%BD%E6%95%B0"><span class="nav-number">2.2.12.</span> <span class="nav-text">Output function 输出函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Display-to-command-window"><span class="nav-number">2.2.13.</span> <span class="nav-text">Display to command window</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Evaluate-fitness-and-constraint-functions-%E8%AF%84%E4%BB%B7%E9%80%82%E5%BA%94%E5%BA%A6%E5%92%8C%E7%BA%A6%E6%9D%9F%E5%87%BD%E6%95%B0"><span class="nav-number">2.2.14.</span> <span class="nav-text">Evaluate fitness and constraint functions 评价适应度和约束函数</span></a></li></ol></li></ol></li></ol></div>
+        </section>
+        <!--/noindex-->
+
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="风希 | Fxiiii"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">风希 | Fxiiii</p>
+  <div class="site-description" itemprop="description"><br>[仅供交流-若有侵犯-速联速删]</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">30</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Fxiiii" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Fxiiii" rel="noopener" target="_blank"><i class="fab fa-github-alt fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.jianshu.com/u/8ab93013d761" title="简书 → https:&#x2F;&#x2F;www.jianshu.com&#x2F;u&#x2F;8ab93013d761" rel="noopener" target="_blank"><i class="fa fa-book fa-fw"></i>简书</a>
+      </span>
+  </div>
+
+
+
+        </section>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+      
+
+      
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://fxiiii.github.io/2021/03/12/210312%20Matlab%E8%87%AA%E5%B8%A6%E9%81%97%E4%BC%A0%E7%AE%97%E6%B3%95%E5%B7%A5%E5%85%B7%E7%AE%B1%E7%AE%80%E4%BB%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="风希 | Fxiiii">
+      <meta itemprop="description" content="<br>[仅供交流-若有侵犯-速联速删]">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="风希 | Fxiiii">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Matlab自带遗传算法工具箱简介
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-03-12 23:21:00" itemprop="dateCreated datePublished" datetime="2021-03-12T23:21:00+08:00">2021-03-12</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-03-15 16:58:59" itemprop="dateModified" datetime="2021-03-15T16:58:59+08:00">2021-03-15</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E4%BC%98%E5%8C%96%E7%A0%94%E7%A9%B6/" itemprop="url" rel="index"><span itemprop="name">优化研究</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>Matlab提供遗传算法工具箱（Matlab2010版本之后），方便解决简单的优化问题，官方提示后续可能取消该功能。个人不建议使用工具箱求解数学规划问题，参数设置零散复杂，容易错漏，但可学习作为Demo问题的演示工具。</p>
+<h1 id="打开GA工具箱"><a href="#打开GA工具箱" class="headerlink" title="打开GA工具箱"></a>打开GA工具箱</h1><ul>
+<li>方式一：命令行输入 <code>&gt;&gt; optimtool</code></li>
+<li>方式二：菜单栏<code>APP</code>→<code>Optimization</code>工具箱→<code>Solver</code>中选择<code>ga</code></li>
+</ul>
+<a id="more"></a>
+
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-b3b2c18c59d8628a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "100%" height = "100%" alt="工具箱GUI界面"/>
+</div>
+
+<h1 id="GUI界面使用说明"><a href="#GUI界面使用说明" class="headerlink" title="GUI界面使用说明"></a>GUI界面使用说明</h1><p>按从上到下，从左到右的顺序对Matlab自带的遗传算法工具箱GUI界面进行介绍和使用注意事项说明。</p>
+<h2 id="Problem-Setup-and-Results-设置与结果"><a href="#Problem-Setup-and-Results-设置与结果" class="headerlink" title="Problem Setup and Results 设置与结果"></a>Problem Setup and Results 设置与结果</h2><ol>
+<li><p>Solver 求解程序<br>选择要使用的求解程序（遗传算法，遗传算法多目标等）。</p>
+</li>
+<li><p>Problem 问题</p>
+</li>
+</ol>
+<ul>
+<li>Fitness function: 适应度函数，求最小,这里的使用度函数要自己编写，书写格式是“@函数名”。</li>
+<li>Number of variables: 变量数，必须是整数，即使用这个GUI界面的适应度函数的变量必须是[1×n]的向量，而不能是[m×n]的矩阵。</li>
+</ul>
+<h3 id="示例用法"><a href="#示例用法" class="headerlink" title="示例用法"></a>示例用法</h3><ul>
+<li><p>求解f(x)的最小值</p>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-e6087815538e5446.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="求解f(x)的最小值"/>
+</div>
+</li>
+<li><p>编写适应度函数<br>适应度函数一般就是目标函数，保存为m函数文件。</p>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-b43b619bd1fdf2fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="目标函数"/>
+</div>
+</li>
+<li><p>参数设置<br>在Fitness function（适应度函数）处输入@目标函数名（因为此处传递的是函数句柄所以一定要加@），Number of Variables是指待求变量的个数，此处约束条件是xi是0到0.9pi之间的实数，在Bound处输入，然后点击Start按钮求出结果。</p>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-537edad72ddb9082.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="参数设置"/>
+</div>
+</li>
+<li><p>含约束条件的数学规划问题参数设置</p>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-1408a33ba8f1caed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="含约束条件的数学规划问题"/>
+</div>
+
+</li>
+</ul>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-d1569e0e023cb7a3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="定义不等式约束"/>
+</div>
+
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-9eac6268eda2c4a4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="添加不等式约束"/>
+</div>
+
+<ul>
+<li>含非线性约束条件的数学规划问题参数设置<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-2fec506f648a0063.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="含非线性约束条件"/>
+</div>
+
+</li>
+</ul>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-494602368d94ef95.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="非线性约束条件"/>
+</div>
+
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-be15f3ae3affc776.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="添加非线性不等式约束"/>
+</div>
+
+<ol start="3">
+<li>Constraints 约束</li>
+</ol>
+<ul>
+<li>Linear inequalities: 线性不等式，A*x&lt;=b形式，其中A是矩阵，b是向量。</li>
+<li>Linear equalities: 线性等式，A*x=b形式，其中A是矩阵，beq是向量。</li>
+<li>Bounds: 定义域，Lower: 下限，Upper: 上限，列向量形式，每一个位置对应一个变量。</li>
+<li>Nonlinear constraint function: 非线性约束，用户定义，非线性等式必须写成c=0形式，不等式必须写成c&lt;=0形式。</li>
+<li>Integer variable indices: 整型变量标记约束，使用该项时Aeq和beq必须为空，所有非线性约束函数必须返回一个空值，种群类型必须是实数编码。举例，若是想让第一个、第三个、第五个变量保持是整数的话，则直接在此处填写[1 3 5]。</li>
+</ul>
+<ol start="4">
+<li>Run solver and view results 求解与结果展示</li>
+</ol>
+<ul>
+<li>Use random states from previous run: 使用前次的状态运行，完全重复前次运行的过程和结果。</li>
+</ul>
+<h2 id="Options-选项"><a href="#Options-选项" class="headerlink" title="Options 选项"></a>Options 选项</h2><h3 id="population-种群"><a href="#population-种群" class="headerlink" title="population 种群"></a>population 种群</h3><ol>
+<li>Population type 编码类型</li>
+</ol>
+<ul>
+<li>Double vector 实数编码。采用双精度，整数规划的种群类型必须是实数编码。</li>
+<li>Bit string 二进制编码</li>
+<li>Custom 自定义</li>
+</ul>
+<ol start="2">
+<li>Population size 种群大小</li>
+<li>Creation function 生成函数，产生初始种群</li>
+<li>Initial population 初始种群，不指定则使用creation function生成，可以指定少于种群数量的种群，由creation function完成剩余的。</li>
+<li>Initial scores 初始值，如果不指定，则由计算机计算适应度函数作为初始值，对于整型约束不可用，使用向量表示。</li>
+<li>Initial range 初始范围，使用向量矩阵表示，第一行表示范围的下限，第二行表示上限。</li>
+</ol>
+<h3 id="Fitness-scaling-适应度尺度"><a href="#Fitness-scaling-适应度尺度" class="headerlink" title="Fitness scaling 适应度尺度"></a>Fitness scaling 适应度尺度</h3><ul>
+<li>Rank 等级，将适应度排序，然后编号；</li>
+<li>Proportional 按比例；</li>
+<li>Top 按比例选取种群中最高适应度的个体，这些个体有等比例的机会繁衍，其余的个体被淘汰；</li>
+<li>Shift linear 线性转换；</li>
+<li>Custom 用户定义；</li>
+</ul>
+<h3 id="Selection-依据适应值选择"><a href="#Selection-依据适应值选择" class="headerlink" title="Selection 依据适应值选择"></a>Selection 依据适应值选择</h3><ul>
+<li>Stochastic uniform：随机均匀分布；</li>
+<li>Remainder： 残余，取适应值的整数部分进行轮盘赌选择；</li>
+<li>Uniform：均匀分布，不是一个好方法，但是可以用来做测试；</li>
+<li>Roulette：轮盘赌算法；</li>
+<li>Tournament：联赛选择算法；</li>
+<li>Custom：自定义；</li>
+</ul>
+<h3 id="Reproduction-复制，决定如何产生子代"><a href="#Reproduction-复制，决定如何产生子代" class="headerlink" title="Reproduction 复制，决定如何产生子代"></a>Reproduction 复制，决定如何产生子代</h3><ul>
+<li>Elite count：精英数，直接传到下一代的个体数；</li>
+<li>Crossover fraction：杂交概率；</li>
+</ul>
+<h3 id="Mutation-Mutation-function-突变"><a href="#Mutation-Mutation-function-突变" class="headerlink" title="Mutation (Mutation function) 突变"></a>Mutation (Mutation function) 突变</h3><ul>
+<li>Use constraint dependent 默认，与约束有关，无约束时使用gaussian，有约束时使用adaptive feasible；</li>
+<li>Gaussian ：利用高斯分布来选取；</li>
+<li>Uniform：均匀；</li>
+<li>Adaptive feasible：自适应；</li>
+<li>Custom：自定义；</li>
+</ul>
+<h3 id="Crossover-杂交"><a href="#Crossover-杂交" class="headerlink" title="Crossover 杂交"></a>Crossover 杂交</h3><ul>
+<li>Scattered：随机生成遗传二进制向量，按0-1杂交；</li>
+<li>Single point：单点杂交，生成一个数字，该数字代表的位置开始两父代基因交换；</li>
+<li>Two point：两点交换；</li>
+<li>Intermediate：媒介，加权平均；</li>
+<li>Heuristic：启发式算法；</li>
+<li>Arithmetic：算术平均；</li>
+<li>Custom：自定义；</li>
+</ul>
+<h3 id="Migration-迁移"><a href="#Migration-迁移" class="headerlink" title="Migration 迁移"></a>Migration 迁移</h3><ul>
+<li>Direction方向：forward n-&gt;n 1 ；both 双向；</li>
+<li>Fraction：指定迁移率，以较小数量种群为标准；</li>
+<li>Interval：发生迁移的间隔；</li>
+</ul>
+<h3 id="Constraint-parameters-约束参数"><a href="#Constraint-parameters-约束参数" class="headerlink" title="Constraint parameters 约束参数"></a>Constraint parameters 约束参数</h3><p>对应于非线性约束求解器</p>
+<ul>
+<li>Initial penalty： 初始罚函数大于等于1；</li>
+<li>Penalty factor：处罚因子 大于等于1；</li>
+</ul>
+<h3 id="Hybrid-function-混合函数"><a href="#Hybrid-function-混合函数" class="headerlink" title="Hybrid function 混合函数"></a>Hybrid function 混合函数</h3><p>指定另外一个最小值函数，在遗传算法结束之后计算，在整数值限制的时候不可用。</p>
+<ul>
+<li>None</li>
+<li>Fminsearch 只用于无约束；</li>
+<li>Patternsearch 约束与无约束；</li>
+<li>Fminunc 无约束；</li>
+<li>Fmincon 有约束；</li>
+</ul>
+<h3 id="Stopping-criteria-停止标准"><a href="#Stopping-criteria-停止标准" class="headerlink" title="Stopping criteria 停止标准"></a>Stopping criteria 停止标准</h3><ul>
+<li>Generations 到达代数；</li>
+<li>Time limit 时间限制；</li>
+<li>Fitness limit 适应值限制；</li>
+<li>Stall generations迟滞代数，经过多代适应值没有明显提升；</li>
+<li>Stall time limit 迟滞时间限制，经过限定时间适应值没有明显提升；</li>
+<li>Function tolerance 在迟滞代数内适应度函数值的改变量小于这个值，则停止；</li>
+<li>Constraint tolerance 约束容忍值；</li>
+</ul>
+<h3 id="Plot-function-绘图函数"><a href="#Plot-function-绘图函数" class="headerlink" title="Plot function 绘图函数"></a>Plot function 绘图函数</h3><ul>
+<li>Plot interval 绘图间隔；</li>
+<li>Best fitness 最佳适应度值；</li>
+<li>Best individual 最佳个体；</li>
+<li>Distance 个体间平均距离；</li>
+<li>Expectation 期望；</li>
+<li>Genealogy 家系；</li>
+<li>Range 适应度值最小最大平均值；</li>
+<li>Score diversity 每一代分数的柱状图；</li>
+<li>Scores 每一代个体的分数；</li>
+<li>Selection 描绘对每一代贡献的父代；</li>
+<li>Stopping 停止标准的水平；</li>
+<li>Max constraint 非线性约束中超出范围的最大值；</li>
+<li>Custom function 自定义；</li>
+</ul>
+<h3 id="Output-function-输出函数"><a href="#Output-function-输出函数" class="headerlink" title="Output function 输出函数"></a>Output function 输出函数</h3><ul>
+<li>Custom function: 自定义；</li>
+</ul>
+<h3 id="Display-to-command-window"><a href="#Display-to-command-window" class="headerlink" title="Display to command window"></a>Display to command window</h3><ul>
+<li>Off 不输出；</li>
+<li>Final 只输出最终值；</li>
+<li>Iterative 每一次迭代都输出；</li>
+<li>Diagnose 诊断，每一次迭代都输出，并且诊断问题信息和选项中相对于默认值的改变值；</li>
+</ul>
+<h3 id="Evaluate-fitness-and-constraint-functions-评价适应度和约束函数"><a href="#Evaluate-fitness-and-constraint-functions-评价适应度和约束函数" class="headerlink" title="Evaluate fitness and constraint functions 评价适应度和约束函数"></a>Evaluate fitness and constraint functions 评价适应度和约束函数</h3><ul>
+<li>In serial 分别独立评价；</li>
+<li>Vectorized 用同一个函数调用；</li>
+<li>In parallel 并行处理；</li>
+</ul>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/1586008680">Matlab遗传算法工具箱使用简介</a><br><a target="_blank" rel="noopener" href="http://www.360doc.com/content/18/0420/01/42278386_747158977.shtml">Matlab自带遗传算法工具箱的介绍和使用注意事项</a><br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/dengfaheng/p/9245623.html">超详细的遗传算法(Genetic Algorithm)解析和TSP求解代码详解</a></p>
+</blockquote>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>老铁们，小礼物走一波！！</div>
+  <button onclick="document.querySelector('.post-reward').classList.toggle('active');">
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechat.jpg" alt="风希 | Fxiiii 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/wechatpay.jpg" alt="风希 | Fxiiii 微信支付">
+        <span>微信支付</span>
+      </div>
+      <div>
+        <img src="/images/alipay.jpg" alt="风希 | Fxiiii 支付宝支付">
+        <span>支付宝支付</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>风希 | Fxiiii
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://fxiiii.github.io/2021/03/12/210312%20Matlab%E8%87%AA%E5%B8%A6%E9%81%97%E4%BC%A0%E7%AE%97%E6%B3%95%E5%B7%A5%E5%85%B7%E7%AE%B1%E7%AE%80%E4%BB%8B/" title="Matlab自带遗传算法工具箱简介">https://fxiiii.github.io/2021/03/12/210312 Matlab自带遗传算法工具箱简介/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/Matlab/" rel="tag"># Matlab</a>
+              <a href="/tags/%E9%81%97%E4%BC%A0%E7%AE%97%E6%B3%95/" rel="tag"># 遗传算法</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/03/10/210310%20%E6%95%B0%E5%AD%97%E4%BA%A7%E4%B8%9A%E5%8C%96%E3%80%81%E4%BA%A7%E4%B8%9A%E6%95%B0%E5%AD%97%E5%8C%96/" rel="prev" title="数字产业化、产业数字化">
+                  <i class="fa fa-chevron-left"></i> 数字产业化、产业数字化
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2021/03/15/210315%20%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E4%B8%AD%E5%B0%8F%E4%BC%81%E4%B8%9A%E5%88%92%E5%9E%8B%E6%A0%87%E5%87%86%E8%A7%84%E5%AE%9A%E7%9A%84%E9%80%9A%E7%9F%A5/" rel="next" title="关于印发中小企业划型标准规定的通知">
+                  关于印发中小企业划型标准规定的通知 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+      
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      
+
+      
+
+<div class="copyright">
+  
+  &copy; Thu Nov 05 2020 08:00:00 GMT+0800 (GMT+08:00) – 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heartbeat"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">风希 | Fxiiii</span>
+</div>
+
+
+    </div>
+  </footer>
+ 
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+  <script>
+	(function(){
+		var bp = document.createElement('script');
+		var curProtocol = window.location.protocol.split(':')[0];
+		if (curProtocol === 'https'){
+	   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+	  }
+	  else{
+	  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+	  }
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(bp, s);
+	})();
+  </script>
+
+
+
+
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 页面点击小红心 <script type="text/javascript" src="/js/src/clicklove.js"></script> -->
+  
+  <!-- 社会主体核心价值观效果 */ -->
+  <script type="text/javascript" src="/js/src/clicksocialvalue.js"></script>  
+</body>
+</html>
