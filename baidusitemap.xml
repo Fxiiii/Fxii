@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://ertiaoh.github.io/2020/05/03/200503%20Bandizip/</loc>
+    <lastmod>2022-06-04</lastmod>
+  </url>
+  <url>
+    <loc>https://ertiaoh.github.io/2020/05/01/200501%20%E7%81%AB%E7%BB%92%E5%AE%89%E5%85%A8/</loc>
+    <lastmod>2022-06-04</lastmod>
+  </url>
+  <url>
+    <loc>https://ertiaoh.github.io/2020/04/05/200405%20OneNote/</loc>
+    <lastmod>2022-06-04</lastmod>
+  </url>
+  <url>
+    <loc>https://ertiaoh.github.io/2020/04/01/200401%20Cent%20Browser/</loc>
+    <lastmod>2022-06-04</lastmod>
+  </url>
+  <url>
     <loc>https://ertiaoh.github.io/2021/04/16/210416%20%E8%A3%85%E5%A4%87%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E7%AD%89%E7%BA%A7/</loc>
     <lastmod>2021-04-16</lastmod>
   </url>
@@ -87,21 +103,5 @@
   <url>
     <loc>https://ertiaoh.github.io/2018/02/02/180202%20git%E6%8F%90%E7%A4%BAwarning%E8%A7%A3%E7%AD%94/</loc>
     <lastmod>2020-11-24</lastmod>
-  </url>
-  <url>
-    <loc>https://ertiaoh.github.io/2020/04/01/200401%20Cent%20Browser/</loc>
-    <lastmod>2020-11-22</lastmod>
-  </url>
-  <url>
-    <loc>https://ertiaoh.github.io/2020/04/05/200405%20OneNote/</loc>
-    <lastmod>2020-11-22</lastmod>
-  </url>
-  <url>
-    <loc>https://ertiaoh.github.io/2020/05/01/200501%20%E7%81%AB%E7%BB%92%E5%AE%89%E5%85%A8/</loc>
-    <lastmod>2020-11-22</lastmod>
-  </url>
-  <url>
-    <loc>https://ertiaoh.github.io/2020/05/03/200503%20Bandizip/</loc>
-    <lastmod>2020-11-22</lastmod>
   </url>
 </urlset> 

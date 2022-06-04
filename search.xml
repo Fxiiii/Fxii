@@ -1,43 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>运筹学主要概念区分</title>
-    <url>/2018/01/06/180106%20%E8%BF%90%E7%AD%B9%E5%AD%A6%E4%B8%BB%E8%A6%81%E6%A6%82%E5%BF%B5%E5%8C%BA%E5%88%86/</url>
-    <content><![CDATA[<p><strong>运筹学(最优化理论)：</strong>主要运用数学方法研究各种系统的优化途径及方案，为决策者提供科学决策的依据。最优化方法的主要研究对象是各种有组织系统的管理问题及其生产经营活动。最优化方法的目的在于针对所研究的系统，求得一个合理运用人力、物力和财力的最佳方案，发挥和提高系统的效能及效益，最终达到系统的最优目标。</p>
-<p>运筹学的具体内容包括：规划论（包括线性规划、非线性规划、整数规划和动态规划）、库存论、图论、决策论、对策论、排队论、可靠性理论等。</p>
-<a id="more"></a>
-
-<p><strong>规划主要分支类别包括：</strong>（以下内容非数学定义，用于理解的笔记而已）</p>
-<ul>
-<li><p><strong>线性规划</strong><br>当目标函数f是线性函数而且集合A是由线性等式函数和线性不等式函数来确定的， 这一类问题为线性规划。</p>
-</li>
-<li><p><strong>整数规划</strong><br>当线性规划问题的部分或所有的变量局限于整数值时， 这一类问题为整数规划问题。</p>
-</li>
-<li><p><strong>二次规划</strong><br>目标函数是二次函数，而且集合A必须是由线性等式函数和线性不等式函数来确定的。</p>
-</li>
-<li><p><strong>非线性规划</strong><br>研究的是目标函数或是限制函数中含有非线性函数的问题。</p>
-</li>
-<li><p><strong>随机规划</strong><br>研究的是某些变量是随机变量的问题。</p>
-</li>
-<li><p><strong>目标规划</strong><br>线性规划只讨论一个线性目标函数在一组线性约束条件下的极值问题；而目标规划是多个目标决策，可求得更切合实际的解。线性规划求最优解；目标规划是找到一个满意解。线性规划中的约束条件是同等重要的，是硬约束；而目标规划中有轻重缓急和主次之分，即有优先权。线性规划的最优解是绝对意义下的最优，但需花去大量的人力、物力、财力才能得到；实际过程中，只要求得满意解，就能满足需要（或更能满足需要）。</p>
-</li>
-<li><p><strong>动态规划</strong><br>研究的是最优策略基于将问题分解成若干个较小的子问题的优化问题。20世纪50年代初美国数学家R.E.Bellman等人在研究多阶段决策过程(multistep decision process)的优化问题时，提出了著名的最优化原理(principle of optimality)，把多阶段过程转化为一系列单阶段问题，利用各阶段之间的关系，逐个求解，创立了解决这类过程优化问题的新方法 — — 动态规划。 1957年出版了他的名著Dynamic Programming，这是该领域的第一本著作。<br>虽然动态规划主要用于求解以时间划分阶段的动态过程的优化问题，但是一些与时间无关的静态规划(如线性规划、非线性规划)，只要人为地引进时间因素，把它视为多阶段决策过程，也可以用动态规划方法方便地求解。</p>
-</li>
-<li><p><strong>组合最优化</strong><br>研究的是可行解是离散或是可转化为离散的问题。</p>
-</li>
-<li><p><strong>无限维最优化</strong><br>研究的是可行解的集合是无限维空间的子集的问题，一个无限维空间的例子是函数空间。</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>优化研究</category>
-      </categories>
-      <tags>
-        <tag>运筹学</tag>
-        <tag>最优化理论</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>固体矿产资源储量分类</title>
     <url>/2018/05/02/180502%20%E5%9B%BA%E4%BD%93%E7%9F%BF%E4%BA%A7%E8%B5%84%E6%BA%90%E5%82%A8%E9%87%8F%E5%88%86%E7%B1%BB/</url>
     <content><![CDATA[<h2 id="矿产资源储量分类及编码"><a href="#矿产资源储量分类及编码" class="headerlink" title="矿产资源储量分类及编码"></a>矿产资源储量分类及编码</h2><h3 id="分类依据"><a href="#分类依据" class="headerlink" title="分类依据"></a>分类依据</h3><p>矿产资源经过矿产勘查所获得的不同地质可靠程度和经相应的可行性评价所获不同的经济意义，是固体矿产资源／储量分类的主要依据。据此，固体矿产资源／储量可分为储量、基础储量、资源量二大类七种类型（储量包容在基础储量中），分别用三维形式和矩阵形式表示。</p>
@@ -96,23 +59,23 @@
       </tags>
   </entry>
   <entry>
-    <title>简单数字时钟</title>
-    <url>/2019/04/03/190403%20%E7%AE%80%E5%8D%95%E6%95%B0%E5%AD%97%E6%97%B6%E9%92%9F/</url>
-    <content><![CDATA[<div align=center>
-<img data-src="https://upload-images.jianshu.io/upload_images/5436217-da1a354ce4ad200f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "100%" height = "100%" alt=" "/>
+    <title>批量导出excel中大量图片</title>
+    <url>/2018/01/07/180107%20%E6%89%B9%E9%87%8F%E5%AF%BC%E5%87%BAexcel%E4%B8%AD%E5%A4%A7%E9%87%8F%E5%9B%BE%E7%89%87/</url>
+    <content><![CDATA[<h3 id="step1：复制Excel工作簿，并粘贴形成一个副本。"><a href="#step1：复制Excel工作簿，并粘贴形成一个副本。" class="headerlink" title="step1：复制Excel工作簿，并粘贴形成一个副本。"></a>step1：复制Excel工作簿，并粘贴形成一个副本。</h3><h3 id="step2：对Excel工作簿单击鼠标右键-lt-重命名-gt-，将后缀-xlsx修改为-rar，并在-lt-重命名-gt-提示对话框中，选择-lt-是-gt-。"><a href="#step2：对Excel工作簿单击鼠标右键-lt-重命名-gt-，将后缀-xlsx修改为-rar，并在-lt-重命名-gt-提示对话框中，选择-lt-是-gt-。" class="headerlink" title="step2：对Excel工作簿单击鼠标右键&lt;重命名&gt;，将后缀.xlsx修改为.rar，并在&lt;重命名&gt;提示对话框中，选择&lt;是&gt;。"></a>step2：对Excel工作簿单击鼠标右键&lt;重命名&gt;，将后缀<code>.xlsx</code>修改为<code>.rar</code>，并在&lt;重命名&gt;提示对话框中，选择&lt;是&gt;。</h3><p>（注：自己电脑看不到文件格式后缀的自行百度显示文件格式）</p>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-96b61af6f9d5cf82.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "20%" height = "20%" alt="重命名xlsx为rar"/>
 </div>
 
-<h2 id="简单数字时钟"><a href="#简单数字时钟" class="headerlink" title="简单数字时钟"></a>简单数字时钟</h2><a id="more"></a>
-
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span> <span class="meta-keyword">PUBLIC</span> <span class="meta-string">&quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;</span> <span class="meta-string">&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">xmlns</span>=<span class="string">&quot;http://www.w3.org/1999/xhtml&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>exam time<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css"><span class="selector-class">.time</span> &#123; <span class="attribute">font-size</span>: <span class="number">300pt</span>; <span class="attribute">line-height</span>: <span class="number">200%</span>; <span class="attribute">color</span>:b;&#125;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> getObj = <span class="function"><span class="keyword">function</span>(<span class="params">id</span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">	<span class="function"><span class="title">if</span>(<span class="params">!id</span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">		<span class="keyword">return</span> <span class="literal">false</span>;</span></span><br><span class="line">	&#125;</span><br><span class="line"><span class="javascript">	<span class="keyword">return</span> <span class="built_in">document</span>.getElementById(id);</span></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">&lt;!-- Hiding</span><br><span class="line"><span class="javascript"><span class="keyword">var</span> ctimer;</span></span><br><span class="line"><span class="javascript"><span class="function"><span class="keyword">function</span> <span class="title">settimes</span>(<span class="params"></span>)</span>&#123;</span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> time= <span class="keyword">new</span> <span class="built_in">Date</span>();</span></span><br><span class="line">hours= time.getHours();</span><br><span class="line">mins= time.getMinutes();</span><br><span class="line">secs= time.getSeconds();</span><br><span class="line">if (hours&lt;10)</span><br><span class="line"><span class="javascript">hours=<span class="string">&quot;0&quot;</span>+hours;</span></span><br><span class="line">if(mins&lt;10)</span><br><span class="line"><span class="javascript">mins=<span class="string">&quot;0&quot;</span>+mins;</span></span><br><span class="line">if (secs&lt;10)</span><br><span class="line"><span class="javascript">secs=<span class="string">&quot;0&quot;</span>+secs;</span></span><br><span class="line"><span class="javascript">getObj(<span class="string">&#x27;tim1&#x27;</span>).innerHTML=hours+<span class="string">&quot;:&quot;</span>+mins+<span class="string">&quot;:&quot;</span>+secs</span></span><br><span class="line"><span class="javascript">ctimer=<span class="built_in">setTimeout</span>(<span class="string">&#x27;settimes()&#x27;</span>,<span class="number">960</span>);</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="javascript"><span class="comment">// Done hiding --&gt;</span></span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>js data clock<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span> <span class="attr">onload</span>=<span class="string">&quot;settimes()&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!----&gt;</span></span><br><span class="line"><span class="comment">&lt;!--&lt;div class=time id=tim1 style=&quot;height: 500px; left: 300px; position: absolute; top: 100px; width: 500px&quot;&gt;&lt;/div&gt;--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">time</span> <span class="attr">id</span>=<span class="string">tim1</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p><a href="http://www.itswebtime.com/">itswebtime</a></p>
+<h3 id="step3：双击打开修改后缀后的压缩文件，在文件夹里点击xl文件夹。"><a href="#step3：双击打开修改后缀后的压缩文件，在文件夹里点击xl文件夹。" class="headerlink" title="step3：双击打开修改后缀后的压缩文件，在文件夹里点击xl文件夹。"></a>step3：双击打开修改后缀后的压缩文件，在文件夹里点击<code>xl</code>文件夹。</h3><h3 id="step4：将xl文件夹下的media文件夹拖曳出来即可。其中media文件夹中即包含工作簿中的所有图片。"><a href="#step4：将xl文件夹下的media文件夹拖曳出来即可。其中media文件夹中即包含工作簿中的所有图片。" class="headerlink" title="step4：将xl文件夹下的media文件夹拖曳出来即可。其中media文件夹中即包含工作簿中的所有图片。"></a>step4：将<code>xl</code>文件夹下的<code>media</code>文件夹拖曳出来即可。其中<code>media</code>文件夹中即包含工作簿中的所有图片。</h3><div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-77851619e9f8271d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="media文件夹"/>
+</div>
 ]]></content>
       <categories>
         <category>必备软件</category>
       </categories>
       <tags>
-        <tag>数字时钟</tag>
+        <tag>excel</tag>
+        <tag>Microsoft Office</tag>
       </tags>
   </entry>
   <entry>
@@ -168,23 +131,60 @@
       </tags>
   </entry>
   <entry>
-    <title>批量导出excel中大量图片</title>
-    <url>/2018/01/07/180107%20%E6%89%B9%E9%87%8F%E5%AF%BC%E5%87%BAexcel%E4%B8%AD%E5%A4%A7%E9%87%8F%E5%9B%BE%E7%89%87/</url>
-    <content><![CDATA[<h3 id="step1：复制Excel工作簿，并粘贴形成一个副本。"><a href="#step1：复制Excel工作簿，并粘贴形成一个副本。" class="headerlink" title="step1：复制Excel工作簿，并粘贴形成一个副本。"></a>step1：复制Excel工作簿，并粘贴形成一个副本。</h3><h3 id="step2：对Excel工作簿单击鼠标右键-lt-重命名-gt-，将后缀-xlsx修改为-rar，并在-lt-重命名-gt-提示对话框中，选择-lt-是-gt-。"><a href="#step2：对Excel工作簿单击鼠标右键-lt-重命名-gt-，将后缀-xlsx修改为-rar，并在-lt-重命名-gt-提示对话框中，选择-lt-是-gt-。" class="headerlink" title="step2：对Excel工作簿单击鼠标右键&lt;重命名&gt;，将后缀.xlsx修改为.rar，并在&lt;重命名&gt;提示对话框中，选择&lt;是&gt;。"></a>step2：对Excel工作簿单击鼠标右键&lt;重命名&gt;，将后缀<code>.xlsx</code>修改为<code>.rar</code>，并在&lt;重命名&gt;提示对话框中，选择&lt;是&gt;。</h3><p>（注：自己电脑看不到文件格式后缀的自行百度显示文件格式）</p>
-<div align=center>
-<img data-src="https://upload-images.jianshu.io/upload_images/5436217-96b61af6f9d5cf82.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "20%" height = "20%" alt="重命名xlsx为rar"/>
+    <title>简单数字时钟</title>
+    <url>/2019/04/03/190403%20%E7%AE%80%E5%8D%95%E6%95%B0%E5%AD%97%E6%97%B6%E9%92%9F/</url>
+    <content><![CDATA[<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-da1a354ce4ad200f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "100%" height = "100%" alt=" "/>
 </div>
 
-<h3 id="step3：双击打开修改后缀后的压缩文件，在文件夹里点击xl文件夹。"><a href="#step3：双击打开修改后缀后的压缩文件，在文件夹里点击xl文件夹。" class="headerlink" title="step3：双击打开修改后缀后的压缩文件，在文件夹里点击xl文件夹。"></a>step3：双击打开修改后缀后的压缩文件，在文件夹里点击<code>xl</code>文件夹。</h3><h3 id="step4：将xl文件夹下的media文件夹拖曳出来即可。其中media文件夹中即包含工作簿中的所有图片。"><a href="#step4：将xl文件夹下的media文件夹拖曳出来即可。其中media文件夹中即包含工作簿中的所有图片。" class="headerlink" title="step4：将xl文件夹下的media文件夹拖曳出来即可。其中media文件夹中即包含工作簿中的所有图片。"></a>step4：将<code>xl</code>文件夹下的<code>media</code>文件夹拖曳出来即可。其中<code>media</code>文件夹中即包含工作簿中的所有图片。</h3><div align=center>
-<img data-src="https://upload-images.jianshu.io/upload_images/5436217-77851619e9f8271d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="media文件夹"/>
-</div>
+<h2 id="简单数字时钟"><a href="#简单数字时钟" class="headerlink" title="简单数字时钟"></a>简单数字时钟</h2><a id="more"></a>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span> <span class="meta-keyword">PUBLIC</span> <span class="meta-string">&quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;</span> <span class="meta-string">&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">xmlns</span>=<span class="string">&quot;http://www.w3.org/1999/xhtml&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>exam time<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css"><span class="selector-class">.time</span> &#123; <span class="attribute">font-size</span>: <span class="number">300pt</span>; <span class="attribute">line-height</span>: <span class="number">200%</span>; <span class="attribute">color</span>:b;&#125;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> getObj = <span class="function"><span class="keyword">function</span>(<span class="params">id</span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">	<span class="function"><span class="title">if</span>(<span class="params">!id</span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">		<span class="keyword">return</span> <span class="literal">false</span>;</span></span><br><span class="line">	&#125;</span><br><span class="line"><span class="javascript">	<span class="keyword">return</span> <span class="built_in">document</span>.getElementById(id);</span></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">&lt;!-- Hiding</span><br><span class="line"><span class="javascript"><span class="keyword">var</span> ctimer;</span></span><br><span class="line"><span class="javascript"><span class="function"><span class="keyword">function</span> <span class="title">settimes</span>(<span class="params"></span>)</span>&#123;</span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> time= <span class="keyword">new</span> <span class="built_in">Date</span>();</span></span><br><span class="line">hours= time.getHours();</span><br><span class="line">mins= time.getMinutes();</span><br><span class="line">secs= time.getSeconds();</span><br><span class="line">if (hours&lt;10)</span><br><span class="line"><span class="javascript">hours=<span class="string">&quot;0&quot;</span>+hours;</span></span><br><span class="line">if(mins&lt;10)</span><br><span class="line"><span class="javascript">mins=<span class="string">&quot;0&quot;</span>+mins;</span></span><br><span class="line">if (secs&lt;10)</span><br><span class="line"><span class="javascript">secs=<span class="string">&quot;0&quot;</span>+secs;</span></span><br><span class="line"><span class="javascript">getObj(<span class="string">&#x27;tim1&#x27;</span>).innerHTML=hours+<span class="string">&quot;:&quot;</span>+mins+<span class="string">&quot;:&quot;</span>+secs</span></span><br><span class="line"><span class="javascript">ctimer=<span class="built_in">setTimeout</span>(<span class="string">&#x27;settimes()&#x27;</span>,<span class="number">960</span>);</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="javascript"><span class="comment">// Done hiding --&gt;</span></span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>js data clock<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span> <span class="attr">onload</span>=<span class="string">&quot;settimes()&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!----&gt;</span></span><br><span class="line"><span class="comment">&lt;!--&lt;div class=time id=tim1 style=&quot;height: 500px; left: 300px; position: absolute; top: 100px; width: 500px&quot;&gt;&lt;/div&gt;--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">time</span> <span class="attr">id</span>=<span class="string">tim1</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><a href="http://www.itswebtime.com/">itswebtime</a></p>
 ]]></content>
       <categories>
         <category>必备软件</category>
       </categories>
       <tags>
-        <tag>excel</tag>
-        <tag>Microsoft Office</tag>
+        <tag>数字时钟</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>运筹学主要概念区分</title>
+    <url>/2018/01/06/180106%20%E8%BF%90%E7%AD%B9%E5%AD%A6%E4%B8%BB%E8%A6%81%E6%A6%82%E5%BF%B5%E5%8C%BA%E5%88%86/</url>
+    <content><![CDATA[<p><strong>运筹学(最优化理论)：</strong>主要运用数学方法研究各种系统的优化途径及方案，为决策者提供科学决策的依据。最优化方法的主要研究对象是各种有组织系统的管理问题及其生产经营活动。最优化方法的目的在于针对所研究的系统，求得一个合理运用人力、物力和财力的最佳方案，发挥和提高系统的效能及效益，最终达到系统的最优目标。</p>
+<p>运筹学的具体内容包括：规划论（包括线性规划、非线性规划、整数规划和动态规划）、库存论、图论、决策论、对策论、排队论、可靠性理论等。</p>
+<a id="more"></a>
+
+<p><strong>规划主要分支类别包括：</strong>（以下内容非数学定义，用于理解的笔记而已）</p>
+<ul>
+<li><p><strong>线性规划</strong><br>当目标函数f是线性函数而且集合A是由线性等式函数和线性不等式函数来确定的， 这一类问题为线性规划。</p>
+</li>
+<li><p><strong>整数规划</strong><br>当线性规划问题的部分或所有的变量局限于整数值时， 这一类问题为整数规划问题。</p>
+</li>
+<li><p><strong>二次规划</strong><br>目标函数是二次函数，而且集合A必须是由线性等式函数和线性不等式函数来确定的。</p>
+</li>
+<li><p><strong>非线性规划</strong><br>研究的是目标函数或是限制函数中含有非线性函数的问题。</p>
+</li>
+<li><p><strong>随机规划</strong><br>研究的是某些变量是随机变量的问题。</p>
+</li>
+<li><p><strong>目标规划</strong><br>线性规划只讨论一个线性目标函数在一组线性约束条件下的极值问题；而目标规划是多个目标决策，可求得更切合实际的解。线性规划求最优解；目标规划是找到一个满意解。线性规划中的约束条件是同等重要的，是硬约束；而目标规划中有轻重缓急和主次之分，即有优先权。线性规划的最优解是绝对意义下的最优，但需花去大量的人力、物力、财力才能得到；实际过程中，只要求得满意解，就能满足需要（或更能满足需要）。</p>
+</li>
+<li><p><strong>动态规划</strong><br>研究的是最优策略基于将问题分解成若干个较小的子问题的优化问题。20世纪50年代初美国数学家R.E.Bellman等人在研究多阶段决策过程(multistep decision process)的优化问题时，提出了著名的最优化原理(principle of optimality)，把多阶段过程转化为一系列单阶段问题，利用各阶段之间的关系，逐个求解，创立了解决这类过程优化问题的新方法 — — 动态规划。 1957年出版了他的名著Dynamic Programming，这是该领域的第一本著作。<br>虽然动态规划主要用于求解以时间划分阶段的动态过程的优化问题，但是一些与时间无关的静态规划(如线性规划、非线性规划)，只要人为地引进时间因素，把它视为多阶段决策过程，也可以用动态规划方法方便地求解。</p>
+</li>
+<li><p><strong>组合最优化</strong><br>研究的是可行解是离散或是可转化为离散的问题。</p>
+</li>
+<li><p><strong>无限维最优化</strong><br>研究的是可行解的集合是无限维空间的子集的问题，一个无限维空间的例子是函数空间。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>优化研究</category>
+      </categories>
+      <tags>
+        <tag>运筹学</tag>
+        <tag>最优化理论</tag>
       </tags>
   </entry>
   <entry>
@@ -208,6 +208,105 @@
       </categories>
       <tags>
         <tag>数据质量</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Matlab发送电子邮件email实现程序实时监控</title>
+    <url>/2018/06/09/180609%20Matlab%E5%AE%9E%E7%8E%B0%E7%A8%8B%E5%BA%8F%E5%AE%9E%E6%97%B6%E7%9B%91%E6%8E%A7/</url>
+    <content><![CDATA[<p>运行一些比较大的计算程序，经常要运行好几个小时，甚至按天计算。为了能实时监控Matlab的运行情况，可以让电脑在运行完毕Matlab程序以后，给自己发送一个电子邮件（发送短信比较难），手机邮件基本已可以达到实时提醒的效果，流程如下：</p>
+<ul>
+<li>Matlab程序运行…</li>
+<li>运行完毕以后，Matlab调用SMTP邮件(163，gmail等)发送邮件</li>
+</ul>
+<p>注：Matlab支持smtp邮件，163，qq邮箱，gmail都可以使用；邮件亦可添加附件，将计算结果等作为附件发送邮件保存。</p>
+<p>这样我就可以实时知道自己的程序运行情况，代码如下：</p>
+<a id="more"></a>
+
+<h3 id="Matlab发送电子邮件email实现程序实时监控"><a href="#Matlab发送电子邮件email实现程序实时监控" class="headerlink" title="Matlab发送电子邮件email实现程序实时监控"></a>Matlab发送电子邮件email实现程序实时监控</h3><figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line"><span class="comment">% MToM(&#x27;Program Over&#x27;,&#x27;**** Program has finished&#x27;);</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">MToM</span><span class="params">()</span></span></span><br><span class="line">subject = <span class="string">&#x27;邮件主题&#x27;</span>;</span><br><span class="line">content = <span class="string">&#x27;邮件内容&#x27;</span>;</span><br><span class="line">MailAddress = <span class="string">&#x27;邮箱地址@gmail.com&#x27;</span>;</span><br><span class="line">password = <span class="string">&#x27;邮箱密码&#x27;</span>;</span><br><span class="line">DataPath = &#123;[pwd,filesep,<span class="string">&#x27;Result.mat&#x27;</span>];...</span><br><span class="line">    [pwd,filesep,<span class="string">&#x27;XXXX.mat&#x27;</span>]&#125;;</span><br><span class="line">    <span class="comment">% pwd当前目录；filesep=&#x27;\&#x27;；附件地址DataPath可以是一组内容；</span></span><br><span class="line">setpref(<span class="string">&#x27;Internet&#x27;</span>,<span class="string">&#x27;E_mail&#x27;</span>,MailAddress);<span class="comment">%</span></span><br><span class="line">setpref(<span class="string">&#x27;Internet&#x27;</span>,<span class="string">&#x27;SMTP_Server&#x27;</span>,<span class="string">&#x27;smtp.gmail.com&#x27;</span>);</span><br><span class="line"><span class="comment">% STMP服务器地址，不同域名的邮箱地址有不同SMTP服务器地址</span></span><br><span class="line">setpref(<span class="string">&#x27;Internet&#x27;</span>,<span class="string">&#x27;SMTP_Username&#x27;</span>,MailAddress);<span class="comment">%</span></span><br><span class="line">setpref(<span class="string">&#x27;Internet&#x27;</span>,<span class="string">&#x27;SMTP_Password&#x27;</span>,password);</span><br><span class="line">props = java.lang.System.getProperties;<span class="comment">%</span></span><br><span class="line">props.setProperty(<span class="string">&#x27;mail.smtp.auth&#x27;</span>,<span class="string">&#x27;true&#x27;</span>);<span class="comment">%</span></span><br><span class="line">props.setProperty(<span class="string">&#x27;mail.smtp.socketFactory.class&#x27;</span>, <span class="string">&#x27;javax.net.ssl.SSLSocketFactory&#x27;</span>);</span><br><span class="line">props.setProperty(<span class="string">&#x27;mail.smtp.socketFactory.port&#x27;</span>,<span class="string">&#x27;465&#x27;</span>);</span><br><span class="line">sendmail(MailAddress,subject,content,DataPath);<span class="comment">%</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Matlab代码保护"><a href="#Matlab代码保护" class="headerlink" title="Matlab代码保护"></a>Matlab代码保护</h3><p>有时候程序在公共服务器上运行，邮箱密码若以明码方式写在程序中不太合适。<br>Matlab自带代码保护功能，在命令行窗口运行以下代码，便可生成“同名.p”文件，不可查询。<br>此时，再删除原MToM.m文件，程序正常运行，起到保护作用。</p>
+<figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line">pcode MToM</span><br></pre></td></tr></table></figure>
+
+<h3 id="Matlab计算结果另存"><a href="#Matlab计算结果另存" class="headerlink" title="Matlab计算结果另存"></a>Matlab计算结果另存</h3><p><code>CToF()</code>–在上主程序上一级文件夹，新建文件夹Results，保存所有计算结果，已防止辛苦计算的结果不小心被覆盖。</p>
+<figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="params">[status, msg, msgID]</span> = <span class="title">CToF</span><span class="params">()</span></span></span><br><span class="line">destination = <span class="string">&#x27;..\Results&#x27;</span>;</span><br><span class="line">source = [pwd,filesep,<span class="string">&#x27;*.mat&#x27;</span>];</span><br><span class="line">[status, msg, msgID] = copyfile(source, destination);</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Matlab主程序调用"><a href="#Matlab主程序调用" class="headerlink" title="Matlab主程序调用"></a>Matlab主程序调用</h3><p>主程序添加以下代码，调用<code>MToM()</code>，<code>CToF()</code>。</p>
+<figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line"><span class="comment">%------------------</span></span><br><span class="line">MToM();</span><br><span class="line">status = CToF();</span><br><span class="line"><span class="comment">%------------------</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="附："><a href="#附：" class="headerlink" title="附："></a>附：</h3><figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line">当前路径下 （mat和m文件在一起）：  load  ***.mat; </span><br><span class="line">在下一级路径下：  load  .\下一级路径的文件名\***.mat; </span><br><span class="line">在上一级路径下：  load  ..\***.mat; </span><br><span class="line">在平行文件夹内:   load  ..\平行的文件夹\***.mat;</span><br></pre></td></tr></table></figure>
+
+
+<blockquote>
+<p><a href="http://www.ilovematlab.cn/thread-56627-1-1.html">http://www.ilovematlab.cn/thread-56627-1-1.html</a><br><a href="https://blog.csdn.net/ouening/article/details/52079747">https://blog.csdn.net/ouening/article/details/52079747</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>必备软件</category>
+      </categories>
+      <tags>
+        <tag>Matlab</tag>
+        <tag>电子邮件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据标准概述</title>
+    <url>/2019/05/16/190516%20%E6%95%B0%E6%8D%AE%E6%A0%87%E5%87%86%E6%A6%82%E8%BF%B0/</url>
+    <content><![CDATA[<h1 id="数据标准概述"><a href="#数据标准概述" class="headerlink" title="数据标准概述"></a>数据标准概述</h1><p>数据标准是进行数据标准化的主要依据，构建一套完整的数据标准体系是开展数据标准管理工作的良好基础，有利于打通数据底层的互通性，提升数据的可用性。本章从数据标准的概念入手，多角度探讨数据标准的内涵，构建数据标准分类体系，并阐述了数据标准作为数据资产管理核心要素的重要性。</p>
+<a id="more"></a>
+
+<h2 id="一-数据标准的内涵"><a href="#一-数据标准的内涵" class="headerlink" title="(一) 数据标准的内涵"></a>(一) 数据标准的内涵</h2><p><strong>数据标准（Data Standards）</strong>是指保障数据的内外部使用和交换的一致性和准确性的规范性约束。在数字化过程中，数据是业务活动在信息系统中的真实反映。由于业务对象在信息系统中以数据的形式存在，数据标准相关管理活动均需以业务为基础，并以标准的形式规范业务对象在各信息系统中的统一定义和应用，以提升企业在业务协同、监管合规、数据共享开放、数据分析应用等各方面的能力。 </p>
+<p>“数据标准”并非是一个专有名词，而是一系列“规范性约束”的抽象。但是，数据标准的具体形态通常是一个或多个数据元的集合，即数据元是数据标准的基本单元。每一个数据元应由数据元中文名称、数据元英文名称、数据元标识符、说明、数据类型、取值、IMIX 域名七个属性组成，每一个数据元属性的描述包括该属性的注释以及相关标准规则。 </p>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-bbcc7bab36001e0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="数据元示例-银行间市场基础数据元属性及其描述"/>
+</div>
+
+<h2 id="二-数据标准分类"><a href="#二-数据标准分类" class="headerlink" title="(二) 数据标准分类"></a>(二) 数据标准分类</h2><p>数据标准是进行数据标准化、消除数据业务歧义的主要参考和依据。对数据标准进行分类，将有利于数据标准的编制、查询、落地和维护。<br>数据标准有多种分类方式，对于不同的分类方式，均可采用以数据元为数据标准制定的基本单元构建数据标准体系。<br>数据可以分为基础类数据和指标类数据。</p>
+<ul>
+<li><strong>基础类数据</strong>：指业务流程中直接产生的，未经过加工和处理的基础业务信息。</li>
+<li><strong>指标类数据</strong>：是指具备统计意义的基础类数据，通常由一个或以上的基础数据根据一定的统计规则计算而得到。</li>
+</ul>
+<p>相应地，数据标准也可以分为基础类数据标准或指标类数据标准。</p>
+<ul>
+<li><strong>基础类数据标准</strong>：是为了统一企业所有业务活动相关数据的一致性和准确性，解决业务间数据一致性和数据整合，按照数据标准管理过程制定的数据标准。</li>
+<li><strong>指标类数据标准</strong>：一般分为基础指标标准和计算指标（又称组合指标）标准。基础指标具有特定业务和经济含义，且仅能通过基础类数据加工获得，计算指标通常由两个以上基础指标计算得出。</li>
+</ul>
+<p>并非所有基础类数据和指标类数据都应纳入数据标准的管辖范围。数据标准管辖的数据，通常只是需要在各业务条线、各信息系统之间实现共享和交换的数据，以及为满足监控机构、上级主管部门、各级政府部门的数据报送要求而需要的数据。 </p>
+<p>在基础类数据标准和指标类数据标准这个框架下，可以根据各自的业务主题进行细分。细分时应尽可能做到涵盖企业的主要业务活动，且涵盖企业生产系统中产生的所有业务数据。</p>
+<p>基础类数据标准和指标类数据标准通过分别建立基础类数据元和指标类数据元，并将基础类数据元和指标类数据元与数据映射，实现基础类数据标准和指标类数据标准的落地。具体来说，对于结构化数据中的任意一个字段，当其不具备指标特征时，可直接将其与某一业务类别下的基础类数据元（如包含命名规则、数据类型和值域等属性）映射，实现该字段的标准化（符合命名规则、数据类型和值域的规定）；当其具备指标特征时，可直接将其与某一业务类别下的指标类数据元（如命名规则、约束规则、数据类型和值域等）映射，实现该字段的标准化（符合命名规则、约束规则、数据类型和值域的规定）。 </p>
+<h2 id="三-数据标准在数据资产管理中的作用"><a href="#三-数据标准在数据资产管理中的作用" class="headerlink" title="(三) 数据标准在数据资产管理中的作用"></a>(三) 数据标准在数据资产管理中的作用</h2><p>数据标准从多个方面支撑企业的数字化转型。在业务方面，数据标准能够明确很多业务含义，使得业务部门之间、业务和技术之间、统计指标之间统一认识与口径。在技术方面，数据标准能够帮助构建规范的物理数据模型，实现数据在跨系统间敏捷交互，减少数据清洗的工作量，便于数据融合分析。<br>数据标准是数据资产管理多个活动职能的核心要素，主要体现在数据质量管理、主数据管理、元数据管理、数据模型管理和数据安全管理几个方面。 </p>
+<ul>
+<li><strong>在数据质量管理方面</strong>，数据标准是数据质量稽核规则的主要参考依据，通过将数据质量稽核规则与数据标准关联，一方面可以实现字段级的数据质量校验，另一方面也可以直接构建较为通用的数据质量稽核规则体系，确保规则的全面性和可用性； </li>
+<li><strong>在主数据管理方面</strong>，需明确的是主数据是数据在特定应用场景下的一种展现方式，主要活动是提取核心数据并明确核心数据的唯一来源，因此，对于涵盖企业全部数据的数据标准而言，其可以作为主数据管理的数据标准；</li>
+<li><strong>在元数据管理方面</strong>，当将元数据管理的对象定义为结构化数据时，元数据管理主要指对结构化数据及其相关信息的管理，数据标准作为结构化数据相关信息的一部分，也是元数据管理的内容，具体包括数据标准与结构化数据的关系映射（即落标的过程）。当将元数据管理的对象定义为数据标准体系时，元数据管理主要指对数据标准分类、数据项及其属性、数据项属性规则等的管理； </li>
+<li><strong>在数据模型管理方面</strong>，当数据标准的对象包含实体、属性和关系及其相关规则时，数据标准可作为数据模型管理的标准，用于数据库、数据仓库等系统的数据模型构建依据。就本白皮书所讨论的数据标准而言，数据标准体系可作为构建概念数据模型和逻辑数据模型的业务参考； </li>
+<li><strong>在数据安全管理方面</strong>，数据标准可包含业务敏感数据对象和属性，从而实现对数据安全管理相关规则的定义。 </li>
+</ul>
+<blockquote>
+<p>《数据标准管理实践白皮书》</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>智能制造</category>
+      </categories>
+      <tags>
+        <tag>数据标准</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Matlab R2009b破解版license到期</title>
+    <url>/2019/06/08/190608%20Matlab%20R2009b%E7%A0%B4%E8%A7%A3/</url>
+    <content><![CDATA[<p>最近由于某些原因需要用到旧版本的Matlab, 但是网上给出的一些破解方法，到期时间为2017年11月11日。<br>有人提出修改电脑系统时间来避开这个问题，尝试发现，并不可行，即使可行也麻烦的一逼。<br>今天在一篇博客上发现了一个非常简单的方法，可以解决该问题。</p>
+<a id="more"></a>
+
+<h1 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h1><p>首先根据原有破解方法正常安装，然后打开安装目录下的“..:\Program Files\MATLAB\R2009b\licenses”文件夹。用以下内容替换Matlab安装路径下的license文件夹中Lic文件的相关内容。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">INCREMENT Aerospace_Blockset MLM 99 permanent uncounted \</span><br><span class="line">        A05070F00D1EB1F92326 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;216 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Aerospace_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        6090F0C08395D4289512 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;237 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Bioinformatics_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        40E0B0406DE56D23A426 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;190 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Cert_Kit_IEC MLM 99 permanent uncounted \</span><br><span class="line">        9080309041D2DCCB2B10 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;179 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Communication_Blocks MLM 99 permanent uncounted \</span><br><span class="line">        80E010304ACCEEB5E0AA VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;77 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Communication_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        C0003000770A1A086530 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;162 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Compiler MLM 99 permanent uncounted 60D0C0F0DC03C2F72FF7 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;232 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Control_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        6020E0B00B7ECE0893BB VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;7 \</span><br><span class="line">        SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Curve_Fitting_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        10703080061FF9DA5A81 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;229 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Data_Acq_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        E0B0E0E05124CF4A1A8D VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;21 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Database_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        0010D0B02CA7353F8314 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;230 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Datafeed_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        40905060D1ECD939538F VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;185 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Dial_and_Gauge_Blocks MLM 99 permanent uncounted \</span><br><span class="line">        A0F05070AA9AEBF40588 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;226 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Distrib_Computing_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        5000D00031D2C6B89F9C VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;229 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT EDA_Simulator_Link MLM 99 permanent uncounted \</span><br><span class="line">        E070C0C02B4B90B5A8D0 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;205 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Econometrics_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        505010F00EB1289A73BA VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;149 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Embedded_IDE_Link MLM 99 permanent uncounted \</span><br><span class="line">        90E01090A9BDA4FF67D7 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;254 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Excel_Link MLM 99 permanent uncounted E0800080FED6DF10E43F \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;207 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Filter_Design_HDL_Coder MLM 99 permanent uncounted \</span><br><span class="line">        3050B02039903259577E VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;181 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Filter_Design_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        3000E0B02C875CDF5823 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;239 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Fin_Derivatives_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        70A010D017A8FA7CE955 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;247 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Financial_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        20E050A0ACC6A69E7AEE VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;241 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Fixed-Point_Blocks MLM 99 permanent uncounted \</span><br><span class="line">        E0206040ED6EF9BCCB3B VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;11 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Fixed_Income_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        50E090D0C130F6416176 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;132 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Fixed_Point_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        C07000703494010EF55C VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;154 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Fuzzy_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        D04010B048FB8D350E4E VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;233 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT GADS_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        50D0900087384B51643A VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;210 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Identification_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        00707080A0CC0D8FB71E VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;190 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Image_Acquisition_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        50D0D0905C22130C4D2A VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;208 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Image_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        B01030E0F517B496275C VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;133 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Instr_Control_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        80C0505033C162F3017F VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;169 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MAP_Toolbox MLM 99 permanent uncounted C090E0E022BD3BA852B3 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;4 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MATLAB_Report_Gen MLM 99 permanent uncounted \</span><br><span class="line">        80B000B00052F620FB11 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;190 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MATLAB_Distrib_Comp_Engine MLM 99 permanent uncounted \</span><br><span class="line">        804080300CB545FBECE8 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;233 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MATLAB_Builder_for_Java MLM 99 permanent uncounted \</span><br><span class="line">        404040707C2CA5639DEE VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;186 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MATLAB_Builder_for_dot_Net MLM 99 permanent uncounted \</span><br><span class="line">        8070E0D0FFAA645DA39D VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;255 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MATLAB MLM 99 permanent uncounted 50E0F0D08F6CEF24CC5B \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;14 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MATLAB_Excel_Builder MLM 99 permanent uncounted \</span><br><span class="line">        50106010BCBF479623D9 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;206 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MBC_Toolbox MLM 99 permanent uncounted B05000C02F157C5BEE28 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;198 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MPC_Toolbox MLM 99 permanent uncounted 3050206087BF1C33045E \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;203 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Neural_Network_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        D0009010451EEB5A283F VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;198 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT OPC_Toolbox MLM 99 permanent uncounted 50F070404BE7E269740A \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;198 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Optimization_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        E0F00030546D043DF202 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;152 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT PDE_Toolbox MLM 99 permanent uncounted 5080705081D393548E6E \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;166 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Power_System_Blocks MLM 99 permanent uncounted \</span><br><span class="line">        90405000B77AC9D2CBB9 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;216 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Qual_Kit_DO MLM 99 permanent uncounted D01010C04E05A80BCD10 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;190 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT RF_Blockset MLM 99 permanent uncounted A0A00020B1FED5C15465 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;201 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT RF_Toolbox MLM 99 permanent uncounted 90F0905068868B4A97C8 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;168 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT RTW_Embedded_Coder MLM 99 permanent uncounted \</span><br><span class="line">        A0D0E0C0B3978D64A1A3 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;250 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Real-Time_Win_Target MLM 99 permanent uncounted \</span><br><span class="line">        300060D0E68A928A0DBC VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;208 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Real-Time_Workshop MLM 99 permanent uncounted \</span><br><span class="line">        7020D04006040066FAEA VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;134 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Robust_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        1040201098A2D1E80D25 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;173 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SIMULINK MLM 99 permanent uncounted 30D05030E2F9BBB8FCC2 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;213 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SIMULINK_Report_Gen MLM 99 permanent uncounted \</span><br><span class="line">        E070B070769E869B6A03 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;206 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SL_Verification_Validation MLM 99 permanent uncounted \</span><br><span class="line">        C0309000FB238CC772CC VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;251 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Signal_Blocks MLM 99 permanent uncounted \</span><br><span class="line">        F000A0702665C46E07FF VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;196 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Signal_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        E070B0403768324D14C1 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;185 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SimBiology MLM 99 permanent uncounted 404080202CFCE52296A3 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;187 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SimDriveline MLM 99 permanent uncounted \</span><br><span class="line">        B030A0704195F94612EF VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;163 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SimElectronics MLM 99 permanent uncounted \</span><br><span class="line">        F0D050A035E4883B1E9D VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;246 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SimEvents MLM 99 permanent uncounted 30E02040EB0C922C71A0 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;216 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SimHydraulics MLM 99 permanent uncounted \</span><br><span class="line">        C07090B0F394787D61B7 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;185 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SimMechanics MLM 99 permanent uncounted \</span><br><span class="line">        909000103231C13BB4BB VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;148 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Simscape MLM 99 permanent uncounted 8020D0906FAC13D095EC \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;211 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Simulink_Control_Design MLM 99 permanent uncounted \</span><br><span class="line">        D09060704E819BCDDD32 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;206 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Simulink_Design_Optim MLM 99 permanent uncounted \</span><br><span class="line">        6020C080F9B2D2F92E1C VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;243 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Simulink_Design_Verifier MLM 99 permanent uncounted \</span><br><span class="line">        8080D0002C390CBB546E VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;196 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Simulink_HDL_Coder MLM 99 permanent uncounted \</span><br><span class="line">        F05000C0108BB935AD39 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;215 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Simulink_PLC_Coder MLM 99 permanent uncounted \</span><br><span class="line">        803090F0C42068269D45 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;194 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Spline_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        30E0B0A014330227515B VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;112 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Stateflow_Coder MLM 99 permanent uncounted \</span><br><span class="line">        2050D0B06F85F87E216B VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;199 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Stateflow MLM 99 permanent uncounted 4030C0C01E0B917BED3F \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;223 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Statistics_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        7010C05033AC51015B7C VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;178 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Symbolic_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        80D09090A1ADD082F35D VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;33 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SystemTest MLM 99 permanent uncounted B0A0A0E039DA5A2F4AA0 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;29 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Target_Support_Package MLM 99 permanent uncounted \</span><br><span class="line">        207000609E1847CC5A6E VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;172 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Vehicle_Network_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        00C02010ABF2A8B8152B VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;11 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Video_and_Image_Blockset MLM 99 permanent uncounted \</span><br><span class="line">        107070B0AF7901361B1E VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;162 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Virtual_Reality_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        B010002042F6C767442D VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;205 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Wavelet_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        30C0F0800F9B41DD8577 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;238 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT XPC_Embedded_Option MLM 99 permanent uncounted \</span><br><span class="line">        102000905C51C5DE4BF0 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;174 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT XPC_Target MLM 99 permanent uncounted 6090B0000421BEBA6810 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;136 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Sensor_Array_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        E0008030D7E6251042F1 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;179 SN&#x3D;888888 TS_OK</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>优化研究</category>
+      </categories>
+      <tags>
+        <tag>Matlab</tag>
+        <tag>破解</tag>
       </tags>
   </entry>
   <entry>
@@ -254,41 +353,50 @@
       </tags>
   </entry>
   <entry>
-    <title>Matlab发送电子邮件email实现程序实时监控</title>
-    <url>/2018/06/09/180609%20Matlab%E5%AE%9E%E7%8E%B0%E7%A8%8B%E5%BA%8F%E5%AE%9E%E6%97%B6%E7%9B%91%E6%8E%A7/</url>
-    <content><![CDATA[<p>运行一些比较大的计算程序，经常要运行好几个小时，甚至按天计算。为了能实时监控Matlab的运行情况，可以让电脑在运行完毕Matlab程序以后，给自己发送一个电子邮件（发送短信比较难），手机邮件基本已可以达到实时提醒的效果，流程如下：</p>
-<ul>
-<li>Matlab程序运行…</li>
-<li>运行完毕以后，Matlab调用SMTP邮件(163，gmail等)发送邮件</li>
+    <title>火绒安全 | 史上最乖巧的安全软件</title>
+    <url>/2020/05/01/200501%20%E7%81%AB%E7%BB%92%E5%AE%89%E5%85%A8/</url>
+    <content><![CDATA[<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-e5c3301c766c7185.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "100%" height = "100%" alt=" " align=center />
+</div>
+
+<h3 id="火绒安全软件"><a href="#火绒安全软件" class="headerlink" title="火绒安全软件"></a>火绒安全软件</h3><h3 id="推荐"><a href="#推荐" class="headerlink" title="推荐"></a>推荐</h3><ul>
+<li><strong>乖巧到让你忘记电脑还安装了安全软件！！</strong></li>
+<li><strong>简约！！干净！！杜绝一切花里胡哨！！</strong></li>
 </ul>
-<p>注：Matlab支持smtp邮件，163，qq邮箱，gmail都可以使用；邮件亦可添加附件，将计算结果等作为附件发送邮件保存。</p>
-<p>这样我就可以实时知道自己的程序运行情况，代码如下：</p>
 <a id="more"></a>
 
-<h3 id="Matlab发送电子邮件email实现程序实时监控"><a href="#Matlab发送电子邮件email实现程序实时监控" class="headerlink" title="Matlab发送电子邮件email实现程序实时监控"></a>Matlab发送电子邮件email实现程序实时监控</h3><figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line"><span class="comment">% MToM(&#x27;Program Over&#x27;,&#x27;**** Program has finished&#x27;);</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">MToM</span><span class="params">()</span></span></span><br><span class="line">subject = <span class="string">&#x27;邮件主题&#x27;</span>;</span><br><span class="line">content = <span class="string">&#x27;邮件内容&#x27;</span>;</span><br><span class="line">MailAddress = <span class="string">&#x27;邮箱地址@gmail.com&#x27;</span>;</span><br><span class="line">password = <span class="string">&#x27;邮箱密码&#x27;</span>;</span><br><span class="line">DataPath = &#123;[pwd,filesep,<span class="string">&#x27;Result.mat&#x27;</span>];...</span><br><span class="line">    [pwd,filesep,<span class="string">&#x27;XXXX.mat&#x27;</span>]&#125;;</span><br><span class="line">    <span class="comment">% pwd当前目录；filesep=&#x27;\&#x27;；附件地址DataPath可以是一组内容；</span></span><br><span class="line">setpref(<span class="string">&#x27;Internet&#x27;</span>,<span class="string">&#x27;E_mail&#x27;</span>,MailAddress);<span class="comment">%</span></span><br><span class="line">setpref(<span class="string">&#x27;Internet&#x27;</span>,<span class="string">&#x27;SMTP_Server&#x27;</span>,<span class="string">&#x27;smtp.gmail.com&#x27;</span>);</span><br><span class="line"><span class="comment">% STMP服务器地址，不同域名的邮箱地址有不同SMTP服务器地址</span></span><br><span class="line">setpref(<span class="string">&#x27;Internet&#x27;</span>,<span class="string">&#x27;SMTP_Username&#x27;</span>,MailAddress);<span class="comment">%</span></span><br><span class="line">setpref(<span class="string">&#x27;Internet&#x27;</span>,<span class="string">&#x27;SMTP_Password&#x27;</span>,password);</span><br><span class="line">props = java.lang.System.getProperties;<span class="comment">%</span></span><br><span class="line">props.setProperty(<span class="string">&#x27;mail.smtp.auth&#x27;</span>,<span class="string">&#x27;true&#x27;</span>);<span class="comment">%</span></span><br><span class="line">props.setProperty(<span class="string">&#x27;mail.smtp.socketFactory.class&#x27;</span>, <span class="string">&#x27;javax.net.ssl.SSLSocketFactory&#x27;</span>);</span><br><span class="line">props.setProperty(<span class="string">&#x27;mail.smtp.socketFactory.port&#x27;</span>,<span class="string">&#x27;465&#x27;</span>);</span><br><span class="line">sendmail(MailAddress,subject,content,DataPath);<span class="comment">%</span></span><br></pre></td></tr></table></figure>
+<h3 id="敲黑板！划重点！"><a href="#敲黑板！划重点！" class="headerlink" title="敲黑板！划重点！"></a>敲黑板！划重点！</h3><p>请问你电脑上次中病毒是什么时候？！多少人对病毒的概念还停留在<strong>熊猫烧香</strong>和<strong>WannaCry勒索病毒(永恒之蓝)**？！发现了吗，其实你的电脑并不是很容易中毒，除非发生这种大规模、世界级病毒事件！！<br>**那为什么所有人买了新电脑都在想一件事，那就是安装什么杀毒软件？？</strong>只能说是360们出现之前落下的病根。曾经在那个久远的年代里，电脑确实经常发生问题。于是各种什么江民、诺盾、瑞星、赛门铁克、趋势、卡巴斯基，在这片市场上干了起来，软件收费还是当时最大的问题。直到2011年，突然出现了三个愣头，金山毒霸、腾讯管家和360不收费了！！尤其360，不得不说周鸿祎的这个免费杀毒的决策，确实造福了整个行业和用户。直接导致的结果就是，病毒开发者需要花很大精力，来突破安全软件防守，成本升高而且还不太能干的过安全公司技术团队的“正规军”。做病毒不赚钱，自然渐渐就没人做了。<br>发展到现在，可以说中国已经是杀毒软件最普及、安全水平也最高的国家，即使电脑不安装任何杀毒软件，都不会有啥太大问题。<strong>都这么安全了，那你问为啥还要安装？？其实不就是为了图个心理安慰！！心里安慰！！安慰！！慰！！</strong><br>市面上某某某些杀毒软件做大后，就开始变得体系庞杂，各种功能臃肿，无时无刻不在用各种弹窗、小工具、小提示，<strong>刷存在感！！严重惹人厌恶！！</strong>对于大部分用户来说，其实你遇到的就是打印店或者公共电脑上的那点小破病毒，何必为了踩个蚂蚁，弄只大象天天养着。<strong>在这种情况下，一款安静、精致、低调、奢华、有内涵的软件必将成为你的首选！！</strong>记住我们的口号：<strong>简约！！干净！！杜绝一切花里胡哨！！</strong></p>
+<h3 id="官网介绍"><a href="#官网介绍" class="headerlink" title="官网介绍"></a>官网介绍</h3><p>产品特点——干净、轻巧、简单、易用</p>
+<ul>
+<li>干净：无任何具有广告推广性质的弹窗和捆绑等打扰用户行为；</li>
+<li>简单：一键下载，安装后使用默认配置即可获得安全防护；</li>
+<li>轻巧：占用资源少，不影响日常办公、游戏；</li>
+<li>易用：产品性能历经数次优化，兼容性好，运行流畅；</li>
+</ul>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-d9962a179cc6f700.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "70%" height = "70%" alt="产品特点" align=center />
+</div>
 
-<h3 id="Matlab代码保护"><a href="#Matlab代码保护" class="headerlink" title="Matlab代码保护"></a>Matlab代码保护</h3><p>有时候程序在公共服务器上运行，邮箱密码若以明码方式写在程序中不太合适。<br>Matlab自带代码保护功能，在命令行窗口运行以下代码，便可生成“同名.p”文件，不可查询。<br>此时，再删除原MToM.m文件，程序正常运行，起到保护作用。</p>
-<figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line">pcode MToM</span><br></pre></td></tr></table></figure>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-7cdd2afa90b741ab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "70%" height = "70%" alt="功能介绍" align=center />
+</div>
 
-<h3 id="Matlab计算结果另存"><a href="#Matlab计算结果另存" class="headerlink" title="Matlab计算结果另存"></a>Matlab计算结果另存</h3><p><code>CToF()</code>–在上主程序上一级文件夹，新建文件夹Results，保存所有计算结果，已防止辛苦计算的结果不小心被覆盖。</p>
-<figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="params">[status, msg, msgID]</span> = <span class="title">CToF</span><span class="params">()</span></span></span><br><span class="line">destination = <span class="string">&#x27;..\Results&#x27;</span>;</span><br><span class="line">source = [pwd,filesep,<span class="string">&#x27;*.mat&#x27;</span>];</span><br><span class="line">[status, msg, msgID] = copyfile(source, destination);</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="Matlab主程序调用"><a href="#Matlab主程序调用" class="headerlink" title="Matlab主程序调用"></a>Matlab主程序调用</h3><p>主程序添加以下代码，调用<code>MToM()</code>，<code>CToF()</code>。</p>
-<figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line"><span class="comment">%------------------</span></span><br><span class="line">MToM();</span><br><span class="line">status = CToF();</span><br><span class="line"><span class="comment">%------------------</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="附："><a href="#附：" class="headerlink" title="附："></a>附：</h3><figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line">当前路径下 （mat和m文件在一起）：  load  ***.mat; </span><br><span class="line">在下一级路径下：  load  .\下一级路径的文件名\***.mat; </span><br><span class="line">在上一级路径下：  load  ..\***.mat; </span><br><span class="line">在平行文件夹内:   load  ..\平行的文件夹\***.mat;</span><br></pre></td></tr></table></figure>
-
-
-<blockquote>
-<p><a href="http://www.ilovematlab.cn/thread-56627-1-1.html">http://www.ilovematlab.cn/thread-56627-1-1.html</a><br><a href="https://blog.csdn.net/ouening/article/details/52079747">https://blog.csdn.net/ouening/article/details/52079747</a></p>
-</blockquote>
+<h3 id="个人体会"><a href="#个人体会" class="headerlink" title="个人体会"></a>个人体会</h3><ul>
+<li>90%的人安装安全软件只会用到：垃圾清理、启动项管理，最多再加个漏洞修复、弹窗拦截。功能选择性下载，简单精致，但不代表没有上乘功法，有兴趣的可自行研究<strong>火绒剑</strong>。不过大部分人并用不到这些，劳力伤神，小白们用默认功能就行。</li>
+<li>市面上的小喽啰病毒给你一网打尽，悄咪地保护你的安全。那你问有牛逼病毒时候怎么办？只能说<strong>那个时候火绒不行，其他的软件也不行！！</strong>既然是<strong>图个心理安慰</strong>，干嘛不找个<strong>最乖巧的</strong>。</li>
+<li><strong>无弹窗！！无广告！！无提示！！啥都没有！！啥也不是！！</strong>安静到让你忘记电脑还安装了安全软件。每天早上打开电脑没有人提示你开机耗时、几点了、天气咋样、啥PUA、啥多人运动，多多少少有点落寞呢。</li>
+<li><strong>记住我们的口号：简约！！干净！！杜绝一切花里胡哨！！</strong></li>
+</ul>
+<hr>
+<h3 id="指路"><a href="#指路" class="headerlink" title="指路"></a>指路</h3><p>官网下载：<a href="https://www.huorong.cn/person5.html">火绒安全</a><br>应用平台：Windows<br>推荐：乖巧到让你忘记电脑还安装了安全软件！！</p>
+<hr>
 ]]></content>
       <categories>
         <category>必备软件</category>
       </categories>
       <tags>
-        <tag>Matlab</tag>
-        <tag>电子邮件</tag>
+        <tag>火绒安全</tag>
+        <tag>软件</tag>
       </tags>
   </entry>
   <entry>
@@ -299,7 +407,7 @@
 </div>
 
 <h3 id="OneNote-绝对高效的知识管理笔记应用"><a href="#OneNote-绝对高效的知识管理笔记应用" class="headerlink" title="OneNote | 绝对高效的知识管理笔记应用"></a>OneNote | 绝对高效的知识管理笔记应用</h3><p><strong><a href="https://www.onenote.com/Download">OneNote</a></strong> 是微软推出一款强大高效的数字笔记软件，之前含在MS Office办公套件中，现在几乎已经成为所有新机的预装软件。市面上云笔记软件很多，有道云笔记、印象笔记、为知笔记等，为什么要选择OneNote呢？！<br>在这个地方，OneNote功能使用上的方法，不再过多介绍。只想夸一下它在一键剪藏和信息收集方面的强！大！功！能！</p>
-<h3 id="吖燊推荐"><a href="#吖燊推荐" class="headerlink" title="吖燊推荐"></a>吖燊推荐</h3><ul>
+<h3 id="推荐"><a href="#推荐" class="headerlink" title="推荐"></a>推荐</h3><ul>
 <li><strong>Windows、Mac、IOS、Android 全平台无限制同步共享！！</strong></li>
 <li><strong>微信公众号、网页、All一键转发剪藏！！</strong></li>
 <li><strong>简约！！干净！！杜绝一切花里胡哨！！</strong></li>
@@ -372,69 +480,8 @@
         <category>必备软件</category>
       </categories>
       <tags>
-        <tag>OneNote</tag>
         <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据标准概述</title>
-    <url>/2019/05/16/190516%20%E6%95%B0%E6%8D%AE%E6%A0%87%E5%87%86%E6%A6%82%E8%BF%B0/</url>
-    <content><![CDATA[<h1 id="数据标准概述"><a href="#数据标准概述" class="headerlink" title="数据标准概述"></a>数据标准概述</h1><p>数据标准是进行数据标准化的主要依据，构建一套完整的数据标准体系是开展数据标准管理工作的良好基础，有利于打通数据底层的互通性，提升数据的可用性。本章从数据标准的概念入手，多角度探讨数据标准的内涵，构建数据标准分类体系，并阐述了数据标准作为数据资产管理核心要素的重要性。</p>
-<a id="more"></a>
-
-<h2 id="一-数据标准的内涵"><a href="#一-数据标准的内涵" class="headerlink" title="(一) 数据标准的内涵"></a>(一) 数据标准的内涵</h2><p><strong>数据标准（Data Standards）</strong>是指保障数据的内外部使用和交换的一致性和准确性的规范性约束。在数字化过程中，数据是业务活动在信息系统中的真实反映。由于业务对象在信息系统中以数据的形式存在，数据标准相关管理活动均需以业务为基础，并以标准的形式规范业务对象在各信息系统中的统一定义和应用，以提升企业在业务协同、监管合规、数据共享开放、数据分析应用等各方面的能力。 </p>
-<p>“数据标准”并非是一个专有名词，而是一系列“规范性约束”的抽象。但是，数据标准的具体形态通常是一个或多个数据元的集合，即数据元是数据标准的基本单元。每一个数据元应由数据元中文名称、数据元英文名称、数据元标识符、说明、数据类型、取值、IMIX 域名七个属性组成，每一个数据元属性的描述包括该属性的注释以及相关标准规则。 </p>
-<div align=center>
-<img data-src="https://upload-images.jianshu.io/upload_images/5436217-bbcc7bab36001e0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="数据元示例-银行间市场基础数据元属性及其描述"/>
-</div>
-
-<h2 id="二-数据标准分类"><a href="#二-数据标准分类" class="headerlink" title="(二) 数据标准分类"></a>(二) 数据标准分类</h2><p>数据标准是进行数据标准化、消除数据业务歧义的主要参考和依据。对数据标准进行分类，将有利于数据标准的编制、查询、落地和维护。<br>数据标准有多种分类方式，对于不同的分类方式，均可采用以数据元为数据标准制定的基本单元构建数据标准体系。<br>数据可以分为基础类数据和指标类数据。</p>
-<ul>
-<li><strong>基础类数据</strong>：指业务流程中直接产生的，未经过加工和处理的基础业务信息。</li>
-<li><strong>指标类数据</strong>：是指具备统计意义的基础类数据，通常由一个或以上的基础数据根据一定的统计规则计算而得到。</li>
-</ul>
-<p>相应地，数据标准也可以分为基础类数据标准或指标类数据标准。</p>
-<ul>
-<li><strong>基础类数据标准</strong>：是为了统一企业所有业务活动相关数据的一致性和准确性，解决业务间数据一致性和数据整合，按照数据标准管理过程制定的数据标准。</li>
-<li><strong>指标类数据标准</strong>：一般分为基础指标标准和计算指标（又称组合指标）标准。基础指标具有特定业务和经济含义，且仅能通过基础类数据加工获得，计算指标通常由两个以上基础指标计算得出。</li>
-</ul>
-<p>并非所有基础类数据和指标类数据都应纳入数据标准的管辖范围。数据标准管辖的数据，通常只是需要在各业务条线、各信息系统之间实现共享和交换的数据，以及为满足监控机构、上级主管部门、各级政府部门的数据报送要求而需要的数据。 </p>
-<p>在基础类数据标准和指标类数据标准这个框架下，可以根据各自的业务主题进行细分。细分时应尽可能做到涵盖企业的主要业务活动，且涵盖企业生产系统中产生的所有业务数据。</p>
-<p>基础类数据标准和指标类数据标准通过分别建立基础类数据元和指标类数据元，并将基础类数据元和指标类数据元与数据映射，实现基础类数据标准和指标类数据标准的落地。具体来说，对于结构化数据中的任意一个字段，当其不具备指标特征时，可直接将其与某一业务类别下的基础类数据元（如包含命名规则、数据类型和值域等属性）映射，实现该字段的标准化（符合命名规则、数据类型和值域的规定）；当其具备指标特征时，可直接将其与某一业务类别下的指标类数据元（如命名规则、约束规则、数据类型和值域等）映射，实现该字段的标准化（符合命名规则、约束规则、数据类型和值域的规定）。 </p>
-<h2 id="三-数据标准在数据资产管理中的作用"><a href="#三-数据标准在数据资产管理中的作用" class="headerlink" title="(三) 数据标准在数据资产管理中的作用"></a>(三) 数据标准在数据资产管理中的作用</h2><p>数据标准从多个方面支撑企业的数字化转型。在业务方面，数据标准能够明确很多业务含义，使得业务部门之间、业务和技术之间、统计指标之间统一认识与口径。在技术方面，数据标准能够帮助构建规范的物理数据模型，实现数据在跨系统间敏捷交互，减少数据清洗的工作量，便于数据融合分析。<br>数据标准是数据资产管理多个活动职能的核心要素，主要体现在数据质量管理、主数据管理、元数据管理、数据模型管理和数据安全管理几个方面。 </p>
-<ul>
-<li><strong>在数据质量管理方面</strong>，数据标准是数据质量稽核规则的主要参考依据，通过将数据质量稽核规则与数据标准关联，一方面可以实现字段级的数据质量校验，另一方面也可以直接构建较为通用的数据质量稽核规则体系，确保规则的全面性和可用性； </li>
-<li><strong>在主数据管理方面</strong>，需明确的是主数据是数据在特定应用场景下的一种展现方式，主要活动是提取核心数据并明确核心数据的唯一来源，因此，对于涵盖企业全部数据的数据标准而言，其可以作为主数据管理的数据标准；</li>
-<li><strong>在元数据管理方面</strong>，当将元数据管理的对象定义为结构化数据时，元数据管理主要指对结构化数据及其相关信息的管理，数据标准作为结构化数据相关信息的一部分，也是元数据管理的内容，具体包括数据标准与结构化数据的关系映射（即落标的过程）。当将元数据管理的对象定义为数据标准体系时，元数据管理主要指对数据标准分类、数据项及其属性、数据项属性规则等的管理； </li>
-<li><strong>在数据模型管理方面</strong>，当数据标准的对象包含实体、属性和关系及其相关规则时，数据标准可作为数据模型管理的标准，用于数据库、数据仓库等系统的数据模型构建依据。就本白皮书所讨论的数据标准而言，数据标准体系可作为构建概念数据模型和逻辑数据模型的业务参考； </li>
-<li><strong>在数据安全管理方面</strong>，数据标准可包含业务敏感数据对象和属性，从而实现对数据安全管理相关规则的定义。 </li>
-</ul>
-<blockquote>
-<p>《数据标准管理实践白皮书》</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>智能制造</category>
-      </categories>
-      <tags>
-        <tag>数据标准</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Matlab R2009b破解版license到期</title>
-    <url>/2019/06/08/190608%20Matlab%20R2009b%E7%A0%B4%E8%A7%A3/</url>
-    <content><![CDATA[<p>最近由于某些原因需要用到旧版本的Matlab, 但是网上给出的一些破解方法，到期时间为2017年11月11日。<br>有人提出修改电脑系统时间来避开这个问题，尝试发现，并不可行，即使可行也麻烦的一逼。<br>今天在一篇博客上发现了一个非常简单的方法，可以解决该问题。</p>
-<a id="more"></a>
-
-<h1 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h1><p>首先根据原有破解方法正常安装，然后打开安装目录下的“..:\Program Files\MATLAB\R2009b\licenses”文件夹。用以下内容替换Matlab安装路径下的license文件夹中Lic文件的相关内容。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">INCREMENT Aerospace_Blockset MLM 99 permanent uncounted \</span><br><span class="line">        A05070F00D1EB1F92326 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;216 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Aerospace_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        6090F0C08395D4289512 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;237 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Bioinformatics_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        40E0B0406DE56D23A426 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;190 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Cert_Kit_IEC MLM 99 permanent uncounted \</span><br><span class="line">        9080309041D2DCCB2B10 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;179 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Communication_Blocks MLM 99 permanent uncounted \</span><br><span class="line">        80E010304ACCEEB5E0AA VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;77 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Communication_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        C0003000770A1A086530 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;162 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Compiler MLM 99 permanent uncounted 60D0C0F0DC03C2F72FF7 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;232 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Control_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        6020E0B00B7ECE0893BB VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;7 \</span><br><span class="line">        SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Curve_Fitting_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        10703080061FF9DA5A81 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;229 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Data_Acq_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        E0B0E0E05124CF4A1A8D VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;21 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Database_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        0010D0B02CA7353F8314 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;230 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Datafeed_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        40905060D1ECD939538F VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;185 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Dial_and_Gauge_Blocks MLM 99 permanent uncounted \</span><br><span class="line">        A0F05070AA9AEBF40588 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;226 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Distrib_Computing_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        5000D00031D2C6B89F9C VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;229 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT EDA_Simulator_Link MLM 99 permanent uncounted \</span><br><span class="line">        E070C0C02B4B90B5A8D0 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;205 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Econometrics_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        505010F00EB1289A73BA VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;149 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Embedded_IDE_Link MLM 99 permanent uncounted \</span><br><span class="line">        90E01090A9BDA4FF67D7 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;254 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Excel_Link MLM 99 permanent uncounted E0800080FED6DF10E43F \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;207 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Filter_Design_HDL_Coder MLM 99 permanent uncounted \</span><br><span class="line">        3050B02039903259577E VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;181 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Filter_Design_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        3000E0B02C875CDF5823 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;239 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Fin_Derivatives_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        70A010D017A8FA7CE955 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;247 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Financial_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        20E050A0ACC6A69E7AEE VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;241 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Fixed-Point_Blocks MLM 99 permanent uncounted \</span><br><span class="line">        E0206040ED6EF9BCCB3B VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;11 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Fixed_Income_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        50E090D0C130F6416176 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;132 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Fixed_Point_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        C07000703494010EF55C VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;154 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Fuzzy_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        D04010B048FB8D350E4E VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;233 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT GADS_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        50D0900087384B51643A VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;210 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Identification_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        00707080A0CC0D8FB71E VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;190 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Image_Acquisition_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        50D0D0905C22130C4D2A VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;208 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Image_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        B01030E0F517B496275C VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;133 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Instr_Control_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        80C0505033C162F3017F VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;169 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MAP_Toolbox MLM 99 permanent uncounted C090E0E022BD3BA852B3 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;4 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MATLAB_Report_Gen MLM 99 permanent uncounted \</span><br><span class="line">        80B000B00052F620FB11 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;190 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MATLAB_Distrib_Comp_Engine MLM 99 permanent uncounted \</span><br><span class="line">        804080300CB545FBECE8 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;233 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MATLAB_Builder_for_Java MLM 99 permanent uncounted \</span><br><span class="line">        404040707C2CA5639DEE VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;186 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MATLAB_Builder_for_dot_Net MLM 99 permanent uncounted \</span><br><span class="line">        8070E0D0FFAA645DA39D VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;255 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MATLAB MLM 99 permanent uncounted 50E0F0D08F6CEF24CC5B \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;14 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MATLAB_Excel_Builder MLM 99 permanent uncounted \</span><br><span class="line">        50106010BCBF479623D9 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;206 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MBC_Toolbox MLM 99 permanent uncounted B05000C02F157C5BEE28 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;198 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT MPC_Toolbox MLM 99 permanent uncounted 3050206087BF1C33045E \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;203 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Neural_Network_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        D0009010451EEB5A283F VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;198 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT OPC_Toolbox MLM 99 permanent uncounted 50F070404BE7E269740A \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;198 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Optimization_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        E0F00030546D043DF202 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;152 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT PDE_Toolbox MLM 99 permanent uncounted 5080705081D393548E6E \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;166 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Power_System_Blocks MLM 99 permanent uncounted \</span><br><span class="line">        90405000B77AC9D2CBB9 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;216 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Qual_Kit_DO MLM 99 permanent uncounted D01010C04E05A80BCD10 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;190 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT RF_Blockset MLM 99 permanent uncounted A0A00020B1FED5C15465 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;201 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT RF_Toolbox MLM 99 permanent uncounted 90F0905068868B4A97C8 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;168 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT RTW_Embedded_Coder MLM 99 permanent uncounted \</span><br><span class="line">        A0D0E0C0B3978D64A1A3 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;250 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Real-Time_Win_Target MLM 99 permanent uncounted \</span><br><span class="line">        300060D0E68A928A0DBC VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;208 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Real-Time_Workshop MLM 99 permanent uncounted \</span><br><span class="line">        7020D04006040066FAEA VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;134 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Robust_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        1040201098A2D1E80D25 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;173 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SIMULINK MLM 99 permanent uncounted 30D05030E2F9BBB8FCC2 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;213 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SIMULINK_Report_Gen MLM 99 permanent uncounted \</span><br><span class="line">        E070B070769E869B6A03 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;206 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SL_Verification_Validation MLM 99 permanent uncounted \</span><br><span class="line">        C0309000FB238CC772CC VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;251 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Signal_Blocks MLM 99 permanent uncounted \</span><br><span class="line">        F000A0702665C46E07FF VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;196 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Signal_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        E070B0403768324D14C1 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;185 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SimBiology MLM 99 permanent uncounted 404080202CFCE52296A3 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;187 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SimDriveline MLM 99 permanent uncounted \</span><br><span class="line">        B030A0704195F94612EF VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;163 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SimElectronics MLM 99 permanent uncounted \</span><br><span class="line">        F0D050A035E4883B1E9D VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;246 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SimEvents MLM 99 permanent uncounted 30E02040EB0C922C71A0 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;216 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SimHydraulics MLM 99 permanent uncounted \</span><br><span class="line">        C07090B0F394787D61B7 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;185 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SimMechanics MLM 99 permanent uncounted \</span><br><span class="line">        909000103231C13BB4BB VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;148 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Simscape MLM 99 permanent uncounted 8020D0906FAC13D095EC \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;211 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Simulink_Control_Design MLM 99 permanent uncounted \</span><br><span class="line">        D09060704E819BCDDD32 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;206 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Simulink_Design_Optim MLM 99 permanent uncounted \</span><br><span class="line">        6020C080F9B2D2F92E1C VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;243 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Simulink_Design_Verifier MLM 99 permanent uncounted \</span><br><span class="line">        8080D0002C390CBB546E VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;196 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Simulink_HDL_Coder MLM 99 permanent uncounted \</span><br><span class="line">        F05000C0108BB935AD39 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;215 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Simulink_PLC_Coder MLM 99 permanent uncounted \</span><br><span class="line">        803090F0C42068269D45 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;194 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Spline_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        30E0B0A014330227515B VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;112 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Stateflow_Coder MLM 99 permanent uncounted \</span><br><span class="line">        2050D0B06F85F87E216B VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;199 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Stateflow MLM 99 permanent uncounted 4030C0C01E0B917BED3F \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;223 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Statistics_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        7010C05033AC51015B7C VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;178 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Symbolic_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        80D09090A1ADD082F35D VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;33 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT SystemTest MLM 99 permanent uncounted B0A0A0E039DA5A2F4AA0 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;29 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Target_Support_Package MLM 99 permanent uncounted \</span><br><span class="line">        207000609E1847CC5A6E VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;172 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Vehicle_Network_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        00C02010ABF2A8B8152B VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;11 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Video_and_Image_Blockset MLM 99 permanent uncounted \</span><br><span class="line">        107070B0AF7901361B1E VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;162 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Virtual_Reality_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        B010002042F6C767442D VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;205 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Wavelet_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        30C0F0800F9B41DD8577 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;238 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT XPC_Embedded_Option MLM 99 permanent uncounted \</span><br><span class="line">        102000905C51C5DE4BF0 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;174 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT XPC_Target MLM 99 permanent uncounted 6090B0000421BEBA6810 \</span><br><span class="line">        VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY ck&#x3D;136 SN&#x3D;888888 TS_OK</span><br><span class="line">INCREMENT Sensor_Array_Toolbox MLM 99 permanent uncounted \</span><br><span class="line">        E0008030D7E6251042F1 VENDOR_STRING&#x3D;QQ&#x3D;47399897 HOSTID&#x3D;ANY \</span><br><span class="line">        ck&#x3D;179 SN&#x3D;888888 TS_OK</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>优化研究</category>
-      </categories>
-      <tags>
-        <tag>Matlab</tag>
-        <tag>破解</tag>
+        <tag>OneNote</tag>
       </tags>
   </entry>
   <entry>
@@ -444,7 +491,7 @@
 <img data-src="https://upload-images.jianshu.io/upload_images/5436217-85be06e199f94000.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "100%" height = "100%" alt=" "/>
 </div>
 
-<h3 id="百分浏览器-Cent-Browser"><a href="#百分浏览器-Cent-Browser" class="headerlink" title="百分浏览器 Cent Browser"></a>百分浏览器 Cent Browser</h3><h3 id="吖燊推荐"><a href="#吖燊推荐" class="headerlink" title="吖燊推荐"></a>吖燊推荐</h3><ul>
+<h3 id="百分浏览器-Cent-Browser"><a href="#百分浏览器-Cent-Browser" class="headerlink" title="百分浏览器 Cent Browser"></a>百分浏览器 Cent Browser</h3><h3 id="推荐"><a href="#推荐" class="headerlink" title="推荐"></a>推荐</h3><ul>
 <li><strong>Chrome有的它都有，Chrome没有的它还有！！</strong></li>
 <li><strong>简约！！干净！！杜绝一切花里胡哨！！</strong></li>
 </ul>
@@ -486,7 +533,7 @@
 </div>
 
 <hr>
-<h3 id="吖燊指路"><a href="#吖燊指路" class="headerlink" title="吖燊指路"></a>吖燊指路</h3><p>官网下载：<a href="https://www.centbrowser.cn/">百分浏览器 Cent Browser</a><br>应用平台：Windows<br>吖燊推荐：Chrome有的它都有，Chrome没有的它还有！！</p>
+<h3 id="指路"><a href="#指路" class="headerlink" title="指路"></a>指路</h3><p>官网下载：<a href="https://www.centbrowser.cn/">百分浏览器 Cent Browser</a><br>应用平台：Windows<br>推荐：Chrome有的它都有，Chrome没有的它还有！！</p>
 <hr>
 ]]></content>
       <categories>
@@ -505,7 +552,7 @@
 </div>
 
 <h3 id="Bandizip-绝对装机必备压缩软件"><a href="#Bandizip-绝对装机必备压缩软件" class="headerlink" title="Bandizip 绝对装机必备压缩软件"></a>Bandizip 绝对装机必备压缩软件</h3><p>一款来自韩国的免费优秀文件压缩/解压缩软件，口碑极佳！功能强大，界面简洁，无广告+完全免费，完美替代 WinRAR 和 7-Zip。</p>
-<h3 id="吖燊推荐"><a href="#吖燊推荐" class="headerlink" title="吖燊推荐"></a>吖燊推荐</h3><ul>
+<h3 id="推荐"><a href="#推荐" class="headerlink" title="推荐"></a>推荐</h3><ul>
 <li><strong>最后一个官方无广告免费版压缩软件！！</strong></li>
 <li><strong>简约！！干净！！杜绝一切花里胡哨！！</strong></li>
 </ul>
@@ -553,7 +600,7 @@
 
 
 <hr>
-<h3 id="吖燊指路"><a href="#吖燊指路" class="headerlink" title="吖燊指路"></a>吖燊指路</h3><p>官网下载：<a href="http://www.bandisoft.com/bandizip/old/6/">Bandizip v6.27</a><br>云盘备用：链接：<a href="https://pan.baidu.com/s/1CHucl21rUYR4Sepz4fSwJw">https://pan.baidu.com/s/1CHucl21rUYR4Sepz4fSwJw</a>  提取码：suel<br>应用平台：Windows<br>吖燊推荐：最后一个官方无广告免费版压缩软件！！</p>
+<h3 id="指路"><a href="#指路" class="headerlink" title="指路"></a>指路</h3><p>官网下载：<a href="http://www.bandisoft.com/bandizip/old/6/">Bandizip v6.27</a><br>云盘备用：链接：<a href="https://pan.baidu.com/s/1CHucl21rUYR4Sepz4fSwJw">https://pan.baidu.com/s/1CHucl21rUYR4Sepz4fSwJw</a>  提取码：suel<br>应用平台：Windows<br>推荐：最后一个官方无广告免费版压缩软件！！</p>
 <hr>
 ]]></content>
       <categories>
@@ -659,6 +706,74 @@
       </tags>
   </entry>
   <entry>
+    <title>什么是物联网、工业物联网、工业互联网、工业云平台？</title>
+    <url>/2020/05/28/200528%20%E7%89%A9%E8%81%94%E7%BD%91%E3%80%81%E5%B7%A5%E4%B8%9A%E7%89%A9%E8%81%94%E7%BD%91%E3%80%81%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E3%80%81%E5%B7%A5%E4%B8%9A%E4%BA%91%E5%B9%B3%E5%8F%B0/</url>
+    <content><![CDATA[<h2 id="物联网"><a href="#物联网" class="headerlink" title="物联网"></a>物联网</h2><p>物联网（The Internet of Things，简称IOT）是指通过 各种信息传感器、射频识别技术、全球定位系统、红外感应器、激光扫描器等各种装置与技术，实时采集任何需要监控、 连接、互动的物体或过程，采集其声、光、热、电、力学、化 学、生物、位置等各种需要的信息，通过各类可能的网络接入，实现物与物、物与人的泛在连接，实现对物品和过程的智能化感知、识别和管理。物联网是一个基于互联网、传统电信网等的信息承载体，它让所有能够被独立寻址的普通物理对象形成互联互通的网络。</p>
+<a id="more"></a>
+
+<h2 id="工业互联网"><a href="#工业互联网" class="headerlink" title="工业互联网"></a>工业互联网</h2><p>工业互联网是指工业互联的网，而不是工业的互联网。</p>
+<ul>
+<li>在企业内部，要实现工业设备（生产设备、物流装备、能源计量、质量检验、车辆等）、信息系统、业务流程、企业的产品与服务、人员之间的互联，实现企业IT网络与工控网络的互联，实现从车间到决策层的纵向互联；</li>
+<li>在企业间，要实现上下游企业（供应商、经销商、客户、合作伙伴）之间的横向互联；</li>
+<li>从产品生命周期的维度，要实现产品从设计、制造到服役，再到报废回收再利用整个生命周期的互联。这实际上与工业4。0提出的三个集成的内涵是相通的。</li>
+</ul>
+<h2 id="工业物联网"><a href="#工业物联网" class="headerlink" title="工业物联网"></a>工业物联网</h2><p>工业物联网指的是物联网在工业的应用。工业互联网涵盖了工业物联网，但进一步延伸到企业的信息系统、业务流程和人员。<br>工业互联网的概念实际上与国外提出的万物互联（Internet of Everything，将人、流程、数据和事物结合一起，使得网络连接变得更加相关，更有价值）理念有相似之处，相当于是工业企业的万物互联。</p>
+<h2 id="工业云平台"><a href="#工业云平台" class="headerlink" title="工业云平台"></a>工业云平台</h2><p>工业云平台指的是工业领域的云平台，包括了IAAS（基础设施服务化）、PAAS（平台服务化）、SAAS（软件服务化）三个层面，工业云平台的目的是将工业软件演化为一种云服务（SAAS），并为客户提供可以对软件功能进行配置或二次开发的平台（PAAS），将数据和信息系统存储到云端，从而使工业企业应用信息系统更加便捷、更有利于管理（例如，实现服务器和桌面虚拟化），因此，工业云平台本质上属于IT平台。</p>
+<p>工业互联网平台是工业云平台的扩展与延伸，不仅能够支持工业云平台的所有功能，而且要支撑工业物联网应用，实现IT与OT融合。</p>
+<ul>
+<li>在IAAS和边缘（设备端）层，工业互联网平台需要实现从设备的控制系统、传感器、可穿戴设备、摄像头和仪表进行数据采集、传输和存储。</li>
+<li>在PAAS层，工业互联网平台需要能够支撑更加复杂的算法，例如利用深度学习技术进行图像分析，利用SPC方法分析质量数据，利用仿真技术对设备的数字化模型（Digital twin）进行性能仿真，利用GIS数据对车辆进行定位，从而对物流运输过程进行追溯等。</li>
+<li>在SAAS层，则应当提供丰富的APP，将原来工业软件固化的功能拆分成很多功能相对独立的插件，可以在PAAS平台即插即用。因此，工业互联网平台比工业云平台要复杂得多。</li>
+</ul>
+<blockquote>
+<p><a href="http://www.ciotimes.com/manufacturing/176534.html">工业互联网和工业物联网</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>智能制造</category>
+      </categories>
+      <tags>
+        <tag>工业互联网</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>工业物联网与工业互联网的典型架构</title>
+    <url>/2020/05/29/200529%20%E5%B7%A5%E4%B8%9A%E7%89%A9%E8%81%94%E7%BD%91%E4%B8%8E%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E5%85%B8%E5%9E%8B%E6%9E%B6%E6%9E%84/</url>
+    <content><![CDATA[<h2 id="工业互联网"><a href="#工业互联网" class="headerlink" title="工业互联网"></a>工业互联网</h2><p>工业互联网不是工业的互联网，而是工业互联的网。它是把工业生产过程中的人、数据和机器连接起来，使工业生产流程数字化、自动化、智能化和网络化，实现数据的流通，提升生产效率、降低生产成本。</p>
+<a id="more"></a>
+
+<p>从技术架构层面看，工业互联网包含设备层、网络层、平台层、软件层、应用层以及整体的工业安全体系。与传统互联网相比，多了一个设备层。</p>
+<p><img data-src="https://upload-images.jianshu.io/upload_images/5436217-d5f57641a684e90d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="工业互联网架构"></p>
+<ul>
+<li>设备层负责采集数据和初步计算，执行生产动作；</li>
+<li>网络层负责信息的传输与转发；</li>
+<li>平台层负责网络、存储、计算等基础设施的编排；</li>
+<li>软件层负责工业生产过程的研发设计、生产控制和信息管理等软件的实施；</li>
+<li>应用层负责工业互联网的价值体现，在不同的垂直领域、行业内形成解决方案和应用；</li>
+<li>工业安全体系对各个工业生产的安全负责，范围涵盖设备的运维更换、网络层面的安全认证、平台软件层面的安全漏洞等。</li>
+</ul>
+<p>工业物联网是工业互联网中的「基建」，它连接了设备层和网络层，为平台层、软件层和应用层奠定了坚实的基础。设备层又包含边缘层，总体上，工业物联网涵盖了云计算、网络、边缘计算和终端，自下而上打通工业互联网中的关键数据流。</p>
+<h2 id="工业物联网"><a href="#工业物联网" class="headerlink" title="工业物联网"></a>工业物联网</h2><p>工业物联网从架构上分为感知层、通信层、平台层和应用层。</p>
+<p><img data-src="https://upload-images.jianshu.io/upload_images/5436217-f4a547a0ed791e7d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="物联网平台基础架构"></p>
+<ul>
+<li>感知层主要由传感器、视觉感知和可编程逻辑控制器（PLC）等器件组成，一方面收集振波、温度、湿度、红外、紫外、磁场、图像、声波流、视频流等数据，传送给网络层，到达上层管理系统，帮助其记录、分析和决策，另一方面收集从上层管理系统下发或已经编程好的指令，执行设备动作。</li>
+<li>通信层主要由各种网络设备和线路组成，包括具备网络固线的光纤、xDSL，也包括通过无线电波通信的GPRS、3G、4G、5G、WiFi、超声波、ZigBee、蓝牙等通信方式，主要满足不同场景的通信需求。</li>
+<li>平台层主要是将底层传输的数据关联和结构化解析之后，沉淀为平台数据，向下连接感知，向上提供统一的可编程接口和服务协议，降低了上层软件的设计复杂度，提高了整体架构的协调效率，特别是在平台层面，可以将沉淀的数据通过大数据分析和挖掘，对生产效率、设备检测等方面提供数据决策。</li>
+<li>应用层主要根据不同行业、领域的需求，落地为垂直化的应用软件，通过整合平台层沉淀的数据和用户配置的控制指令，实现对终端设备的高效应用，最终提升生产效率。</li>
+<li>感知层与通信层中间有一个网关，网关隔离了终端传感器和控制器与上层网络端口，一方面减少传感器与控制器的业务逻辑复杂度，另一方面减少上层应用对数据协议的解析成本。网关层是兼容目前多种传感层网络协议的关键层次，能够屏蔽传感层差异，并实现边缘计算能力。随着传感器发展，部分传感器也可能跳过网关层直接与平台对接，相关的功能将分别移到平台层或传感层实现。<br>总的来说，工业互联网涵盖了工业物联网。工业互联网是要实现「人、机、物」的全面互联，追求的是数字化；而工业物联网强调的是「物与物」的连接，追求的是自动化。工业物联网是物联网和互联网的交叉网络系统，同时也是自动化与信息化深度融合的突破口。</li>
+</ul>
+<blockquote>
+<p><a href="https://iot.ofweek.com/2020-04/ART-132216-8120-30438121.html">一文看懂工业互联网与工业物联网</a><br><a href="http://www.h3c.com/cn/d_201609/955536_233453_0.htm">物联网平台助力工业互联网</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>智能制造</category>
+      </categories>
+      <tags>
+        <tag>工业互联网</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>工业互联网</title>
     <url>/2020/06/16/200616%20%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91/</url>
     <content><![CDATA[<h2 id="工业互联网是什么？"><a href="#工业互联网是什么？" class="headerlink" title="工业互联网是什么？"></a>工业互联网是什么？</h2><p>工业互联网是新一代信息技术与制造业深度融合的产物，是实现工业经济数字化、网络化、智能化发展的重要基础设施，通过对人、机、物的全面互联，构建起全要素、全产业链、全价值链全面连接的新型工业生产制造服务体系。是工业经济转型升级的关键依托、重要途径、全新生态。</p>
@@ -700,107 +815,6 @@
 [https://www.china-aii.com/index.php?m=content&c=index&a=show&catid=26&id=5](https://www.china-aii.com/index.php?m=content&c=index&a=show&catid=26&id=5)
 -->
 
-]]></content>
-      <categories>
-        <category>智能制造</category>
-      </categories>
-      <tags>
-        <tag>工业互联网</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>什么是物联网、工业物联网、工业互联网、工业云平台？</title>
-    <url>/2020/05/28/200528%20%E7%89%A9%E8%81%94%E7%BD%91%E3%80%81%E5%B7%A5%E4%B8%9A%E7%89%A9%E8%81%94%E7%BD%91%E3%80%81%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E3%80%81%E5%B7%A5%E4%B8%9A%E4%BA%91%E5%B9%B3%E5%8F%B0/</url>
-    <content><![CDATA[<h2 id="物联网"><a href="#物联网" class="headerlink" title="物联网"></a>物联网</h2><p>物联网（The Internet of Things，简称IOT）是指通过 各种信息传感器、射频识别技术、全球定位系统、红外感应器、激光扫描器等各种装置与技术，实时采集任何需要监控、 连接、互动的物体或过程，采集其声、光、热、电、力学、化 学、生物、位置等各种需要的信息，通过各类可能的网络接入，实现物与物、物与人的泛在连接，实现对物品和过程的智能化感知、识别和管理。物联网是一个基于互联网、传统电信网等的信息承载体，它让所有能够被独立寻址的普通物理对象形成互联互通的网络。</p>
-<a id="more"></a>
-
-<h2 id="工业互联网"><a href="#工业互联网" class="headerlink" title="工业互联网"></a>工业互联网</h2><p>工业互联网是指工业互联的网，而不是工业的互联网。</p>
-<ul>
-<li>在企业内部，要实现工业设备（生产设备、物流装备、能源计量、质量检验、车辆等）、信息系统、业务流程、企业的产品与服务、人员之间的互联，实现企业IT网络与工控网络的互联，实现从车间到决策层的纵向互联；</li>
-<li>在企业间，要实现上下游企业（供应商、经销商、客户、合作伙伴）之间的横向互联；</li>
-<li>从产品生命周期的维度，要实现产品从设计、制造到服役，再到报废回收再利用整个生命周期的互联。这实际上与工业4。0提出的三个集成的内涵是相通的。</li>
-</ul>
-<h2 id="工业物联网"><a href="#工业物联网" class="headerlink" title="工业物联网"></a>工业物联网</h2><p>工业物联网指的是物联网在工业的应用。工业互联网涵盖了工业物联网，但进一步延伸到企业的信息系统、业务流程和人员。<br>工业互联网的概念实际上与国外提出的万物互联（Internet of Everything，将人、流程、数据和事物结合一起，使得网络连接变得更加相关，更有价值）理念有相似之处，相当于是工业企业的万物互联。</p>
-<h2 id="工业云平台"><a href="#工业云平台" class="headerlink" title="工业云平台"></a>工业云平台</h2><p>工业云平台指的是工业领域的云平台，包括了IAAS（基础设施服务化）、PAAS（平台服务化）、SAAS（软件服务化）三个层面，工业云平台的目的是将工业软件演化为一种云服务（SAAS），并为客户提供可以对软件功能进行配置或二次开发的平台（PAAS），将数据和信息系统存储到云端，从而使工业企业应用信息系统更加便捷、更有利于管理（例如，实现服务器和桌面虚拟化），因此，工业云平台本质上属于IT平台。</p>
-<p>工业互联网平台是工业云平台的扩展与延伸，不仅能够支持工业云平台的所有功能，而且要支撑工业物联网应用，实现IT与OT融合。</p>
-<ul>
-<li>在IAAS和边缘（设备端）层，工业互联网平台需要实现从设备的控制系统、传感器、可穿戴设备、摄像头和仪表进行数据采集、传输和存储。</li>
-<li>在PAAS层，工业互联网平台需要能够支撑更加复杂的算法，例如利用深度学习技术进行图像分析，利用SPC方法分析质量数据，利用仿真技术对设备的数字化模型（Digital twin）进行性能仿真，利用GIS数据对车辆进行定位，从而对物流运输过程进行追溯等。</li>
-<li>在SAAS层，则应当提供丰富的APP，将原来工业软件固化的功能拆分成很多功能相对独立的插件，可以在PAAS平台即插即用。因此，工业互联网平台比工业云平台要复杂得多。</li>
-</ul>
-<blockquote>
-<p><a href="http://www.ciotimes.com/manufacturing/176534.html">工业互联网和工业物联网</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>智能制造</category>
-      </categories>
-      <tags>
-        <tag>工业互联网</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数字产业化、产业数字化</title>
-    <url>/2021/03/10/210310%20%E6%95%B0%E5%AD%97%E4%BA%A7%E4%B8%9A%E5%8C%96%E3%80%81%E4%BA%A7%E4%B8%9A%E6%95%B0%E5%AD%97%E5%8C%96/</url>
-    <content><![CDATA[<h1 id="数字经济定义"><a href="#数字经济定义" class="headerlink" title="数字经济定义"></a>数字经济定义</h1><p>数字经济是继农业经济、工业经济之后的更高级经济阶段。我们认为数字经济是以数字化的知识和信息为关键生产要素，以数字技术创新为核心驱动力，以现代信息网络为重要载体，通过数字技术与实体经济深度融合，不断提高传统产业数字化、智能化水平，加速重构经济发展与政府治理模式的新型经济形态。</p>
-<a id="more"></a>
-
-<h1 id="数字经济内涵"><a href="#数字经济内涵" class="headerlink" title="数字经济内涵"></a>数字经济内涵</h1><p><strong>第一，数字经济包括数字产业化和产业数字化两大部分。</strong></p>
-<ul>
-<li>一是数字产业化，也称为数字经济基础部分，即信息产业，具体业态包括电子信息制造业、信息通信业、软件服务业等；</li>
-<li>二是产业数字化，即使用部门因此而带来的产出增加和效率提升，也称为数字经济融合部分，包括传统产业由于应用数字技术所带来的生产数量和生产效率提升，其新增产出构成数字经济的重要组成部分。</li>
-</ul>
-<div align=center>
-<img data-src="https://upload-images.jianshu.io/upload_images/5436217-1af33a32277c5330.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="数字经济构成"/>
-</div>
-
-<blockquote>
-<p>数字产业化就是数字技术带来的产品和服务，例如电子信息制造业、信息通信业、软件服务业、互联网业等，都是有了数字技术后才出现的产业。<br>产业数字化则是指这些产业原本就存在，但是利用数字技术后，带来了产出的增长和效率的提升。</p>
-</blockquote>
-<p><strong>第二，数字经济超越了信息产业部门的范围。</strong><br>20 世纪60、70 年代以来，数字技术飞速进步促使信息产业崛起为经济中创新活跃、成长迅速的战略性新兴产业部门。但应充分认识到数字技术作为一种通用目的技术，可以成为重要的生产要素，广泛应用到经济社会各行各业，促进全要素生产率的提升，开辟经济增长新空间，这种数字技术的深入融合应用全面改造经济面貌，塑造整个经济新形态，因此不应将数字经济只看作是信息产业。</p>
-<p><strong>第三，数字经济是一种技术经济范式。</strong><br>数字技术具有基础性、广泛性、外溢性、互补性特征，将带来经济社会新一轮阶跃式发展和变迁，推动经济效率大幅提升，引发基础设施、关键投入、主导产业、管理方式、国家调节体制等经济社会最佳惯行方式的变革。如伴随互联网与电信技术的快速发展与融合，互联网企业、电信运营商和手机终端设备产业出现跨界竞争现象，移动互联网使互联网不再被办公场所限制，深刻改变了人类的生活方式。数字经济技术范式具有三大特征：数字化的知识和信息是最重要的经济要素，数字技术有非常强烈的网络化特征，数字技术重塑了经济与社会。</p>
-<p><strong>第四，数字经济是一种经济社会形态。</strong><br>数字经济在基本特征、运行规律等维度出现根本性变革。对数字经济的认识，需要拓展范围、边界和视野，成为一种与工业经济、农业经济并列的经济社会形态。需要站在人类经济社会形态演化的历史长河中，全面审视数字经济对经济社会的革命性、系统性和全局性影响。</p>
-<p><strong>第五，数字经济是信息经济、信息化发展的高级阶段。</strong><br>信息经济包括以数字化的知识和信息驱动的经济，以及非数字化的知识和信息驱动的经济两大类，未来非实物生产要素的数字化是不可逆转的历史趋势，数字经济既是信息经济的子集，又是未来发展的方向。信息化是经济发展的一种重要手段，数字经济除了包括信息化外，还包括在信息化基础上所产生的经济和社会形态的变革，是信息化发展的结果。</p>
-<blockquote>
-<p>《2017年中国数字经济发展白皮书》</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>智能制造</category>
-      </categories>
-      <tags>
-        <tag>数字经济，数字产业化，产业数字化</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>工业物联网与工业互联网的典型架构</title>
-    <url>/2020/05/29/200529%20%E5%B7%A5%E4%B8%9A%E7%89%A9%E8%81%94%E7%BD%91%E4%B8%8E%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E5%85%B8%E5%9E%8B%E6%9E%B6%E6%9E%84/</url>
-    <content><![CDATA[<h2 id="工业互联网"><a href="#工业互联网" class="headerlink" title="工业互联网"></a>工业互联网</h2><p>工业互联网不是工业的互联网，而是工业互联的网。它是把工业生产过程中的人、数据和机器连接起来，使工业生产流程数字化、自动化、智能化和网络化，实现数据的流通，提升生产效率、降低生产成本。</p>
-<a id="more"></a>
-
-<p>从技术架构层面看，工业互联网包含设备层、网络层、平台层、软件层、应用层以及整体的工业安全体系。与传统互联网相比，多了一个设备层。</p>
-<p><img data-src="https://upload-images.jianshu.io/upload_images/5436217-d5f57641a684e90d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="工业互联网架构"></p>
-<ul>
-<li>设备层负责采集数据和初步计算，执行生产动作；</li>
-<li>网络层负责信息的传输与转发；</li>
-<li>平台层负责网络、存储、计算等基础设施的编排；</li>
-<li>软件层负责工业生产过程的研发设计、生产控制和信息管理等软件的实施；</li>
-<li>应用层负责工业互联网的价值体现，在不同的垂直领域、行业内形成解决方案和应用；</li>
-<li>工业安全体系对各个工业生产的安全负责，范围涵盖设备的运维更换、网络层面的安全认证、平台软件层面的安全漏洞等。</li>
-</ul>
-<p>工业物联网是工业互联网中的「基建」，它连接了设备层和网络层，为平台层、软件层和应用层奠定了坚实的基础。设备层又包含边缘层，总体上，工业物联网涵盖了云计算、网络、边缘计算和终端，自下而上打通工业互联网中的关键数据流。</p>
-<h2 id="工业物联网"><a href="#工业物联网" class="headerlink" title="工业物联网"></a>工业物联网</h2><p>工业物联网从架构上分为感知层、通信层、平台层和应用层。</p>
-<p><img data-src="https://upload-images.jianshu.io/upload_images/5436217-f4a547a0ed791e7d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="物联网平台基础架构"></p>
-<ul>
-<li>感知层主要由传感器、视觉感知和可编程逻辑控制器（PLC）等器件组成，一方面收集振波、温度、湿度、红外、紫外、磁场、图像、声波流、视频流等数据，传送给网络层，到达上层管理系统，帮助其记录、分析和决策，另一方面收集从上层管理系统下发或已经编程好的指令，执行设备动作。</li>
-<li>通信层主要由各种网络设备和线路组成，包括具备网络固线的光纤、xDSL，也包括通过无线电波通信的GPRS、3G、4G、5G、WiFi、超声波、ZigBee、蓝牙等通信方式，主要满足不同场景的通信需求。</li>
-<li>平台层主要是将底层传输的数据关联和结构化解析之后，沉淀为平台数据，向下连接感知，向上提供统一的可编程接口和服务协议，降低了上层软件的设计复杂度，提高了整体架构的协调效率，特别是在平台层面，可以将沉淀的数据通过大数据分析和挖掘，对生产效率、设备检测等方面提供数据决策。</li>
-<li>应用层主要根据不同行业、领域的需求，落地为垂直化的应用软件，通过整合平台层沉淀的数据和用户配置的控制指令，实现对终端设备的高效应用，最终提升生产效率。</li>
-<li>感知层与通信层中间有一个网关，网关隔离了终端传感器和控制器与上层网络端口，一方面减少传感器与控制器的业务逻辑复杂度，另一方面减少上层应用对数据协议的解析成本。网关层是兼容目前多种传感层网络协议的关键层次，能够屏蔽传感层差异，并实现边缘计算能力。随着传感器发展，部分传感器也可能跳过网关层直接与平台对接，相关的功能将分别移到平台层或传感层实现。<br>总的来说，工业互联网涵盖了工业物联网。工业互联网是要实现「人、机、物」的全面互联，追求的是数字化；而工业物联网强调的是「物与物」的连接，追求的是自动化。工业物联网是物联网和互联网的交叉网络系统，同时也是自动化与信息化深度融合的突破口。</li>
-</ul>
-<blockquote>
-<p><a href="https://iot.ofweek.com/2020-04/ART-132216-8120-30438121.html">一文看懂工业互联网与工业物联网</a><br><a href="http://www.h3c.com/cn/d_201609/955536_233453_0.htm">物联网平台助力工业互联网</a></p>
-</blockquote>
 ]]></content>
       <categories>
         <category>智能制造</category>
@@ -870,6 +884,39 @@
         <tag>雾计算</tag>
         <tag>霾计算</tag>
         <tag>边缘计算</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数字产业化、产业数字化</title>
+    <url>/2021/03/10/210310%20%E6%95%B0%E5%AD%97%E4%BA%A7%E4%B8%9A%E5%8C%96%E3%80%81%E4%BA%A7%E4%B8%9A%E6%95%B0%E5%AD%97%E5%8C%96/</url>
+    <content><![CDATA[<h1 id="数字经济定义"><a href="#数字经济定义" class="headerlink" title="数字经济定义"></a>数字经济定义</h1><p>数字经济是继农业经济、工业经济之后的更高级经济阶段。我们认为数字经济是以数字化的知识和信息为关键生产要素，以数字技术创新为核心驱动力，以现代信息网络为重要载体，通过数字技术与实体经济深度融合，不断提高传统产业数字化、智能化水平，加速重构经济发展与政府治理模式的新型经济形态。</p>
+<a id="more"></a>
+
+<h1 id="数字经济内涵"><a href="#数字经济内涵" class="headerlink" title="数字经济内涵"></a>数字经济内涵</h1><p><strong>第一，数字经济包括数字产业化和产业数字化两大部分。</strong></p>
+<ul>
+<li>一是数字产业化，也称为数字经济基础部分，即信息产业，具体业态包括电子信息制造业、信息通信业、软件服务业等；</li>
+<li>二是产业数字化，即使用部门因此而带来的产出增加和效率提升，也称为数字经济融合部分，包括传统产业由于应用数字技术所带来的生产数量和生产效率提升，其新增产出构成数字经济的重要组成部分。</li>
+</ul>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-1af33a32277c5330.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="数字经济构成"/>
+</div>
+
+<blockquote>
+<p>数字产业化就是数字技术带来的产品和服务，例如电子信息制造业、信息通信业、软件服务业、互联网业等，都是有了数字技术后才出现的产业。<br>产业数字化则是指这些产业原本就存在，但是利用数字技术后，带来了产出的增长和效率的提升。</p>
+</blockquote>
+<p><strong>第二，数字经济超越了信息产业部门的范围。</strong><br>20 世纪60、70 年代以来，数字技术飞速进步促使信息产业崛起为经济中创新活跃、成长迅速的战略性新兴产业部门。但应充分认识到数字技术作为一种通用目的技术，可以成为重要的生产要素，广泛应用到经济社会各行各业，促进全要素生产率的提升，开辟经济增长新空间，这种数字技术的深入融合应用全面改造经济面貌，塑造整个经济新形态，因此不应将数字经济只看作是信息产业。</p>
+<p><strong>第三，数字经济是一种技术经济范式。</strong><br>数字技术具有基础性、广泛性、外溢性、互补性特征，将带来经济社会新一轮阶跃式发展和变迁，推动经济效率大幅提升，引发基础设施、关键投入、主导产业、管理方式、国家调节体制等经济社会最佳惯行方式的变革。如伴随互联网与电信技术的快速发展与融合，互联网企业、电信运营商和手机终端设备产业出现跨界竞争现象，移动互联网使互联网不再被办公场所限制，深刻改变了人类的生活方式。数字经济技术范式具有三大特征：数字化的知识和信息是最重要的经济要素，数字技术有非常强烈的网络化特征，数字技术重塑了经济与社会。</p>
+<p><strong>第四，数字经济是一种经济社会形态。</strong><br>数字经济在基本特征、运行规律等维度出现根本性变革。对数字经济的认识，需要拓展范围、边界和视野，成为一种与工业经济、农业经济并列的经济社会形态。需要站在人类经济社会形态演化的历史长河中，全面审视数字经济对经济社会的革命性、系统性和全局性影响。</p>
+<p><strong>第五，数字经济是信息经济、信息化发展的高级阶段。</strong><br>信息经济包括以数字化的知识和信息驱动的经济，以及非数字化的知识和信息驱动的经济两大类，未来非实物生产要素的数字化是不可逆转的历史趋势，数字经济既是信息经济的子集，又是未来发展的方向。信息化是经济发展的一种重要手段，数字经济除了包括信息化外，还包括在信息化基础上所产生的经济和社会形态的变革，是信息化发展的结果。</p>
+<blockquote>
+<p>《2017年中国数字经济发展白皮书》</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>智能制造</category>
+      </categories>
+      <tags>
+        <tag>数字经济，数字产业化，产业数字化</tag>
       </tags>
   </entry>
   <entry>
@@ -1078,24 +1125,6 @@
       </tags>
   </entry>
   <entry>
-    <title>关于印发中小企业划型标准规定的通知</title>
-    <url>/2021/03/15/210315%20%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E4%B8%AD%E5%B0%8F%E4%BC%81%E4%B8%9A%E5%88%92%E5%9E%8B%E6%A0%87%E5%87%86%E8%A7%84%E5%AE%9A%E7%9A%84%E9%80%9A%E7%9F%A5/</url>
-    <content><![CDATA[<h1 id="工信部联企业〔2011〕300号"><a href="#工信部联企业〔2011〕300号" class="headerlink" title="工信部联企业〔2011〕300号"></a>工信部联企业〔2011〕300号</h1><p>各省、自治区、直辖市人民政府，国务院各部委、各直属机构及有关单位：<br>为贯彻落实《中华人民共和国中小企业促进法》和《国务院关于进一步促进中小企业发展的若干意见》（国发〔2009〕36号），工业和信息化部、国家统计局、发展改革委、财政部研究制定了《中小企业划型标准规定》。经国务院同意，现印发给你们，请遵照执行。<br>工业和信息化部　国家统计局<br>国家发展和改革委员会　财政部<br>二○一一年六月十八日</p>
-<a id="more"></a>
-
-<h1 id="中小企业划型标准规定"><a href="#中小企业划型标准规定" class="headerlink" title="中小企业划型标准规定"></a>中小企业划型标准规定</h1><p>　　一、根据《中华人民共和国中小企业促进法》和《国务院关于进一步促进中小企业发展的若干意见》(国发〔2009〕36号)，制定本规定。<br>　　二、中小企业划分为中型、小型、微型三种类型，具体标准根据企业从业人员、营业收入、资产总额等指标，结合行业特点制定。<br>　　三、本规定适用的行业包括：农、林、牧、渔业，工业（包括采矿业，制造业，电力、热力、燃气及水生产和供应业），建筑业，批发业，零售业，交通运输业（不含铁路运输业），仓储业，邮政业，住宿业，餐饮业，信息传输业（包括电信、互联网和相关服务），软件和信息技术服务业，房地产开发经营，物业管理，租赁和商务服务业，其他未列明行业（包括科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，社会工作，文化、体育和娱乐业等）。<br>　　四、各行业划型标准为：<br>　　（一）农、林、牧、渔业。营业收入20000万元以下的为中小微型企业。其中，营业收入500万元及以上的为中型企业，营业收入50万元及以上的为小型企业，营业收入50万元以下的为微型企业。<br>　　（二）工业。从业人员1000人以下或营业收入40000万元以下的为中小微型企业。其中，从业人员300人及以上，且营业收入2000万元及以上的为中型企业；从业人员20人及以上，且营业收入300万元及以上的为小型企业；从业人员20人以下或营业收入300万元以下的为微型企业。<br>　　（三）建筑业。营业收入80000万元以下或资产总额80000万元以下的为中小微型企业。其中，营业收入6000万元及以上，且资产总额5000万元及以上的为中型企业；营业收入300万元及以上，且资产总额300万元及以上的为小型企业；营业收入300万元以下或资产总额300万元以下的为微型企业。<br>　　（四）批发业。从业人员200人以下或营业收入40000万元以下的为中小微型企业。其中，从业人员20人及以上，且营业收入5000万元及以上的为中型企业；从业人员5人及以上，且营业收入1000万元及以上的为小型企业；从业人员5人以下或营业收入1000万元以下的为微型企业。<br>　　（五）零售业。从业人员300人以下或营业收入20000万元以下的为中小微型企业。其中，从业人员50人及以上，且营业收入500万元及以上的为中型企业；从业人员10人及以上，且营业收入100万元及以上的为小型企业；从业人员10人以下或营业收入100万元以下的为微型企业。<br>　　（六）交通运输业。从业人员1000人以下或营业收入30000万元以下的为中小微型企业。其中，从业人员300人及以上，且营业收入3000万元及以上的为中型企业；从业人员20人及以上，且营业收入200万元及以上的为小型企业；从业人员20人以下或营业收入200万元以下的为微型企业。<br>　　（七）仓储业。从业人员200人以下或营业收入30000万元以下的为中小微型企业。其中，从业人员100人及以上，且营业收入1000万元及以上的为中型企业；从业人员20人及以上，且营业收入100万元及以上的为小型企业；从业人员20人以下或营业收入100万元以下的为微型企业。<br>　　（八）邮政业。从业人员1000人以下或营业收入30000万元以下的为中小微型企业。其中，从业人员300人及以上，且营业收入2000万元及以上的为中型企业；从业人员20人及以上，且营业收入100万元及以上的为小型企业；从业人员20人以下或营业收入100万元以下的为微型企业。<br>　　（九）住宿业。从业人员300人以下或营业收入10000万元以下的为中小微型企业。其中，从业人员100人及以上，且营业收入2000万元及以上的为中型企业；从业人员10人及以上，且营业收入100万元及以上的为小型企业；从业人员10人以下或营业收入100万元以下的为微型企业。<br>　　（十）餐饮业。从业人员300人以下或营业收入10000万元以下的为中小微型企业。其中，从业人员100人及以上，且营业收入2000万元及以上的为中型企业；从业人员10人及以上，且营业收入100万元及以上的为小型企业；从业人员10人以下或营业收入100万元以下的为微型企业。<br>　　（十一）信息传输业。从业人员2000人以下或营业收入100000万元以下的为中小微型企业。其中，从业人员100人及以上，且营业收入1000万元及以上的为中型企业；从业人员10人及以上，且营业收入100万元及以上的为小型企业；从业人员10人以下或营业收入100万元以下的为微型企业。<br>　　（十二）软件和信息技术服务业。从业人员300人以下或营业收入10000万元以下的为中小微型企业。其中，从业人员100人及以上，且营业收入1000万元及以上的为中型企业；从业人员10人及以上，且营业收入50万元及以上的为小型企业；从业人员10人以下或营业收入50万元以下的为微型企业。<br>　　（十三）房地产开发经营。营业收入200000万元以下或资产总额10000万元以下的为中小微型企业。其中，营业收入1000万元及以上，且资产总额5000万元及以上的为中型企业；营业收入100万元及以上，且资产总额2000万元及以上的为小型企业；营业收入100万元以下或资产总额2000万元以下的为微型企业。<br>　　（十四）物业管理。从业人员1000人以下或营业收入5000万元以下的为中小微型企业。其中，从业人员300人及以上，且营业收入1000万元及以上的为中型企业；从业人员100人及以上，且营业收入500万元及以上的为小型企业；从业人员100人以下或营业收入500万元以下的为微型企业。<br>　　（十五）租赁和商务服务业。从业人员300人以下或资产总额120000万元以下的为中小微型企业。其中，从业人员100人及以上，且资产总额8000万元及以上的为中型企业；从业人员10人及以上，且资产总额100万元及以上的为小型企业；从业人员10人以下或资产总额100万元以下的为微型企业。<br>　　（十六）其他未列明行业。从业人员300人以下的为中小微型企业。其中，从业人员100人及以上的为中型企业；从业人员10人及以上的为小型企业；从业人员10人以下的为微型企业。<br>　　五、企业类型的划分以统计部门的统计数据为依据。<br>　　六、本规定适用于在中华人民共和国境内依法设立的各类所有制和各种组织形式的企业。个体工商户和本规定以外的行业，参照本规定进行划型。<br>　　七、本规定的中型企业标准上限即为大型企业标准的下限，国家统计部门据此制定大中小微型企业的统计分类。国务院有关部门据此进行相关数据分析，不得制定与本规定不一致的企业划型标准。<br>　　八、本规定由工业和信息化部、国家统计局会同有关部门根据《国民经济行业分类》修订情况和企业发展变化情况适时修订。<br>　　九、本规定由工业和信息化部、国家统计局会同有关部门负责解释。<br>　　十、本规定自发布之日起执行，原国家经贸委、原国家计委、财政部和国家统计局2003年颁布的《中小企业标准暂行规定》同时废止。</p>
-<blockquote>
-<p><a href="https://www.miit.gov.cn/jgsj/qyj/wjfb/art/2020/art_235af1ade45c4865957adeed23f9d949.html">关于印发中小企业划型标准规定的通知</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>智能制造</category>
-      </categories>
-      <tags>
-        <tag>中小企业</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>安全生产许可证-分类与规定</title>
     <url>/2021/03/16/210316%20%E5%AE%89%E5%85%A8%E7%94%9F%E4%BA%A7%E8%AE%B8%E5%8F%AF%E8%AF%81%E6%9D%A1%E4%BE%8B/</url>
     <content><![CDATA[<ul>
@@ -1161,101 +1190,21 @@
       </tags>
   </entry>
   <entry>
-    <title>火绒安全 | 史上最乖巧的安全软件</title>
-    <url>/2020/05/01/200501%20%E7%81%AB%E7%BB%92%E5%AE%89%E5%85%A8/</url>
-    <content><![CDATA[<div align=center>
-<img data-src="https://upload-images.jianshu.io/upload_images/5436217-e5c3301c766c7185.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "100%" height = "100%" alt=" " align=center />
-</div>
-
-<h3 id="火绒安全软件"><a href="#火绒安全软件" class="headerlink" title="火绒安全软件"></a>火绒安全软件</h3><h3 id="吖燊推荐"><a href="#吖燊推荐" class="headerlink" title="吖燊推荐"></a>吖燊推荐</h3><ul>
-<li><strong>乖巧到让你忘记电脑还安装了安全软件！！</strong></li>
-<li><strong>简约！！干净！！杜绝一切花里胡哨！！</strong></li>
-</ul>
+    <title>关于印发中小企业划型标准规定的通知</title>
+    <url>/2021/03/15/210315%20%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E4%B8%AD%E5%B0%8F%E4%BC%81%E4%B8%9A%E5%88%92%E5%9E%8B%E6%A0%87%E5%87%86%E8%A7%84%E5%AE%9A%E7%9A%84%E9%80%9A%E7%9F%A5/</url>
+    <content><![CDATA[<h1 id="工信部联企业〔2011〕300号"><a href="#工信部联企业〔2011〕300号" class="headerlink" title="工信部联企业〔2011〕300号"></a>工信部联企业〔2011〕300号</h1><p>各省、自治区、直辖市人民政府，国务院各部委、各直属机构及有关单位：<br>为贯彻落实《中华人民共和国中小企业促进法》和《国务院关于进一步促进中小企业发展的若干意见》（国发〔2009〕36号），工业和信息化部、国家统计局、发展改革委、财政部研究制定了《中小企业划型标准规定》。经国务院同意，现印发给你们，请遵照执行。<br>工业和信息化部　国家统计局<br>国家发展和改革委员会　财政部<br>二○一一年六月十八日</p>
 <a id="more"></a>
 
-<h3 id="敲黑板！划重点！"><a href="#敲黑板！划重点！" class="headerlink" title="敲黑板！划重点！"></a>敲黑板！划重点！</h3><p>请问你电脑上次中病毒是什么时候？！多少人对病毒的概念还停留在<strong>熊猫烧香</strong>和<strong>WannaCry勒索病毒(永恒之蓝)**？！发现了吗，其实你的电脑并不是很容易中毒，除非发生这种大规模、世界级病毒事件！！<br>**那为什么所有人买了新电脑都在想一件事，那就是安装什么杀毒软件？？</strong>只能说是360们出现之前落下的病根。曾经在那个久远的年代里，电脑确实经常发生问题。于是各种什么江民、诺盾、瑞星、赛门铁克、趋势、卡巴斯基，在这片市场上干了起来，软件收费还是当时最大的问题。直到2011年，突然出现了三个愣头，金山毒霸、腾讯管家和360不收费了！！尤其360，不得不说周鸿祎的这个免费杀毒的决策，确实造福了整个行业和用户。直接导致的结果就是，病毒开发者需要花很大精力，来突破安全软件防守，成本升高而且还不太能干的过安全公司技术团队的“正规军”。做病毒不赚钱，自然渐渐就没人做了。<br>发展到现在，可以说中国已经是杀毒软件最普及、安全水平也最高的国家，即使电脑不安装任何杀毒软件，都不会有啥太大问题。<strong>都这么安全了，那你问为啥还要安装？？其实不就是为了图个心理安慰！！心里安慰！！安慰！！慰！！</strong><br>市面上某某某些杀毒软件做大后，就开始变得体系庞杂，各种功能臃肿，无时无刻不在用各种弹窗、小工具、小提示，<strong>刷存在感！！严重惹人厌恶！！</strong>对于大部分用户来说，其实你遇到的就是打印店或者公共电脑上的那点小破病毒，何必为了踩个蚂蚁，弄只大象天天养着。<strong>在这种情况下，一款安静、精致、低调、奢华、有内涵的软件必将成为你的首选！！</strong>记住我们的口号：<strong>简约！！干净！！杜绝一切花里胡哨！！</strong></p>
-<h3 id="官网介绍"><a href="#官网介绍" class="headerlink" title="官网介绍"></a>官网介绍</h3><p>产品特点——干净、轻巧、简单、易用</p>
-<ul>
-<li>干净：无任何具有广告推广性质的弹窗和捆绑等打扰用户行为；</li>
-<li>简单：一键下载，安装后使用默认配置即可获得安全防护；</li>
-<li>轻巧：占用资源少，不影响日常办公、游戏；</li>
-<li>易用：产品性能历经数次优化，兼容性好，运行流畅；</li>
-</ul>
-<div align=center>
-<img data-src="https://upload-images.jianshu.io/upload_images/5436217-d9962a179cc6f700.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "70%" height = "70%" alt="产品特点" align=center />
-</div>
-
-<div align=center>
-<img data-src="https://upload-images.jianshu.io/upload_images/5436217-7cdd2afa90b741ab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "70%" height = "70%" alt="功能介绍" align=center />
-</div>
-
-<h3 id="个人体会"><a href="#个人体会" class="headerlink" title="个人体会"></a>个人体会</h3><ul>
-<li>90%的人安装安全软件只会用到：垃圾清理、启动项管理，最多再加个漏洞修复、弹窗拦截。功能选择性下载，简单精致，但不代表没有上乘功法，有兴趣的可自行研究<strong>火绒剑</strong>。不过大部分人并用不到这些，劳力伤神，小白们用默认功能就行。</li>
-<li>市面上的小喽啰病毒给你一网打尽，悄咪地保护你的安全。那你问有牛逼病毒时候怎么办？只能说<strong>那个时候火绒不行，其他的软件也不行！！</strong>既然是<strong>图个心理安慰</strong>，干嘛不找个<strong>最乖巧的</strong>。</li>
-<li><strong>无弹窗！！无广告！！无提示！！啥都没有！！啥也不是！！</strong>安静到让你忘记电脑还安装了安全软件。每天早上打开电脑没有人提示你开机耗时、几点了、天气咋样、啥PUA、啥多人运动，多多少少有点落寞呢。</li>
-<li><strong>记住我们的口号：简约！！干净！！杜绝一切花里胡哨！！</strong></li>
-</ul>
-<hr>
-<h3 id="吖燊指路"><a href="#吖燊指路" class="headerlink" title="吖燊指路"></a>吖燊指路</h3><p>官网下载：<a href="https://www.huorong.cn/person5.html">火绒安全</a><br>应用平台：Windows<br>吖燊推荐：乖巧到让你忘记电脑还安装了安全软件！！</p>
-<hr>
+<h1 id="中小企业划型标准规定"><a href="#中小企业划型标准规定" class="headerlink" title="中小企业划型标准规定"></a>中小企业划型标准规定</h1><p>　　一、根据《中华人民共和国中小企业促进法》和《国务院关于进一步促进中小企业发展的若干意见》(国发〔2009〕36号)，制定本规定。<br>　　二、中小企业划分为中型、小型、微型三种类型，具体标准根据企业从业人员、营业收入、资产总额等指标，结合行业特点制定。<br>　　三、本规定适用的行业包括：农、林、牧、渔业，工业（包括采矿业，制造业，电力、热力、燃气及水生产和供应业），建筑业，批发业，零售业，交通运输业（不含铁路运输业），仓储业，邮政业，住宿业，餐饮业，信息传输业（包括电信、互联网和相关服务），软件和信息技术服务业，房地产开发经营，物业管理，租赁和商务服务业，其他未列明行业（包括科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，社会工作，文化、体育和娱乐业等）。<br>　　四、各行业划型标准为：<br>　　（一）农、林、牧、渔业。营业收入20000万元以下的为中小微型企业。其中，营业收入500万元及以上的为中型企业，营业收入50万元及以上的为小型企业，营业收入50万元以下的为微型企业。<br>　　（二）工业。从业人员1000人以下或营业收入40000万元以下的为中小微型企业。其中，从业人员300人及以上，且营业收入2000万元及以上的为中型企业；从业人员20人及以上，且营业收入300万元及以上的为小型企业；从业人员20人以下或营业收入300万元以下的为微型企业。<br>　　（三）建筑业。营业收入80000万元以下或资产总额80000万元以下的为中小微型企业。其中，营业收入6000万元及以上，且资产总额5000万元及以上的为中型企业；营业收入300万元及以上，且资产总额300万元及以上的为小型企业；营业收入300万元以下或资产总额300万元以下的为微型企业。<br>　　（四）批发业。从业人员200人以下或营业收入40000万元以下的为中小微型企业。其中，从业人员20人及以上，且营业收入5000万元及以上的为中型企业；从业人员5人及以上，且营业收入1000万元及以上的为小型企业；从业人员5人以下或营业收入1000万元以下的为微型企业。<br>　　（五）零售业。从业人员300人以下或营业收入20000万元以下的为中小微型企业。其中，从业人员50人及以上，且营业收入500万元及以上的为中型企业；从业人员10人及以上，且营业收入100万元及以上的为小型企业；从业人员10人以下或营业收入100万元以下的为微型企业。<br>　　（六）交通运输业。从业人员1000人以下或营业收入30000万元以下的为中小微型企业。其中，从业人员300人及以上，且营业收入3000万元及以上的为中型企业；从业人员20人及以上，且营业收入200万元及以上的为小型企业；从业人员20人以下或营业收入200万元以下的为微型企业。<br>　　（七）仓储业。从业人员200人以下或营业收入30000万元以下的为中小微型企业。其中，从业人员100人及以上，且营业收入1000万元及以上的为中型企业；从业人员20人及以上，且营业收入100万元及以上的为小型企业；从业人员20人以下或营业收入100万元以下的为微型企业。<br>　　（八）邮政业。从业人员1000人以下或营业收入30000万元以下的为中小微型企业。其中，从业人员300人及以上，且营业收入2000万元及以上的为中型企业；从业人员20人及以上，且营业收入100万元及以上的为小型企业；从业人员20人以下或营业收入100万元以下的为微型企业。<br>　　（九）住宿业。从业人员300人以下或营业收入10000万元以下的为中小微型企业。其中，从业人员100人及以上，且营业收入2000万元及以上的为中型企业；从业人员10人及以上，且营业收入100万元及以上的为小型企业；从业人员10人以下或营业收入100万元以下的为微型企业。<br>　　（十）餐饮业。从业人员300人以下或营业收入10000万元以下的为中小微型企业。其中，从业人员100人及以上，且营业收入2000万元及以上的为中型企业；从业人员10人及以上，且营业收入100万元及以上的为小型企业；从业人员10人以下或营业收入100万元以下的为微型企业。<br>　　（十一）信息传输业。从业人员2000人以下或营业收入100000万元以下的为中小微型企业。其中，从业人员100人及以上，且营业收入1000万元及以上的为中型企业；从业人员10人及以上，且营业收入100万元及以上的为小型企业；从业人员10人以下或营业收入100万元以下的为微型企业。<br>　　（十二）软件和信息技术服务业。从业人员300人以下或营业收入10000万元以下的为中小微型企业。其中，从业人员100人及以上，且营业收入1000万元及以上的为中型企业；从业人员10人及以上，且营业收入50万元及以上的为小型企业；从业人员10人以下或营业收入50万元以下的为微型企业。<br>　　（十三）房地产开发经营。营业收入200000万元以下或资产总额10000万元以下的为中小微型企业。其中，营业收入1000万元及以上，且资产总额5000万元及以上的为中型企业；营业收入100万元及以上，且资产总额2000万元及以上的为小型企业；营业收入100万元以下或资产总额2000万元以下的为微型企业。<br>　　（十四）物业管理。从业人员1000人以下或营业收入5000万元以下的为中小微型企业。其中，从业人员300人及以上，且营业收入1000万元及以上的为中型企业；从业人员100人及以上，且营业收入500万元及以上的为小型企业；从业人员100人以下或营业收入500万元以下的为微型企业。<br>　　（十五）租赁和商务服务业。从业人员300人以下或资产总额120000万元以下的为中小微型企业。其中，从业人员100人及以上，且资产总额8000万元及以上的为中型企业；从业人员10人及以上，且资产总额100万元及以上的为小型企业；从业人员10人以下或资产总额100万元以下的为微型企业。<br>　　（十六）其他未列明行业。从业人员300人以下的为中小微型企业。其中，从业人员100人及以上的为中型企业；从业人员10人及以上的为小型企业；从业人员10人以下的为微型企业。<br>　　五、企业类型的划分以统计部门的统计数据为依据。<br>　　六、本规定适用于在中华人民共和国境内依法设立的各类所有制和各种组织形式的企业。个体工商户和本规定以外的行业，参照本规定进行划型。<br>　　七、本规定的中型企业标准上限即为大型企业标准的下限，国家统计部门据此制定大中小微型企业的统计分类。国务院有关部门据此进行相关数据分析，不得制定与本规定不一致的企业划型标准。<br>　　八、本规定由工业和信息化部、国家统计局会同有关部门根据《国民经济行业分类》修订情况和企业发展变化情况适时修订。<br>　　九、本规定由工业和信息化部、国家统计局会同有关部门负责解释。<br>　　十、本规定自发布之日起执行，原国家经贸委、原国家计委、财政部和国家统计局2003年颁布的《中小企业标准暂行规定》同时废止。</p>
+<blockquote>
+<p><a href="https://www.miit.gov.cn/jgsj/qyj/wjfb/art/2020/art_235af1ade45c4865957adeed23f9d949.html">关于印发中小企业划型标准规定的通知</a></p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>必备软件</category>
+        <category>智能制造</category>
       </categories>
       <tags>
-        <tag>软件</tag>
-        <tag>火绒安全</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《中央和国家机关会议费管理办法》印发</title>
-    <url>/2021/04/08/210408%20%E3%80%8A%E4%B8%AD%E5%A4%AE%E5%92%8C%E5%9B%BD%E5%AE%B6%E6%9C%BA%E5%85%B3%E4%BC%9A%E8%AE%AE%E8%B4%B9%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E3%80%8B/</url>
-    <content><![CDATA[<p>关于印发《中央和国家机关会议费管理办法》的通知<br>财行〔2016〕214号</p>
-<p>党中央有关部门，国务院各部委、各直属机构，全国人大常委会办公厅，全国政协办公厅，高法院，高检院，各民主党派中央，全国工商联，有关人民团体：<br>为贯彻落实《党政机关厉行节约反对浪费条例》关于加强相关开支标准之间的衔接，建立开支标准调整机制的规定，进一步加强会议费管理，我们制定了《中央和国家机关会议费管理办法》。现印发给你们，从2016年7月1日起施行，请认真遵照执行。执行中有何问题，请及时向我们反映。</p>
-<p>财政部 国家机关事务管理局 中共中央直属机关事务管理局<br>2016年6月29日</p>
-<a id="more"></a>
-
-<p>附件</p>
-<h1 id="中央和国家机关会议费管理办法"><a href="#中央和国家机关会议费管理办法" class="headerlink" title="中央和国家机关会议费管理办法"></a>中央和国家机关会议费管理办法</h1><h1 id="第一章-总则"><a href="#第一章-总则" class="headerlink" title="第一章 总则"></a>第一章 总则</h1><p>第一条　为进一步加强和规范中央和国家机关会议费管理，精简会议，改进会风，提高会议效率和质量，节约会议经费开支，制定本办法。<br>第二条　中央和国家机关会议的分类、审批和会议费管理等，适用本办法。<br>本办法所称中央和国家机关，是指党中央各部门，国务院各部委、各直属机构，全国人大常委会办公厅，全国政协办公厅，最高人民法院，最高人民检察院，各人民团体、各民主党派中央和全国工商联（以下简称各单位）。<br>第三条　各单位召开会议应当坚持厉行节约、反对浪费、规范简朴、务实高效的原则，严格控制会议数量和规模，规范会议费管理。<br>第四条　各单位召开的会议实行分类管理、分级审批。<br>第五条　各单位应当严格会议费预算管理，控制会议费预算规模。会议费预算应当细化到具体会议项目，执行中不得突破。会议费应当纳入部门预算，并单独列示。</p>
-<h1 id="第二章-会议分类和审批"><a href="#第二章-会议分类和审批" class="headerlink" title="第二章 会议分类和审批"></a>第二章 会议分类和审批</h1><p>第六条　中央和国家机关会议分类如下：</p>
-<ul>
-<li>一类会议。是以党中央和国务院名义召开的，要求省、自治区、直辖市、计划单列市或中央部门负责同志参加的会议。</li>
-<li>二类会议。是党中央和国务院各部委、各直属机构，最高人民法院，最高人民检察院，各人民团体召开的，要求省、自治区、直辖市、计划单列市有关厅（局）或本系统、直属机构负责同志参加的会议。</li>
-<li>三类会议。是党中央和国务院各部委、各直属机构，最高人民法院，最高人民检察院，各人民团体及其所属内设机构召开的，要求省、自治区、直辖市、计划单列市有关厅（局）或本系统机构有关人员参加的会议。</li>
-<li>四类会议。是指除上述一、二、三类会议以外的其他业务性会议，包括小型研讨会、座谈会、评审会等。</li>
-</ul>
-<p>第七条　中央和国家机关会议按以下程序和要求进行审批：</p>
-<ul>
-<li>一类会议。应当由主办单位报经党中央和国务院批准。会议总务、经费预算及费用结算等工作分别由中共中央直属机关事务管理局（以下简称中直管理局）和国家机关事务管理局（以下简称国管局）负责。</li>
-<li>二类会议。党中央和国务院各部委、各直属机构，各人民团体应当于每年12月底前，将下一年度会议计划（包括会议名称、召开的理由、主要内容、时间地点、代表人数、工作人员数、所需经费及列支渠道等）送财政部审核会签，按程序经中央办公厅、国务院办公厅审核后报批。各单位召开二类会议原则上每年不超过1次。</li>
-<li>三类会议。各单位应当建立会议计划编报和审批制度，年度会议计划（包括会议数量、会议名称、召开的理由、主要内容、时间地点、代表人数、工作人员数、所需经费及列支渠道等）经单位领导办公会或党组（党委）会审批后执行。</li>
-<li>四类会议。由单位分管领导审核后列入单位年度会议计划。</li>
-</ul>
-<p>年度会议计划一经批准，原则上不得调整。对党中央、国务院交办等确需临时增加的会议，按规定程序报批。<br>第八条　一类会议会期按照批准文件，根据工作需要从严控制；二、三、四类会议会期均不得超过2天；传达、布置类会议会期不得超过1天。<br>会议报到和离开时间，一、二、三类会议合计不得超过2天，四类会议合计不得超过1天。<br>第九条　各单位应当严格控制会议规模。</p>
-<ul>
-<li>一类会议参会人员按照批准文件，根据会议性质和主要内容确定，严格限定会议代表和工作人员数量。</li>
-<li>二类会议参会人员不得超过300人，其中，工作人员控制在会议代表人数的15%以内；不请省、自治区、直辖市和中央部门主要负责同志、分管负责同志出席。</li>
-<li>三类会议参会人员不得超过150人，其中，工作人员控制在会议代表人数的10%以内。</li>
-<li>四类会议参会人员视内容而定，一般不得超过50人。</li>
-</ul>
-<p>第十条　全国人大常委会办公厅、全国政协办公厅、各民主党派中央和全国工商联的会议分类、审批事项、会期及参会人员等，由上述部门依据法律法规、章程规定，参照第六条至第九条作出规定，并报财政部备案。<br>第十一条　各单位召开会议应当改进会议形式，充分运用电视电话、网络视频等现代信息技术手段，降低会议成本，提高会议效率。<br>传达、布置类会议优先采取电视电话、网络视频会议方式召开。电视电话、网络视频会议的主会场和分会场应当控制规模，节约费用支出。<br>第十二条　不能够采用电视电话、网络视频召开的会议实行定点管理。各单位会议应当到定点会议场所召开，按照协议价格结算费用。未纳入定点范围，价格低于会议综合定额标准的单位内部会议室、礼堂、宾馆、招待所、培训中心，可优先作为本单位或本系统会议场所。<br>无外地代表且会议规模能够在单位内部会议室安排的会议，原则上在单位内部会议室召开，不安排住宿。<br>第十三条　参会人员以在京单位为主的会议不得到京外召开。各单位不得到党中央、国务院明令禁止的风景名胜区召开会议。</p>
-<h1 id="第三章-会议费开支范围、标准和报销支付"><a href="#第三章-会议费开支范围、标准和报销支付" class="headerlink" title="第三章 会议费开支范围、标准和报销支付"></a>第三章 会议费开支范围、标准和报销支付</h1><p>第十四条　会议费开支范围包括会议住宿费、伙食费、会议场地租金、交通费、文件印刷费、医药费等。<br>前款所称交通费是指用于会议代表接送站，以及会议统一组织的代表考察、调研等发生的交通支出。<br>会议代表参加会议发生的城市间交通费，按照差旅费管理办法的规定回单位报销。<br>第十五条　会议费开支实行综合定额控制，各项费用之间可以调剂使用。<br>会议费综合定额标准如下：</p>
-<div align=center>
-<img data-src="https://upload-images.jianshu.io/upload_images/5436217-7bc1e43d7930d0ec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="会议费综合定额标准"/>
-</div>
-
-<p>综合定额标准是会议费开支的上限。各单位应在综合定额标准以内结算报销。<br>第十六条　一类会议费在部门预算专项经费中列支，二、三、四类会议费原则上在部门预算公用经费中列支。<br>会议费由会议召开单位承担，不得向参会人员收取，不得以任何方式向下属机构、企事业单位、地方转嫁或摊派。<br>第十七条　各单位在会议结束后应当及时办理报销手续。会议费报销时应当提供会议审批文件、会议通知及实际参会人员签到表、定点会议场所等会议服务单位提供的费用原始明细单据、电子结算单等凭证。财务部门要严格按规定审核会议费开支，对未列入年度会议计划，以及超范围、超标准开支的经费不予报销。<br>第十八条　各单位会议费支付，应当严格按照国库集中支付制度和公务卡管理制度的有关规定执行，以银行转账或公务卡方式结算，禁止以现金方式结算。<br>具备条件的，会议费应当由单位财务部门直接结算。</p>
-<h1 id="第四章-会议费公示和年度报告制度"><a href="#第四章-会议费公示和年度报告制度" class="headerlink" title="第四章 会议费公示和年度报告制度"></a>第四章 会议费公示和年度报告制度</h1><p>第十九条　各单位应当将非涉密会议的名称、主要内容、参会人数、经费开支等情况在单位内部公示或提供查询，具备条件的应当向社会公开。<br>第二十条　一级预算单位应当于每年3月底前，将本级和下属预算单位上年度会议计划和执行情况（包括会议名称、主要内容、时间地点、代表人数、工作人员数、经费开支及列支渠道等）汇总后报财政部。党中央各部门同时抄送中直管理局，国务院各部门同时抄送国管局。<br>第二十一条　财政部对各单位报送的会议年度报告进行汇总分析，针对执行中存在的问题，及时完善相关制度。</p>
-<h1 id="第五章-管理职责"><a href="#第五章-管理职责" class="headerlink" title="第五章 管理职责"></a>第五章 管理职责</h1><p>第二十二条　财政部的主要职责是：<br>（一）会同国管局、中直管理局等部门制定或修订中央本级会议费管理办法，并对执行情况进行监督检查；<br>（二）按规定对各单位报送的二类会议计划进行审核会签；<br>（三）对会议费支付结算实施动态监控；<br>（四）对各单位报送的会议年度报告进行汇总分析，提出加强管理的措施。<br>第二十三条　国管局的主要职责是：<br>（一）配合财政部制定或修订中央和国家机关会议费管理办法；<br>（二）负责国务院召开的一类会议的总务工作；<br>（三）配合财政部对国务院各部委、各直属机构会议费执行情况进行监督检查。<br>第二十四条　中直管理局的主要职责是：<br>（一）配合财政部制定或修订中央和国家机关会议费管理办法；<br>（二）负责党中央召开的一类会议的总务工作；<br>（三）配合财政部对中央各部门会议费执行情况进行监督检查。<br>第二十五条　各单位的主要职责是：<br>（一）负责制定本单位会议费管理的实施细则；<br>（二）负责单位年度会议计划编制和三类、四类会议的审批管理；<br>（三）负责安排会议预算并按规定管理、使用会议费，做好相应的财务管理和会计核算工作，对内部会议费报销进行审核把关，确保票据来源合法，内容真实、完整、合规；<br>（四）按规定报送会议年度报告，加强对本单位会议费使用的内控管理。</p>
-<h1 id="第六章-监督检查和责任追究"><a href="#第六章-监督检查和责任追究" class="headerlink" title="第六章 监督检查和责任追究"></a>第六章 监督检查和责任追究</h1><p>第二十六条　财政部、国管局、中直管理局会同有关部门对各单位会议费管理和使用情况进行监督检查。主要内容包括：<br>（一）会议计划的编报、审批是否符合规定；<br>（二）会议费开支范围和开支标准是否符合规定；<br>（三）会议费报销和支付是否符合规定；<br>（四）会议会期、规模是否符合规定，会议是否在规定的地点和场所召开；<br>（五）是否向下属机构、企事业单位或地方转嫁、摊派会议费；<br>（六）会议费管理和使用的其他情况。<br>第二十七条　严禁各单位借会议名义组织会餐或安排宴请；严禁套取会议费设立“小金库”；严禁在会议费中列支公务接待费。<br>各单位应严格执行会议用房标准，不得安排高档套房；会议用餐严格控制菜品种类、数量和份量，安排自助餐，严禁提供高档菜肴，不安排宴请，不上烟酒；会议会场一律不摆花草，不制作背景板，不提供水果。<br>不得使用会议费购置电脑、复印机、打印机、传真机等固定资产以及开支与本次会议无关的其他费用；不得组织会议代表旅游和与会议无关的参观；严禁组织高消费娱乐、健身活动；严禁以任何名义发放纪念品；不得额外配发洗漱用品。<br>第二十八条　违反本办法规定，有下列行为之一的，依法依规追究会议举办单位和相关人员的责任：<br>（一）计划外召开会议的；<br>（二）以虚报、冒领手段骗取会议费的；<br>（三）虚报会议人数、天数等进行报销的；<br>（四）违规扩大会议费开支范围，擅自提高会议费开支标准的；<br>（五）违规报销与会议无关费用的；<br>（六）其他违反本办法行为的。<br>有前款所列行为之一的，由财政部会同有关部门责令改正，追回资金，并经报批后予以通报。对直接负责的主管人员和相关负责人，报请其所在单位按规定给予行政处分。如行为涉嫌违法的，移交司法机关处理。<br>定点会议场所或单位内部宾馆、招待所、培训中心有关工作人员违反规定的，按照财政部定点会议场所管理的有关规定处理。</p>
-<h1 id="第七章-附则"><a href="#第七章-附则" class="headerlink" title="第七章 附则"></a>第七章 附则</h1><p>第二十九条　各单位应当按照本办法规定，结合本单位业务特点和工作需要，制定会议费管理具体规定。<br>第三十条　党中央、国务院直属事业单位的会议费管理参照本办法执行。中央和国家机关各部门所属事业单位的会议费管理由各部门依据从严从紧原则参照本办法作出具体规定。<br>第三十一条　本办法由财政部负责解释，自2016年7月1日起施行。《中央和国家机关会议费管理办法》（财行〔2013〕286号）同时废止。</p>
-<p><a href="http://www.gov.cn/xinwen/2016-07/13/content_5090862.htm">《中央和国家机关会议费管理办法》印发</a></p>
-]]></content>
-      <categories>
-        <category>其他整理</category>
-      </categories>
-      <tags>
-        <tag>预算</tag>
+        <tag>中小企业</tag>
       </tags>
   </entry>
   <entry>
@@ -1330,6 +1279,57 @@
       </categories>
       <tags>
         <tag>装发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《中央和国家机关会议费管理办法》印发</title>
+    <url>/2021/04/08/210408%20%E3%80%8A%E4%B8%AD%E5%A4%AE%E5%92%8C%E5%9B%BD%E5%AE%B6%E6%9C%BA%E5%85%B3%E4%BC%9A%E8%AE%AE%E8%B4%B9%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E3%80%8B/</url>
+    <content><![CDATA[<p>关于印发《中央和国家机关会议费管理办法》的通知<br>财行〔2016〕214号</p>
+<p>党中央有关部门，国务院各部委、各直属机构，全国人大常委会办公厅，全国政协办公厅，高法院，高检院，各民主党派中央，全国工商联，有关人民团体：<br>为贯彻落实《党政机关厉行节约反对浪费条例》关于加强相关开支标准之间的衔接，建立开支标准调整机制的规定，进一步加强会议费管理，我们制定了《中央和国家机关会议费管理办法》。现印发给你们，从2016年7月1日起施行，请认真遵照执行。执行中有何问题，请及时向我们反映。</p>
+<p>财政部 国家机关事务管理局 中共中央直属机关事务管理局<br>2016年6月29日</p>
+<a id="more"></a>
+
+<p>附件</p>
+<h1 id="中央和国家机关会议费管理办法"><a href="#中央和国家机关会议费管理办法" class="headerlink" title="中央和国家机关会议费管理办法"></a>中央和国家机关会议费管理办法</h1><h1 id="第一章-总则"><a href="#第一章-总则" class="headerlink" title="第一章 总则"></a>第一章 总则</h1><p>第一条　为进一步加强和规范中央和国家机关会议费管理，精简会议，改进会风，提高会议效率和质量，节约会议经费开支，制定本办法。<br>第二条　中央和国家机关会议的分类、审批和会议费管理等，适用本办法。<br>本办法所称中央和国家机关，是指党中央各部门，国务院各部委、各直属机构，全国人大常委会办公厅，全国政协办公厅，最高人民法院，最高人民检察院，各人民团体、各民主党派中央和全国工商联（以下简称各单位）。<br>第三条　各单位召开会议应当坚持厉行节约、反对浪费、规范简朴、务实高效的原则，严格控制会议数量和规模，规范会议费管理。<br>第四条　各单位召开的会议实行分类管理、分级审批。<br>第五条　各单位应当严格会议费预算管理，控制会议费预算规模。会议费预算应当细化到具体会议项目，执行中不得突破。会议费应当纳入部门预算，并单独列示。</p>
+<h1 id="第二章-会议分类和审批"><a href="#第二章-会议分类和审批" class="headerlink" title="第二章 会议分类和审批"></a>第二章 会议分类和审批</h1><p>第六条　中央和国家机关会议分类如下：</p>
+<ul>
+<li>一类会议。是以党中央和国务院名义召开的，要求省、自治区、直辖市、计划单列市或中央部门负责同志参加的会议。</li>
+<li>二类会议。是党中央和国务院各部委、各直属机构，最高人民法院，最高人民检察院，各人民团体召开的，要求省、自治区、直辖市、计划单列市有关厅（局）或本系统、直属机构负责同志参加的会议。</li>
+<li>三类会议。是党中央和国务院各部委、各直属机构，最高人民法院，最高人民检察院，各人民团体及其所属内设机构召开的，要求省、自治区、直辖市、计划单列市有关厅（局）或本系统机构有关人员参加的会议。</li>
+<li>四类会议。是指除上述一、二、三类会议以外的其他业务性会议，包括小型研讨会、座谈会、评审会等。</li>
+</ul>
+<p>第七条　中央和国家机关会议按以下程序和要求进行审批：</p>
+<ul>
+<li>一类会议。应当由主办单位报经党中央和国务院批准。会议总务、经费预算及费用结算等工作分别由中共中央直属机关事务管理局（以下简称中直管理局）和国家机关事务管理局（以下简称国管局）负责。</li>
+<li>二类会议。党中央和国务院各部委、各直属机构，各人民团体应当于每年12月底前，将下一年度会议计划（包括会议名称、召开的理由、主要内容、时间地点、代表人数、工作人员数、所需经费及列支渠道等）送财政部审核会签，按程序经中央办公厅、国务院办公厅审核后报批。各单位召开二类会议原则上每年不超过1次。</li>
+<li>三类会议。各单位应当建立会议计划编报和审批制度，年度会议计划（包括会议数量、会议名称、召开的理由、主要内容、时间地点、代表人数、工作人员数、所需经费及列支渠道等）经单位领导办公会或党组（党委）会审批后执行。</li>
+<li>四类会议。由单位分管领导审核后列入单位年度会议计划。</li>
+</ul>
+<p>年度会议计划一经批准，原则上不得调整。对党中央、国务院交办等确需临时增加的会议，按规定程序报批。<br>第八条　一类会议会期按照批准文件，根据工作需要从严控制；二、三、四类会议会期均不得超过2天；传达、布置类会议会期不得超过1天。<br>会议报到和离开时间，一、二、三类会议合计不得超过2天，四类会议合计不得超过1天。<br>第九条　各单位应当严格控制会议规模。</p>
+<ul>
+<li>一类会议参会人员按照批准文件，根据会议性质和主要内容确定，严格限定会议代表和工作人员数量。</li>
+<li>二类会议参会人员不得超过300人，其中，工作人员控制在会议代表人数的15%以内；不请省、自治区、直辖市和中央部门主要负责同志、分管负责同志出席。</li>
+<li>三类会议参会人员不得超过150人，其中，工作人员控制在会议代表人数的10%以内。</li>
+<li>四类会议参会人员视内容而定，一般不得超过50人。</li>
+</ul>
+<p>第十条　全国人大常委会办公厅、全国政协办公厅、各民主党派中央和全国工商联的会议分类、审批事项、会期及参会人员等，由上述部门依据法律法规、章程规定，参照第六条至第九条作出规定，并报财政部备案。<br>第十一条　各单位召开会议应当改进会议形式，充分运用电视电话、网络视频等现代信息技术手段，降低会议成本，提高会议效率。<br>传达、布置类会议优先采取电视电话、网络视频会议方式召开。电视电话、网络视频会议的主会场和分会场应当控制规模，节约费用支出。<br>第十二条　不能够采用电视电话、网络视频召开的会议实行定点管理。各单位会议应当到定点会议场所召开，按照协议价格结算费用。未纳入定点范围，价格低于会议综合定额标准的单位内部会议室、礼堂、宾馆、招待所、培训中心，可优先作为本单位或本系统会议场所。<br>无外地代表且会议规模能够在单位内部会议室安排的会议，原则上在单位内部会议室召开，不安排住宿。<br>第十三条　参会人员以在京单位为主的会议不得到京外召开。各单位不得到党中央、国务院明令禁止的风景名胜区召开会议。</p>
+<h1 id="第三章-会议费开支范围、标准和报销支付"><a href="#第三章-会议费开支范围、标准和报销支付" class="headerlink" title="第三章 会议费开支范围、标准和报销支付"></a>第三章 会议费开支范围、标准和报销支付</h1><p>第十四条　会议费开支范围包括会议住宿费、伙食费、会议场地租金、交通费、文件印刷费、医药费等。<br>前款所称交通费是指用于会议代表接送站，以及会议统一组织的代表考察、调研等发生的交通支出。<br>会议代表参加会议发生的城市间交通费，按照差旅费管理办法的规定回单位报销。<br>第十五条　会议费开支实行综合定额控制，各项费用之间可以调剂使用。<br>会议费综合定额标准如下：</p>
+<div align=center>
+<img data-src="https://upload-images.jianshu.io/upload_images/5436217-7bc1e43d7930d0ec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "75%" height = "75%" alt="会议费综合定额标准"/>
+</div>
+
+<p>综合定额标准是会议费开支的上限。各单位应在综合定额标准以内结算报销。<br>第十六条　一类会议费在部门预算专项经费中列支，二、三、四类会议费原则上在部门预算公用经费中列支。<br>会议费由会议召开单位承担，不得向参会人员收取，不得以任何方式向下属机构、企事业单位、地方转嫁或摊派。<br>第十七条　各单位在会议结束后应当及时办理报销手续。会议费报销时应当提供会议审批文件、会议通知及实际参会人员签到表、定点会议场所等会议服务单位提供的费用原始明细单据、电子结算单等凭证。财务部门要严格按规定审核会议费开支，对未列入年度会议计划，以及超范围、超标准开支的经费不予报销。<br>第十八条　各单位会议费支付，应当严格按照国库集中支付制度和公务卡管理制度的有关规定执行，以银行转账或公务卡方式结算，禁止以现金方式结算。<br>具备条件的，会议费应当由单位财务部门直接结算。</p>
+<h1 id="第四章-会议费公示和年度报告制度"><a href="#第四章-会议费公示和年度报告制度" class="headerlink" title="第四章 会议费公示和年度报告制度"></a>第四章 会议费公示和年度报告制度</h1><p>第十九条　各单位应当将非涉密会议的名称、主要内容、参会人数、经费开支等情况在单位内部公示或提供查询，具备条件的应当向社会公开。<br>第二十条　一级预算单位应当于每年3月底前，将本级和下属预算单位上年度会议计划和执行情况（包括会议名称、主要内容、时间地点、代表人数、工作人员数、经费开支及列支渠道等）汇总后报财政部。党中央各部门同时抄送中直管理局，国务院各部门同时抄送国管局。<br>第二十一条　财政部对各单位报送的会议年度报告进行汇总分析，针对执行中存在的问题，及时完善相关制度。</p>
+<h1 id="第五章-管理职责"><a href="#第五章-管理职责" class="headerlink" title="第五章 管理职责"></a>第五章 管理职责</h1><p>第二十二条　财政部的主要职责是：<br>（一）会同国管局、中直管理局等部门制定或修订中央本级会议费管理办法，并对执行情况进行监督检查；<br>（二）按规定对各单位报送的二类会议计划进行审核会签；<br>（三）对会议费支付结算实施动态监控；<br>（四）对各单位报送的会议年度报告进行汇总分析，提出加强管理的措施。<br>第二十三条　国管局的主要职责是：<br>（一）配合财政部制定或修订中央和国家机关会议费管理办法；<br>（二）负责国务院召开的一类会议的总务工作；<br>（三）配合财政部对国务院各部委、各直属机构会议费执行情况进行监督检查。<br>第二十四条　中直管理局的主要职责是：<br>（一）配合财政部制定或修订中央和国家机关会议费管理办法；<br>（二）负责党中央召开的一类会议的总务工作；<br>（三）配合财政部对中央各部门会议费执行情况进行监督检查。<br>第二十五条　各单位的主要职责是：<br>（一）负责制定本单位会议费管理的实施细则；<br>（二）负责单位年度会议计划编制和三类、四类会议的审批管理；<br>（三）负责安排会议预算并按规定管理、使用会议费，做好相应的财务管理和会计核算工作，对内部会议费报销进行审核把关，确保票据来源合法，内容真实、完整、合规；<br>（四）按规定报送会议年度报告，加强对本单位会议费使用的内控管理。</p>
+<h1 id="第六章-监督检查和责任追究"><a href="#第六章-监督检查和责任追究" class="headerlink" title="第六章 监督检查和责任追究"></a>第六章 监督检查和责任追究</h1><p>第二十六条　财政部、国管局、中直管理局会同有关部门对各单位会议费管理和使用情况进行监督检查。主要内容包括：<br>（一）会议计划的编报、审批是否符合规定；<br>（二）会议费开支范围和开支标准是否符合规定；<br>（三）会议费报销和支付是否符合规定；<br>（四）会议会期、规模是否符合规定，会议是否在规定的地点和场所召开；<br>（五）是否向下属机构、企事业单位或地方转嫁、摊派会议费；<br>（六）会议费管理和使用的其他情况。<br>第二十七条　严禁各单位借会议名义组织会餐或安排宴请；严禁套取会议费设立“小金库”；严禁在会议费中列支公务接待费。<br>各单位应严格执行会议用房标准，不得安排高档套房；会议用餐严格控制菜品种类、数量和份量，安排自助餐，严禁提供高档菜肴，不安排宴请，不上烟酒；会议会场一律不摆花草，不制作背景板，不提供水果。<br>不得使用会议费购置电脑、复印机、打印机、传真机等固定资产以及开支与本次会议无关的其他费用；不得组织会议代表旅游和与会议无关的参观；严禁组织高消费娱乐、健身活动；严禁以任何名义发放纪念品；不得额外配发洗漱用品。<br>第二十八条　违反本办法规定，有下列行为之一的，依法依规追究会议举办单位和相关人员的责任：<br>（一）计划外召开会议的；<br>（二）以虚报、冒领手段骗取会议费的；<br>（三）虚报会议人数、天数等进行报销的；<br>（四）违规扩大会议费开支范围，擅自提高会议费开支标准的；<br>（五）违规报销与会议无关费用的；<br>（六）其他违反本办法行为的。<br>有前款所列行为之一的，由财政部会同有关部门责令改正，追回资金，并经报批后予以通报。对直接负责的主管人员和相关负责人，报请其所在单位按规定给予行政处分。如行为涉嫌违法的，移交司法机关处理。<br>定点会议场所或单位内部宾馆、招待所、培训中心有关工作人员违反规定的，按照财政部定点会议场所管理的有关规定处理。</p>
+<h1 id="第七章-附则"><a href="#第七章-附则" class="headerlink" title="第七章 附则"></a>第七章 附则</h1><p>第二十九条　各单位应当按照本办法规定，结合本单位业务特点和工作需要，制定会议费管理具体规定。<br>第三十条　党中央、国务院直属事业单位的会议费管理参照本办法执行。中央和国家机关各部门所属事业单位的会议费管理由各部门依据从严从紧原则参照本办法作出具体规定。<br>第三十一条　本办法由财政部负责解释，自2016年7月1日起施行。《中央和国家机关会议费管理办法》（财行〔2013〕286号）同时废止。</p>
+<p><a href="http://www.gov.cn/xinwen/2016-07/13/content_5090862.htm">《中央和国家机关会议费管理办法》印发</a></p>
+]]></content>
+      <categories>
+        <category>其他整理</category>
+      </categories>
+      <tags>
+        <tag>预算</tag>
       </tags>
   </entry>
   <entry>
